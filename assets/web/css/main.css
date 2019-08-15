@@ -48,11 +48,11 @@ a:hover, a:focus {
   color: #4e5961;
 }
 
-/*.section {
-  height: 581.203125%;
-  margin-top: 0%;
-  margin-bottom: 10%;
-}*/
+.text-fondo-blanco {
+  color: #6f8393;
+  font-weight: bold;
+  font-size: 14px;
+}
 
 .navbar {
   height: 10%;
@@ -92,6 +92,16 @@ a:hover, a:focus {
   width:100%;
   height:100%;
   background-color: #54d5fa !important;
+}
+
+.section-2 {
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+
+.section-3 {
+  margin-top: 0%;
+  margin-bottom: 5%;
 }
 
 .sliders-index {
@@ -142,6 +152,22 @@ a:hover, a:focus {
   font-weight: bold;
 }
 
+.heading-2 {
+  margin-right: 10%;
+  margin-left: 25%;
+  color: #6f8393;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.heading-3 {
+  margin-right: 10%;
+  color: #6f8393;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: right;
+}
 
 .paragraph-1 {
   margin: 5% 0% 10% 0%;
@@ -151,6 +177,19 @@ a:hover, a:focus {
   letter-spacing: 0.1px;
 }
 
+
+.paragraph-2 {
+  margin-right: 10%;
+  color: #6f8393;
+  text-align: justify;
+  font-size: 17px;
+}
+
+.paragraph-3 {
+  margin-right: 5%;
+  color: #6f8393;
+  font-size: 17px;
+}
 
 .button-1 {
   margin-left: 0%;
@@ -165,8 +204,10 @@ a:hover, a:focus {
 }
 
 .sliders-index-controls {
-  margin-left: 15%;
-  margin-top: 15%;
+  position: relative;
+  margin-left: 20%;
+  margin-top: -13%;
+  z-index: 1;
 }
 
 
@@ -183,9 +224,26 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-.container-2 {
-  margin-right: 0%;
+.container-1 {
+  margin-right: 10%;
   margin-left: 10%;
+  
+}
+
+.container-2 {
+  margin-top: 10%;
+  margin-right: 15%;
+  margin-left: -5%;
+  
+}
+
+.container-2-a {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.container-3 {
+  margin-top: -5%;
   
 }
 
@@ -236,11 +294,7 @@ a:hover, a:focus {
   border: 1px none #000;
 }
 
-.paragraph-2 {
-  margin-right: 5%;
-  color: #6f8393;
-  text-align: justify;
-}
+
 
 .text-block {
   margin-left: 10%;
@@ -261,25 +315,8 @@ a:hover, a:focus {
   margin-right: 5%;
 }
 
-.heading {
-  color: #6f8393;
-  font-size: 60px;
-  text-align: right;
-}
 
-.heading-2 {
-  margin-right: 10%;
-  color: #6f8393;
-  font-size: 22px;
-  text-align: right;
-}
 
-.paragraph-3 {
-  margin-right: 10%;
-  margin-left: 10%;
-  font-size: 13px;
-  text-align: justify;
-}
 
 .div-block-3 {
   background-color: #415965;
