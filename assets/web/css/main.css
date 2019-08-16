@@ -156,7 +156,19 @@ transition: background 500ms ease;
 }
 
 
+.section-6::after {
+  position:absolute;
+  height:280px;
+  top: -280px;
+  left: 0;
+  right: 0;
+  content: " ";
 
+ background-image: url(../img/fondo-plataforma-bottom.svg);
+ background-size: 1410px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
 
 
 .section-6 {
@@ -379,6 +391,10 @@ transition: background 500ms ease;
 .container-3 {
   margin-top: -5%;
   
+}
+
+#carousel-apps {
+  margin-top: 150px;
 }
 
 .carousel-confian {
