@@ -74,14 +74,15 @@
 			</div>
 
 			<div class="carousel-confian">
-			    <div>your content1</div>
-			    <div>your content2</div>
-			    <div>your content3</div>
-			    <div>your content4</div>
-			    <div>your content5</div>
-			    <div>your content6</div>
-			    <div>your content7</div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes_Mesa de trabajo 1.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-02.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-03.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-04.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-05.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-06.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-07.png"  height="50"></div>
 			</div>
+			
 		</div>	
 	</section>
 
@@ -191,7 +192,7 @@
 
 		    // logo sliders
 			$('.carousel-confian').slick({
-		        slidesToShow: 6,
+		        slidesToShow: 4,
 				slidesToScroll: 1,
 				autoplay: true,
 				autoplaySpeed: 2000,

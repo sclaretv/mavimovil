@@ -349,6 +349,17 @@ transition: background 500ms ease;
 }
 
 
+.imagen-confian {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.imagen-confian:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+
 
 @media screen and (max-width: 1400px) {
   .slider1, .slider2, .slider3 { background-size: 1400px; }
