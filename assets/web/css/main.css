@@ -146,6 +146,11 @@ transition: background 500ms ease;
   background-position: top;
 }
 
+.section-7 {
+  margin-top: -10%;
+  background-color: #1ea9f2 !important;
+}
+
 .sliders-index {
   position:relative;
   margin-top: 0%;
