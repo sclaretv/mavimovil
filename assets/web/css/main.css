@@ -348,6 +348,9 @@ transition: background 500ms ease;
   
 }
 
+.carousel-confian {
+  margin-top: 2%;
+}
 
 .imagen-confian {
   -webkit-filter: grayscale(100%);
