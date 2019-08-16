@@ -51,6 +51,7 @@
 		<div class="container"></div>	
 	</section>
 
+
 	<section class="section-3" >
 		<?php //include 'tecnologias.php'  ?>
 		<div class="container">
@@ -60,6 +61,43 @@
 			</div>
 		</div>	
 	</section>
+
+	<section class="section-3" >
+		<?php //include 'tecnologias.php'  ?>
+		<div class="container">
+			<div class="row">
+				<h1 class="heading-4">Confían en nosotros</h1>
+				<p class="paragraph-4">Somos Mavimovil una empresa que caracteriza en desarrollar soluciones<br> tecnológicas a medida, integrando los entornos tecnológicos.</p>
+			</div>
+		</div>	
+	</section>
+
+	<section class="section-4"></section>
+
+	<section class="section-5" >
+
+		<div class="container container-1">
+			<div class="row">
+				<div class="col-lg-6">
+					<div>
+						<h1 class="heading-5">¿Alguna necesidad que cubrir?</h1>
+					</div>
+					<div>
+						<p class="paragraph-5">Somos Mavimovil una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos.</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					
+					
+				</div>
+			</div>
+		</div>
+		
+
+	</section>
+
+	<section class="section-6"></section>
 	
 
 	<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><script src="https://uploads-ssl.webflow.com/5cc46826d9da3376e27ebde0/js/webflow.5ab29a3fc.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
