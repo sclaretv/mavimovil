@@ -99,56 +99,51 @@ transition: background 500ms ease;
 
 .section-1 {
   position:relative;
-  width:100%;
   height:100%;
   background-color: #54d5fa !important;
 }
 
 .section-2 {
-  margin-top: 0%;
-  margin-bottom: 10%;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 .section-3 {
-  margin-top: 0%;
-  margin-bottom: 10%;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
-.section-4 {
-  position:relative;
-  margin-top: 0%;
-  width:100%;
-  height:100%;
+.section-5::before {
+  position:absolute;
+ height:280px;
+ top: -280px;
+ left: 0;
+ right: 0;
+ content: " ";
 
-  background-color: transparent !important;
-  background-image: url(../img/fondo-contacto-top.svg);
+ background-image: url(../img/fondo-contacto-top.svg);
+ background-size: 1410px;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
 }
 
 
 
 .section-5 {
-  margin-top: -6%;
-  background-color: #1ea9f2 !important;
-}
-
-.section-6 {
-  margin-top: 0%;
+  margin-top: 280px;
+  padding-bottom: 200px;
   position:relative;
-  width:100%;
-  height:70%;
   z-index: -1;
 
   background-color: #1ea9f2 !important;
   background-image: url(../img/ciudad-trama.png);
-  background-repeat: no-repeat;
-  background-position: top;
+  background-repeat: repeat-x;
+  background-position: bottom;
 }
 
-.section-7 {
-  margin-top: -10%;
+.footer {
   background-color: #1ea9f2 !important;
+  padding: 10px 0px 20px 0px;
 }
 
 .sliders-index {

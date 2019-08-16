@@ -96,11 +96,10 @@
 		</div>	
 	</section>
 
-	<section class="section-4"></section>
-
+	
 	<section class="section-5" >
 
-		<div class="container container-1">
+		<div class="container ">
 			<div class="row">
 				<div class="col-lg-6">
 					<div>
@@ -113,6 +112,63 @@
 
 				<div class="col-lg-6">
 					
+					<form method="post" action="/form/insert/home" id="form_contact">
+
+						<div class="form-group">
+						    <label for="nombre"> Nombre *</label>
+						    <input type="text" class="form-control" id="nombre" name="contacto_nombre"  required="">
+						</div>
+
+						<div class="form-group">
+						    <label for="apellido"> Apellido *</label>
+						    <input type="text" class="form-control" id="apellido" name="contacto_apellido"  required="">
+						</div>
+
+						<div class="form-group">
+						    <label for="empresa"> Empresa </label>
+						    <input type="text" class="form-control" id="empresa" name="contacto_empresa" >
+						</div>
+
+						<div class="form-group">
+						    <label for="email">Email  *</label>
+						    <input type="text" class="form-control" id="email" name="contacto_email" placeholder="su_email@email.com" required="">
+						</div> 
+
+						<div class="form-group">
+						    <label for="fono">Fono  *</label>
+						    <input type="text" class="form-control" id="fono" name="contacto_fono" placeholder=""  >
+						</div> 
+
+						<div class="form-group">
+						    <label for="asunto"> Asunto  *</label>
+						    <input type="text" class="form-control" id="asunto" name="contacto_asunto"  required="">
+						</div>
+
+						<div class="form-group">
+						    <label for="mensaje"> Mensaje  *</label>
+						    <textarea class="form-control" id="mensaje" name="contacto_mensaje"  required=""></textarea>
+						</div> 
+
+						<!-- FORMULARIO CON RECAPTCHA -->
+						<div class="g-recaptcha" data-sitekey="6LeMkaAUAAAAAJI_ctx_3G_j3kWXZeim4C3uiqix"></div> 
+
+						<div class="text-center">
+							<div class="alert alert-warning" style="display:none">
+								 
+							</div>
+							<div class="alert alert-success" style="display:none">
+								 Has enviado tu mensaje con éxito. Gracias.
+							</div>
+							<div class="alert alert-info loading" style="display:none">
+								Espere un momento ...
+							</div>
+						</div>
+						 
+						<div class="text-center">
+							<button type="submit" class="btn btn-default"> Enviar </button>
+						</div>
+
+					</form>
 					
 				</div>
 			</div>
@@ -121,9 +177,7 @@
 
 	</section>
 
-	<section class="section-6"></section>
-
-	<section class="section-7">
+	<footer class="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -145,11 +199,13 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</footer>
 	
 
 	<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><script src="https://uploads-ssl.webflow.com/5cc46826d9da3376e27ebde0/js/webflow.5ab29a3fc.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 	<script type="text/javascript" src="assets/web/slick/slick/slick.min.js"></script>
+
+	<script src="https://www.google.com/recaptcha/api.js"></script> 
 
 	<script type="text/javascript">
 
@@ -207,6 +263,47 @@
 				autoplay: true,
 				autoplaySpeed: 2000,
 		    });
+
+
+		    // form contactos
+		    var ajax_form = function (id_form,id_msg_fail,id_msg_success,id_loading){ 
+	        $(id_form).on('submit', function(e) {
+	            e.preventDefault();
+	            e.stopPropagation();
+
+	            var form_ = $(this), fail_ = $(id_msg_fail), s_ = $(id_msg_success), loading_ = $(id_loading);
+
+	            s_.slideUp('fast');
+	            fail_.slideUp('fast');
+	            s_.click(function(){ $(this).slideUp('fast'); });
+	            fail_.click(function(){ $(this).slideUp('fast'); });
+
+	            loading_.show();
+
+	            var data_sent = form_.serialize();
+	            $.ajax({
+	                dataType:'json',
+	                type: 'POST',
+	                url: form_.attr('action'),
+	                data: data_sent,
+	                success: function(response) { 
+	                	loading_.fadeOut('fast');
+
+	                    if(response.status == true){
+	                        s_.show(); 
+	                        form_.trigger('reset');
+	                    }else{ 
+	                        if(response.error){
+	                            fail_.html(response.error).slideDown();
+	                        }else{
+	                            fail_.html('<p>No hemos podido procesar los datos, Intente en un momento.</p>').slideDown();
+	                        }
+	                    } 
+	                }
+	            });
+	        });
+	    }  
+	    ajax_form('#form_contact','#form_contact .alert-warning','#form_contact .alert-success','#form_contact .loading'); 
 
     });
   </script>
