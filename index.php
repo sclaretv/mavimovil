@@ -21,9 +21,9 @@
 
 </head>
 <body>
-	<section>
+	<header id="main-header">
 		<?php include 'menu.php'  ?>
-	</section>
+	</header>
 
 	<section class="section-1" id="mavimovil">
 		<?php include 'mavimovil.php'  ?>	
@@ -40,7 +40,7 @@
 	<section class="section-3" id="plataformas">
 		<?php include 'plataformas.php'  ?>	
 
-		<div class="container-1">
+		<div class="container">
 			<div id="carousel-plataformas" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
 			  <ol class="carousel-indicators">
@@ -150,5 +150,16 @@
 	        
 	    });
 
-	</script>
+
+  var $mh = $('#main-header'); 
+    var hclass = 'mini';
+    $mh.removeClass(hclass); 
+    $(document).on( 'scroll', function(){
+        if ($(window).scrollTop() > 10) {
+            $mh.addClass(hclass);
+        } else {
+            $mh.removeClass(hclass);
+        }
+    });  
+  </script>
 </body></html>
