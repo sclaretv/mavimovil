@@ -97,7 +97,23 @@
 
 	</section>
 
-	<section class="section-6"></section>
+	<section class="section-6">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil-blanco.svg"  height="80">
+				</div>
+				<div class="col-md-5">
+					<p>Teléfono: +562 2848 5162</p>
+					<p>Av. Del Valle 945, Oficina 2607,</p>
+					<p>Huechuraba, Santiago</p>
+				</div>
+				<div class="col-md-1">
+					
+				</div>
+			</div>
+		</div>
+	</section>
 	
 
 	<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><script src="https://uploads-ssl.webflow.com/5cc46826d9da3376e27ebde0/js/webflow.5ab29a3fc.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
