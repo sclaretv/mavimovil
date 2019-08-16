@@ -38,7 +38,7 @@
 	</section>
 
 	<section class="section-3" id="plataformas">
-		<?php include 'plataformas.php'  ?>	
+		<?php //include 'plataformas.php'  ?>	
 
 		<div class="container">
 			<div id="carousel-plataformas" class="carousel slide" data-ride="carousel">

@@ -142,15 +142,15 @@ transition: background 500ms ease;
 }
 
 .slider2 {
-  background-color: white !important;
-  background-image: url(../img/imagen2.png);
+  background-color: #415965 !important;
+  background-image: url(../img/imagen5.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
 .slider3 {
-  background-color: white !important;
-  background-image: url(../img/imagen3.png);
+  background-color: #65dfb6 !important;
+  background-image: url(../img/imagen6.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -240,11 +240,19 @@ transition: background 500ms ease;
   border-top-style: solid;
   border-top-width: 4px;
   border-top-color: #0e4289 !important;
+  font-weight: bold;
 }
 
+
 .list-inline-a {
-  color: white;
   text-decoration: none;
+  background-color: transparent !important;
+  color: #415965;
+  font-size: 14px; 
+}
+
+.list-inline-a:hover, .list-inline-a:focus {
+  color: #4e5961;
 }
 
 .container-1 {
