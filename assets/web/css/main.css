@@ -253,6 +253,12 @@ transition: background 500ms ease;
   text-align: left;
 }
 
+.heading-6 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .paragraph-1 {
   margin: 5% 0% 10% 0%;
   color: hsla(0, 0%, 100%, 0.82);
@@ -292,6 +298,13 @@ transition: background 500ms ease;
   color: white;
   font-size: 17px;
   text-align: right;
+}
+
+.paragraph-7 {
+  margin-right: 10%;
+  color: white;
+  text-align: justify;
+  font-size: 17px;
 }
 
 .button-1 {

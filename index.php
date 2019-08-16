@@ -55,12 +55,11 @@
 	<div class="row">
 		<div class="col-lg-6">
 			<div class="text-left">
-				<img alt="Desarrollo de Apps" src="assets/web/img/IconoApp.svg" height="200">
+				<img alt="Desarrollo de Apps" src="assets/web/img/IconoPlataforma.svg" height="200">
 			</div>
 			<div>
-				<h1 class="heading-2">Desarrollo de Apps</h1>
-				<h3 class="heading-3">Aplicaciones móviles nativas</h3>
-				<p class="paragraph-2">Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.</p>
+				<h1 class="heading-6">Desarrollo de <br>Plataformas</h1>
+				<p class="paragraph-7">Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.</p>
 			</div>
 		</div>
 
