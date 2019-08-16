@@ -180,6 +180,13 @@ transition: background 500ms ease;
   text-align: right;
 }
 
+.heading-4 {
+  color: #6f8393;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .paragraph-1 {
   margin: 5% 0% 10% 0%;
   color: hsla(0, 0%, 100%, 0.82);
@@ -256,8 +263,7 @@ transition: background 500ms ease;
 }
 
 .container-1 {
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-top: 5%;
   
 }
 
@@ -389,9 +395,6 @@ transition: background 500ms ease;
   font-size: 12px;
 }
 
-.heading-3 {
-  margin-left: 25%;
-}
 
 .column-3 {
   margin-top: 5%;

@@ -38,83 +38,27 @@
 	</section>
 
 	<section class="section-3" id="plataformas">
-		<?php //include 'plataformas.php'  ?>	
-
-		<div class="container">
-			<div id="carousel-plataformas" class="carousel slide" data-ride="carousel">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-plataformas" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-plataformas" data-slide-to="1"></li>
-			    <li data-target="#carousel-plataformas" data-slide-to="2"></li>
-			    <li data-target="#carousel-plataformas" data-slide-to="3"></li>
-			    <li data-target="#carousel-plataformas" data-slide-to="4"></li>
-			    <li data-target="#carousel-plataformas" data-slide-to="5"></li>
-			    <li data-target="#carousel-plataformas" data-slide-to="6"></li>
-			    <li data-target="#carousel-plataformas" data-slide-to="7"></li>
-			    <li data-target="#carousel-plataformas" data-slide-to="8"></li>
-			    <li data-target="#carousel-plataformas" data-slide-to="9"></li>
-			  </ol>
-
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner" role="listbox">
-			    <div class="item active">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    
-			  </div>
-
-			  <!-- Controls -->
-			  <a class="left carousel-control" href="#carousel-plataformas" role="button" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#carousel-plataformas" role="button" data-slide="next">
-			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
-			</div>
-
-		</div>
+		<?php include 'plataformas.php'  ?>	
 	</section>
 
+	<section class="section-3" id="tecnologias">
+		<?php //include 'tecnologias.php'  ?>
+		<div class="container"></div>	
+	</section>
+
+	<section class="section-3" >
+		<?php //include 'tecnologias.php'  ?>
+		<div class="container"></div>	
+	</section>
+
+	<section class="section-3" >
+		<?php //include 'tecnologias.php'  ?>
+		<div class="container">
+			<div class="row">
+				<h1 class="heading-4">Combinando tecnologías,<br> logramos mejores resultados</h1>
+			</div>
+		</div>	
+	</section>
 	
 
 	<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><script src="https://uploads-ssl.webflow.com/5cc46826d9da3376e27ebde0/js/webflow.5ab29a3fc.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
