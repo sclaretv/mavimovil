@@ -141,6 +141,32 @@ transition: background 500ms ease;
   background-position: bottom;
 }
 
+.section-6::before {
+  position:absolute;
+  height:280px;
+  top: -280px;
+  left: 0;
+  right: 0;
+  content: " ";
+
+ background-image: url(../img/fondo-plataforma-top.svg);
+ background-size: 1410px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+
+
+
+.section-6 {
+  margin-top: 280px;
+  padding-bottom: 200px;
+  position:relative;
+  z-index: -1;
+  background-color: #415965 !important;
+}
+
 .footer {
   background-color: #1ea9f2 !important;
   padding: 10px 0px 20px 0px;

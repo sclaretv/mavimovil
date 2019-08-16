@@ -40,46 +40,47 @@
 		<?php include 'app.php'  ?>	
 	</section>
 
-	<section class="section-3" id="plataformas">
+	<section class="section-3" >
 		<?php include 'plataformas.php'  ?>	
 	</section>
 
-	<section class="section-3" id="tecnologias">
-		<?php //include 'tecnologias.php'  ?>
-		<div class="container"></div>	
-	</section>
-
 	<section class="section-3" >
 		<?php //include 'tecnologias.php'  ?>
 		<div class="container"></div>	
 	</section>
 
-
-	<section class="section-3" >
+	<section class="section-6" >
 		<?php //include 'tecnologias.php'  ?>
 		<div class="container">
-			<div class="row">
-				<h1 class="heading-4">Combinando tecnologías,<br> logramos mejores resultados</h1>
-				<p class="paragraph-4">Somos Mavimovil una empresa que caracteriza en desarrollar soluciones<br> tecnológicas a medida, integrando los entornos tecnológicos.</p>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="text-left">
+				<img alt="Desarrollo de Apps" src="assets/web/img/IconoApp.svg" height="200">
 			</div>
+			<div>
+				<h1 class="heading-2">Desarrollo de Apps</h1>
+				<h3 class="heading-3">Aplicaciones móviles nativas</h3>
+				<p class="paragraph-2">Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.</p>
+			</div>
+		</div>
 
-			<div class="carousel-confian">
-			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes_Mesa de trabajo 1.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-02.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-03.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-04.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-05.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-06.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-07.png"  height="50"></div>
-			</div>
-		</div>	
+		<div class="col-lg-6">
+			
+		</div>
+
+	</div>
+</div>
+	</section>
+
+
+	<section class="section-3" id="tecnologias">
+		<?php include 'tecnologias.php'  ?>
 	</section>
 
 	<section class="section-3" id="clientes">
 		<?php include 'clientes.php'  ?>
 	</section>
 
-	
 	<section class="section-5" id="contacto">
 		<?php include 'contacto.php'  ?>
 	</section>
