@@ -13,6 +13,9 @@
 	<link rel="stylesheet" href="assets/web/css/bootstrap.min.css?<?php echo $version ?>">
 	<link rel="stylesheet" href="assets/web/css/animate.css?<?php echo $version ?>">
 	
+	<link rel="stylesheet" type="text/css" href="assets/web/slick/slick/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="assets/web/slick/slick/slick-theme.css"/
+  	>
 	<link rel="stylesheet" href="assets/web/css/main.css?<?php echo $version ?>">
 
 
@@ -68,6 +71,16 @@
 			<div class="row">
 				<h1 class="heading-4">Confían en nosotros</h1>
 				<p class="paragraph-4">Somos Mavimovil una empresa que caracteriza en desarrollar soluciones<br> tecnológicas a medida, integrando los entornos tecnológicos.</p>
+			</div>
+
+			<div class="carousel-confian">
+			    <div>your content1</div>
+			    <div>your content2</div>
+			    <div>your content3</div>
+			    <div>your content4</div>
+			    <div>your content5</div>
+			    <div>your content6</div>
+			    <div>your content7</div>
 			</div>
 		</div>	
 	</section>
@@ -125,48 +138,65 @@
 	
 
 	<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><script src="https://uploads-ssl.webflow.com/5cc46826d9da3376e27ebde0/js/webflow.5ab29a3fc.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+	<script type="text/javascript" src="assets/web/slick/slick/slick.min.js"></script>
+
 	<script type="text/javascript">
 
-		$("#index-apps").click(function() {
-	        $(".slider1").removeClass("hide");
-	        $(".slider1").addClass("active");
-	        $(".slider2").addClass("hide");
-	        $(".slider2").removeClass("active");
-	        $(".slider3").addClass("hide");
-	        $(".slider3").removeClass("active");
-	        
-	    });
+		$(document).ready(function(){
 
-	    $("#index-plat").click(function() {
-	        $(".slider1").addClass("hide");
-	        $(".slider1").removeClass("active");
-	        $(".slider2").removeClass("hide");
-	        $(".slider2").addClass("active");
-	        $(".slider3").addClass("hide");
-	        $(".slider3").removeClass("active");
-	        
-	    });
-
-	    $("#index-inte").click(function() {
-	        $(".slider1").addClass("hide");
-	        $(".slider1").removeClass("active");
-	        $(".slider2").addClass("hide");
-	        $(".slider2").removeClass("active");
-	        $(".slider3").removeClass("hide");
-	        $(".slider3").addClass("active");
-	        
-	    });
+			// menu
+		  	var $mh = $('#main-header'); 
+		    var hclass = 'mini';
+		    $mh.removeClass(hclass); 
+		    $(document).on( 'scroll', function(){
+		        if ($(window).scrollTop() > 10) {
+		            $mh.addClass(hclass);
+		        } else {
+		            $mh.removeClass(hclass);
+		        }
+		    });  
 
 
-  var $mh = $('#main-header'); 
-    var hclass = 'mini';
-    $mh.removeClass(hclass); 
-    $(document).on( 'scroll', function(){
-        if ($(window).scrollTop() > 10) {
-            $mh.addClass(hclass);
-        } else {
-            $mh.removeClass(hclass);
-        }
-    });  
+			// sliders index
+			$("#index-apps").click(function() {
+		        $(".slider1").removeClass("hide");
+		        $(".slider1").addClass("active");
+		        $(".slider2").addClass("hide");
+		        $(".slider2").removeClass("active");
+		        $(".slider3").addClass("hide");
+		        $(".slider3").removeClass("active");
+		        
+		    });
+
+		    $("#index-plat").click(function() {
+		        $(".slider1").addClass("hide");
+		        $(".slider1").removeClass("active");
+		        $(".slider2").removeClass("hide");
+		        $(".slider2").addClass("active");
+		        $(".slider3").addClass("hide");
+		        $(".slider3").removeClass("active");
+		        
+		    });
+
+		    $("#index-inte").click(function() {
+		        $(".slider1").addClass("hide");
+		        $(".slider1").removeClass("active");
+		        $(".slider2").addClass("hide");
+		        $(".slider2").removeClass("active");
+		        $(".slider3").removeClass("hide");
+		        $(".slider3").addClass("active");
+		        
+		    });
+
+
+		    // logo sliders
+			$('.carousel-confian').slick({
+		        slidesToShow: 6,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 2000,
+		    });
+
+    });
   </script>
 </body></html>
