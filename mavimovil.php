@@ -29,7 +29,8 @@
 		</div>	
 
 		<div class="sliders-index-controls">
-		    <ul class="list-inline">
+			<div class="container">
+				<ul class="list-inline">
 		      <li class="list-inline-item active">
 		        <a  id="index-apps" class="list-inline-a">Apps</a>
 		      </li>
@@ -40,4 +41,8 @@
 		         <a  id="index-inte" class="list-inline-a">Integración</a>
 		      </li>
 		    </ul>
+			</div>
+
+
+		    
 		</div>
