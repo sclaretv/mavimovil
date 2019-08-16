@@ -182,7 +182,7 @@ transition: background 500ms ease;
 
 .heading-4 {
   color: #6f8393;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
 }
@@ -207,6 +207,13 @@ transition: background 500ms ease;
   margin-right: 5%;
   color: #6f8393;
   font-size: 17px;
+}
+
+.paragraph-4 {
+  color: #6f8393;
+  font-size: 17px;
+  text-align: center;
+  line-height: 
 }
 
 .button-1 {

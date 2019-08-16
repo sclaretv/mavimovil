@@ -56,6 +56,7 @@
 		<div class="container">
 			<div class="row">
 				<h1 class="heading-4">Combinando tecnologías,<br> logramos mejores resultados</h1>
+				<p class="paragraph-4">Somos Mavimovil una empresa que caracteriza en desarrollar soluciones<br> tecnológicas a medida, integrando los entornos tecnológicos.</p>
 			</div>
 		</div>	
 	</section>
