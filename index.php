@@ -115,38 +115,23 @@
 					<form method="post" action="/form/insert/home" id="form_contact">
 
 						<div class="form-group">
-						    <label for="nombre"> Nombre *</label>
-						    <input type="text" class="form-control" id="nombre" name="contacto_nombre"  required="">
+						    <input type="text" class="form-control" id="nombre" name="contacto_nombre"  required="" placeholder="Nombre">
 						</div>
 
 						<div class="form-group">
-						    <label for="apellido"> Apellido *</label>
-						    <input type="text" class="form-control" id="apellido" name="contacto_apellido"  required="">
+						    <input type="text" class="form-control" id="empresa" name="contacto_empresa" placeholder="Empresa">
 						</div>
 
 						<div class="form-group">
-						    <label for="empresa"> Empresa </label>
-						    <input type="text" class="form-control" id="empresa" name="contacto_empresa" >
-						</div>
-
-						<div class="form-group">
-						    <label for="email">Email  *</label>
-						    <input type="text" class="form-control" id="email" name="contacto_email" placeholder="su_email@email.com" required="">
+						    <input type="text" class="form-control" id="fono" name="contacto_fono" placeholder="Fono"  >
 						</div> 
 
 						<div class="form-group">
-						    <label for="fono">Fono  *</label>
-						    <input type="text" class="form-control" id="fono" name="contacto_fono" placeholder=""  >
+						    <input type="text" class="form-control" id="email" name="contacto_email" placeholder="Email" required="">
 						</div> 
 
 						<div class="form-group">
-						    <label for="asunto"> Asunto  *</label>
-						    <input type="text" class="form-control" id="asunto" name="contacto_asunto"  required="">
-						</div>
-
-						<div class="form-group">
-						    <label for="mensaje"> Mensaje  *</label>
-						    <textarea class="form-control" id="mensaje" name="contacto_mensaje"  required=""></textarea>
+						    <textarea class="form-control" id="mensaje" name="contacto_mensaje"  required="" placeholder="Mensaje"></textarea>
 						</div> 
 
 						<!-- FORMULARIO CON RECAPTCHA -->
@@ -164,8 +149,8 @@
 							</div>
 						</div>
 						 
-						<div class="text-center">
-							<button type="submit" class="btn btn-default"> Enviar </button>
+						<div class="text-right">
+							<button type="submit" class="btn-contact"> <strong>Enviar</strong> </button>
 						</div>
 
 					</form>
