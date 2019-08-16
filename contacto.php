@@ -10,8 +10,8 @@
 				</div>
 
 				<div class="col-lg-6">
-					
-					<form method="post" action="/form/insert/home" id="form_contact">
+					<div class="">
+						<form method="post" action="/form/insert/home" id="form_contact">
 
 						<div class="form-group">
 						    <input type="text" class="form-control" id="nombre" name="contacto_nombre"  required="" placeholder="Nombre">
@@ -53,6 +53,8 @@
 						</div>
 
 					</form>
+					</div>
+					
 					
 				</div>
 			</div>

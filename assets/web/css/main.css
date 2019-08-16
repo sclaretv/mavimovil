@@ -156,7 +156,7 @@ transition: background 500ms ease;
 }
 
 
-.section-6::after {
+/*.section-6::after {
   position:absolute;
   height:280px;
   top: -280px;
@@ -168,7 +168,7 @@ transition: background 500ms ease;
  background-size: 1410px;
   background-repeat: no-repeat;
   background-position: bottom;
-}
+}*/
 
 
 .section-6 {
@@ -271,6 +271,18 @@ transition: background 500ms ease;
   font-weight: bold;
 }
 
+.heading-7 {
+  text-align: left;
+  color: black;
+  font-size: 23px;
+}
+
+.heading-8 {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+}
 .paragraph-1 {
   margin: 5% 0% 10% 0%;
   color: hsla(0, 0%, 100%, 0.82);
@@ -319,8 +331,40 @@ transition: background 500ms ease;
   font-size: 17px;
 }
 
+.paragraph-8 {
+  color: black;
+  text-align: justify;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
 .button-1 {
   padding: 15px 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #65dfb6 !important;
+  border-radius: 25px;
+  color: hsla(0, 0%, 100%, 0.82) !important;
+  background-color: #65dfb6 !important;
+  box-shadow: 0 5px 6px 0 rgba(30, 169, 242, 0.51);
+}
+
+.button-2 {
+  text-align: left;
+  padding: 10px 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #65dfb6 !important;
+  border-radius: 25px;
+  color: hsla(0, 0%, 100%, 0.82) !important;
+  background-color: #65dfb6 !important;
+  box-shadow: 0 5px 6px 0 rgba(30, 169, 242, 0.51);
+}
+
+.button-3 {
+  text-align: left;
+  padding: 10px 20px;
+  margin-bottom: 10px;
   border-style: solid;
   border-width: 1px;
   border-color: #65dfb6 !important;
@@ -412,6 +456,15 @@ transition: background 500ms ease;
 }
 
 
+.formulario-contacto {
+  position: absolute;
+  background-image: url(../img/contacto-fondo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+}
+
+
 .form-control {
     display: block;
     width: 350px;
@@ -420,7 +473,6 @@ transition: background 500ms ease;
     font-size: 14px;
     color: #555;
     background-color: #fff;
-    background-image: none;
     border: 1px solid #ccc;
     border-radius: 40px;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
@@ -439,6 +491,29 @@ transition: background 500ms ease;
 }
 
 
+.list-inline-sol>li {
+    width: 65px;
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+}
+
+.solutions-left-right {
+  padding-top: 150px;
+}
+
+.solutions-carousel {
+  padding-bottom: 20px;
+}
+
+.buttons-store1 {
+  padding-top: 270px;
+  padding-bottom: 30px; 
+}
+
+.buttons-store2 {
+  padding-bottom: 30px; 
+}
 
 @media screen and (max-width: 1400px) {
   .slider1, .slider2, .slider3 { background-size: 1400px; }
