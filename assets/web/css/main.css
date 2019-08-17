@@ -38,7 +38,9 @@ overflow:visible
 }
 
 
-
+.hide {
+  display: none;
+}
 
 .text-fondo-blanco {
   color: #6f8393;
@@ -355,19 +357,22 @@ transition: background 500ms ease;
 }
 
 .button-2 {
-  padding: 10px 40px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #65dfb6 !important;
-  border-radius: 25px;
-  color: hsla(0, 0%, 100%, 0.82) !important;
-  background-color: #65dfb6 !important;
-  box-shadow: 0 5px 6px 0 rgba(30, 169, 242, 0.51);
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #65dfb6 !important;
+    border-radius: 25px;
+    color: hsla(0, 0%, 100%, 0.82) !important;
+    background-color: #65dfb6 !important;
+    box-shadow: 0 5px 6px 0 rgba(171, 176, 179, 0.51);
 }
 
 .button-3 {
   text-align: left;
-  padding: 10px 20px;
+  padding: 15px 20px;
   margin-bottom: 10px;
   border-style: solid;
   border-width: 1px;
@@ -375,8 +380,37 @@ transition: background 500ms ease;
   border-radius: 25px;
   color: hsla(0, 0%, 100%, 0.82) !important;
   background-color: #65dfb6 !important;
-  box-shadow: 0 5px 6px 0 rgba(30, 169, 242, 0.51);
+  box-shadow: 0 5px 6px 0 rgba(171, 176, 179, 0.51);
 }
+
+
+.button-4 {
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1d497e !important;
+    border-radius: 25px;
+    color: hsla(0, 0%, 100%, 0.82) !important;
+    background-color: #1d497e !important;
+    box-shadow: 0 5px 6px 0 rgba(41, 42, 43, 0.51);
+}
+
+.button-5 {
+  text-align: left;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1d497e !important;
+  border-radius: 25px;
+  color: hsla(0, 0%, 100%, 0.82) !important;
+  background-color: #1d497e !important;
+  box-shadow: 0 5px 6px 0 rgba(41, 42, 43, 0.51);
+}
+
 
 .sliders-index-controls {
   position: absolute;
@@ -499,7 +533,7 @@ transition: background 500ms ease;
 }
 
 .list-inline-sol>li {
-    width: 65px;
+    width: 85px;
     text-align: center;
     display: inline-block;
     padding: 0px;
@@ -513,7 +547,7 @@ transition: background 500ms ease;
   padding-bottom: 20px;
 }
 
-.plataformas-carousel {
+.plataformas-slide {
   padding-bottom: 40px;
 }
 
@@ -532,10 +566,14 @@ transition: background 500ms ease;
 
 #plataformas {
   margin-top: 200px;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
 }
 
-#solutions, #plataformas {
+#plataformas_carousel {
+  margin-top: 200px;
+}
+
+#solutions, #plataformas_carousel {
     position: relative;
     color: white;
   }

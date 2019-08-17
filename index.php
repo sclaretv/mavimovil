@@ -21,10 +21,11 @@
 
 	<script src="assets/web/js/vendor/jquery-1.11.2.min.js?<?php echo $version ?>"></script>
 	<script src="assets/web/js/vendor/bootstrap.min.js?<?php echo $version ?>"></script>
+	<script src="assets/web/js/vendor/jquery.waypoints.min.js"></script>
 	<script src="assets/web/angularjs/angular.min.js"></script>
 
 </head>
-<body  ng-controller="Mavimovil" style="display: none;">
+<body  ng-controller="Mavimovil" style="display: none;" data-spy="scroll" data-target="#main-header">
 	<header id="main-header">
 		<?php include 'menu.php'  ?>
 	</header>
@@ -45,39 +46,8 @@
 		<?php include 'solutions.php'  ?>	
 	</section>
 
-	<section class="section-3" >
-		<?php //include 'tecnologias.php'  ?>
-		<div class="container"></div>	
-	</section>
-
-	<section class="section-6" >
-		<?php //include 'tecnologias.php'  ?>
-		<div class="container">
-			<div class="row">
-				<div class="apps-1">
-					<div class="col-lg-6">
-					<div class="text-left">
-						<img alt="Desarrollo de Apps" src="assets/web/img/IconoPlataforma.svg" height="200">
-					</div>
-					<div>
-						<h1 class="heading-6">Desarrollo de <br>Plataformas</h1>
-						<p class="paragraph-7">Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.</p>
-					</div>
-				</div>
-
-				<div class="col-lg-6">
-					
-				</div>
-
-				</div>
-				
-			</div>
-
-			<div>
-				<?php include 'plataformas.php'  ?>	
-			</div>
-
-		</div>
+	<section class="section-6" id="plataformas">
+		<?php include 'plataformas.php'  ?>
 	</section>
 
 
@@ -126,6 +96,8 @@
 	<script type="text/javascript">
 
 		$(document).ready(function(){
+
+
 
 			// menu
 		  	var $mh = $('#main-header'); 
@@ -220,6 +192,29 @@
 	        });
 	    }  
 	    ajax_form('#form_contact','#form_contact .alert-warning','#form_contact .alert-success','#form_contact .loading'); 
+
+
+
+		$('.efx').each(function(index, el) {
+	      var $elem = $(this);    
+	      var up = ($elem.data('up'))?$elem.data('up'):'fadeIn'; 
+	      var down = ($elem.data('down'))?$elem.data('down'):'fadeOut'; 
+	      $elem .addClass('animated '+up); 
+
+
+	      	var waypoint = new Waypoint({
+			  element: this,
+			  handler: function(dir) {
+			    if(dir=='up'){
+			              $elem.addClass(down).removeClass(up)
+			          }else{ 
+			              $elem.addClass(up).removeClass(down);   
+			          }  
+			  },  offset: 'bottom-in-view' }
+			  );
+
+			$elem.removeClass(up).addClass(down); 
+	   	});
 
     });
 
