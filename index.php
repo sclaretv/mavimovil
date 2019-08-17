@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php  $version = date('YmdHis'); ?>
-<html>
+<html ng-app="mavimovilApp">
 <head>
 	<meta charset="utf-8"/>
 	<title>Mavimovil</title>
@@ -21,9 +21,10 @@
 
 	<script src="assets/web/js/vendor/jquery-1.11.2.min.js?<?php echo $version ?>"></script>
 	<script src="assets/web/js/vendor/bootstrap.min.js?<?php echo $version ?>"></script>
+	<script src="assets/web/angularjs/angular.min.js"></script>
 
 </head>
-<body>
+<body  ng-controller="Mavimovil" style="display: none;">
 	<header id="main-header">
 		<?php include 'menu.php'  ?>
 	</header>
@@ -41,7 +42,7 @@
 	</section>
 
 	<section class="section-3" >
-		<?php include 'plataformas.php'  ?>	
+		<?php include 'solutions.php'  ?>	
 	</section>
 
 	<section class="section-3" >
@@ -53,7 +54,8 @@
 		<?php //include 'tecnologias.php'  ?>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="apps-1">
+					<div class="col-lg-6">
 					<div class="text-left">
 						<img alt="Desarrollo de Apps" src="assets/web/img/IconoPlataforma.svg" height="200">
 					</div>
@@ -67,80 +69,14 @@
 					
 				</div>
 
+				</div>
+				
 			</div>
 
-			<div class="row">
-			<div id="carousel-apps" class="carousel slide" data-ride="carousel">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-apps" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-apps" data-slide-to="1"></li>
-			    <li data-target="#carousel-apps" data-slide-to="2"></li>
-			    <li data-target="#carousel-apps" data-slide-to="3"></li>
-			    <li data-target="#carousel-apps" data-slide-to="4"></li>
-			    <li data-target="#carousel-apps" data-slide-to="5"></li>
-			    <li data-target="#carousel-apps" data-slide-to="6"></li>
-			    <li data-target="#carousel-apps" data-slide-to="7"></li>
-			    <li data-target="#carousel-apps" data-slide-to="8"></li>
-			    <li data-target="#carousel-apps" data-slide-to="9"></li>
-			  </ol>
-
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner" role="listbox">
-			    <div class="item active">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    <div class="item">
-			      <img src="..." alt="...">
-			      
-			    </div>
-			    
-			  </div>
-
-			  <!-- Controls -->
-			  <a class="left carousel-control" href="#carousel-apps" role="button" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#carousel-apps" role="button" data-slide="next">
-			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
+			<div>
+				<?php include 'plataformas.php'  ?>	
 			</div>
-			</div>
+
 		</div>
 	</section>
 
@@ -286,5 +222,249 @@
 	    ajax_form('#form_contact','#form_contact .alert-warning','#form_contact .alert-success','#form_contact .loading'); 
 
     });
+
+
+	angular.module('mavimovilApp', [])
+	  .controller('Mavimovil', function($scope, $timeout) {
+
+	  	$scope.solution_selected=0;
+
+
+	  	$scope.solutions=[
+	  	{
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MI AUTOFIN', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MI AUTOFIN', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MI AUTOFIN', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MI AUTOFIN', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MI AUTOFIN', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MI AUTOFIN', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MI AUTOFIN', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'imagen_url':'assets/web/img/app-museo.png', 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MI AUTOFIN', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'imagen_url':'assets/web/img/app-museo.png', 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MI AUTOFIN', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'imagen_url':'assets/web/img/app-museo.png', 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MI AUTOFIN', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },];
+
+ 		
+
+ 		$scope.anterior_solution = function (index) {
+ 			if (index==0) {
+ 			$scope.solution_selected = $scope.solutions.length-1;
+	 		} else {
+	 			$scope.solution_selected = index-1;
+	 		}
+	 	}
+
+	 	$scope.siguiente_solution = function (index) {
+ 			if (index==$scope.solutions.length-1) {
+ 			$scope.solution_selected = 0;
+	 		} else {
+	 			$scope.solution_selected = index+1;
+	 		}
+	 	}
+
+	 	$scope.seleccionar_solution = function (index) {
+ 			$scope.solution_selected = index;
+	 	}
+
+	 	$scope.plataforma_selected=0;
+
+
+	  	$scope.plataformas=[
+	  	{
+	  		'fondo_url':null, 
+		  	'titulo':'FINANCIERO', 
+		  	'subtitulo':'CRM BUHO', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'FINANCIERO', 
+		  	'subtitulo':'CRM BUHO', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'FINANCIERO', 
+		  	'subtitulo':'CRM BUHO', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'FINANCIERO', 
+		  	'subtitulo':'CRM BUHO', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'FINANCIERO', 
+		  	'subtitulo':'CRM BUHO', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'FINANCIERO', 
+		  	'subtitulo':'CRM BUHO', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'FINANCIERO', 
+		  	'subtitulo':'CRM BUHO', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'FINANCIERO', 
+		  	'subtitulo':'CRM BUHO', 
+		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+		 ];
+
+ 		
+
+ 		$scope.anterior_plataforma = function (index) {
+ 			if (index==0) {
+ 			$scope.plataforma_selected = $scope.plataformas.length-1;
+	 		} else {
+	 			$scope.plataforma_selected = index-1;
+	 		}
+	 	}
+
+	 	$scope.siguiente_plataforma = function (index) {
+ 			if (index==$scope.plataformas.length-1) {
+ 			$scope.plataforma_selected = 0;
+	 		} else {
+	 			$scope.plataforma_selected = index+1;
+	 		}
+	 	}
+
+	 	$scope.seleccionar_plataforma = function (index) {
+ 			$scope.plataforma_selected = index;
+	 	}
+
+	 	$('body').show();
+
+	  });
   </script>
 </body></html>

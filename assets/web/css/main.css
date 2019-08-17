@@ -156,10 +156,10 @@ transition: background 500ms ease;
 }
 
 
-/*.section-6::after {
+.section-6::after {
   position:absolute;
   height:280px;
-  top: -280px;
+  bottom: -280px;
   left: 0;
   right: 0;
   content: " ";
@@ -168,12 +168,12 @@ transition: background 500ms ease;
  background-size: 1410px;
   background-repeat: no-repeat;
   background-position: bottom;
-}*/
+}
 
 
 .section-6 {
   margin-top: 280px;
-  padding-bottom: 200px;
+  margin-bottom: 280px;
   position:relative;
   z-index: -1;
   background-color: #415965 !important;
@@ -252,7 +252,7 @@ transition: background 500ms ease;
 
 .heading-4 {
   color: #6f8393;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
 }
@@ -282,6 +282,11 @@ transition: background 500ms ease;
   font-size: 40px;
   font-weight: bold;
   text-align: left;
+}
+
+#plataformas .heading-8 {
+  font-size: 60px;
+  line-height: 60px;
 }
 .paragraph-1 {
   margin: 5% 0% 10% 0%;
@@ -335,7 +340,7 @@ transition: background 500ms ease;
   color: black;
   text-align: justify;
   font-size: 17px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .button-1 {
@@ -350,7 +355,6 @@ transition: background 500ms ease;
 }
 
 .button-2 {
-  text-align: left;
   padding: 10px 40px;
   border-style: solid;
   border-width: 1px;
@@ -383,8 +387,8 @@ transition: background 500ms ease;
 }
 
 .list-inline {
-    padding-left: 0;
-    margin-left: 100px;
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -490,6 +494,9 @@ transition: background 500ms ease;
   background-color: #1ea9f2 !important;
 }
 
+.list-inline-sol {
+    padding-top: 30px;
+}
 
 .list-inline-sol>li {
     width: 65px;
@@ -506,6 +513,10 @@ transition: background 500ms ease;
   padding-bottom: 20px;
 }
 
+.plataformas-carousel {
+  padding-bottom: 40px;
+}
+
 .buttons-store1 {
   padding-top: 270px;
   padding-bottom: 30px; 
@@ -514,6 +525,32 @@ transition: background 500ms ease;
 .buttons-store2 {
   padding-bottom: 30px; 
 }
+
+.apps-1{
+  padding-bottom: 50px; 
+}
+
+#plataformas {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+#solutions, #plataformas {
+    position: relative;
+    color: white;
+  }
+
+  .slider-btn-prev, .slider-btn-next{
+    position: absolute;
+    z-index: 10;
+    top: 80px;
+    left: -50px;
+    right: auto;
+}
+    .slider-btn-next{
+      left: auto;
+      right: -50px;
+    }
 
 @media screen and (max-width: 1400px) {
   .slider1, .slider2, .slider3 { background-size: 1400px; }
