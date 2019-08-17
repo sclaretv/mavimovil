@@ -2,10 +2,10 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div>
-						<h1 class="heading-5">¿Alguna necesidad que cubrir?</h1>
+						<h1 class="heading-5 efx" data-up="fadeInLeft" data-down="fadeOut ">¿Alguna necesidad que cubrir?</h1>
 					</div>
 					<div>
-						<p class="paragraph-5">Somos Mavimovil una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos.</p>
+						<p class="paragraph-5 efx" data-up="fadeInLeft" data-down="fadeOut ">Somos Mavimovil una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos.</p>
 					</div>
 				</div>
 

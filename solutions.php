@@ -1,6 +1,6 @@
 
 
-<div class="container" id="solutions">
+<div class="container " id="solutions">
 	
 
 	<div   ng-repeat="s in solutions" ng-show="$index==solution_selected" class="solutions_slide animated fadeIn">
