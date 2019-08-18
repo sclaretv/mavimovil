@@ -112,21 +112,7 @@ transition: background 500ms ease;
   padding-bottom: 100px;
 }
 
-.section-5::before {
-  position:absolute;
- height:280px;
- top: -280px;
- left: 0;
- right: 0;
- content: " ";
-
- background-image: url(../img/fondo-contacto-top.svg);
- background-size: 1410px;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
-
+  
 
 .section-5 {
   margin-top: 280px;
@@ -140,34 +126,50 @@ transition: background 500ms ease;
   background-position: bottom;
 }
 
-.section-6::before {
+#plataformas_top {
   position:absolute;
   height:280px;
   top: -280px;
   left: 0;
-  right: 0;
-  content: " ";
-
- background-image: url(../img/fondo-plataforma-top.svg);
- background-size: 1410px;
-  background-repeat: no-repeat;
-  background-position: top;
+  right: 0; 
+  width: 100%;
 }
 
+ 
 
-.section-6::after {
-  position:absolute;
+#plataformas_bottom {
+ position:absolute;
   height:280px;
   bottom: -280px;
   left: 0;
   right: 0;
-  content: " ";
-
- background-image: url(../img/fondo-plataforma-bottom.svg);
- background-size: 1410px;
-  background-repeat: no-repeat;
-  background-position: bottom;
+  width: 100%; 
 }
+
+
+#contacto_top {
+
+   position:absolute;
+ height:280px;
+ top: -280px;
+ left: 0;
+ 
+  right: 0; 
+  width: 100%;
+}
+
+
+#plataformas_top .st0, #plataformas_bottom .st0{
+  fill:#415965;
+}
+
+
+#contacto_top .st0 {
+  fill:#1EA9F2;
+}
+
+
+
 
 
 .section-6 {
@@ -413,7 +415,7 @@ transition: background 500ms ease;
 
 .sliders-index-controls {
   position: absolute;
-  left: 250px;
+  left: 0;
   right: 0;
   bottom: 200px;
   z-index: 1;
@@ -428,14 +430,16 @@ transition: background 500ms ease;
 .list-inline>li {
   width: 100px;
   text-align: center;
-    display: inline-block;
-    padding: 5px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .list-inline-item {
    display: inline-block;
   border-top-style: solid;
-  border-top-width: 4px;
+  border-top-width: 5px;
   border-top-color: #0e4289 !important;
   font-weight: bold;
 }

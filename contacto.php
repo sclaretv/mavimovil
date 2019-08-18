@@ -59,3 +59,11 @@
 				</div>
 			</div>
 		</div>
+
+
+
+<svg version="1.1" id="contacto_top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1400 300" style="enable-background:new 0 0 1400 300;"  preserveAspectRatio="none" >
+ 
+<path class="st0" d="M1402.6,311v-32.8L900,86.7c-181-62.7-263.4-51.1-409.5,0l-490.9,192V311H1402.6z"/>
+</svg>
