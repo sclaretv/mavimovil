@@ -11,7 +11,7 @@
 			<div>
 				<h1 class="heading-2 efx" data-up="fadeInRight" data-down="fadeOut ">Desarrollo de Apps</h1>
 				<h3 class="heading-3 efx" data-up="fadeInRight" data-down="fadeOut ">Aplicaciones móviles nativas</h3>
-				<p class="paragraph-2 efx" data-up="fadeInRight" data-down="fadeOut ">Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.</p>
+				<p class="paragraph-2 efx" data-up="fadeInRight" data-down="fadeOut ">Es una aplicación informática diseñada para ser ejecutada en teléfonos inteligentes, tabletas y otros dispositivos móviles. Las aplicaciones permiten al usuario efectuar un conjunto de tareas de cualquier tipo —profesional, de ocio, educativas, de acceso a servicios, etc.—, facilitando las gestiones o actividades a desarrollar.</p>
 			</div>
 		</div>
 

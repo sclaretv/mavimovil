@@ -230,7 +230,77 @@
 	  		'fondo_url':null, 
 		  	'titulo':'ESTILO DE VIDA', 
 		  	'subtitulo':'MI AUTOFIN', 
-		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Mi Autofin posee múltiples herramientas exclusivas para clientes Autofin, entre ellas destacamos: Localizat tu auto mediante GPS. Sincroniza tu llavero con tu celular. Busca tu celular o llaves. Recibe notificaciones de ofertas y promociones. Notifica accidentes o situaciones de peligro y recibe ayuda, paga tu cuota y mucho más.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'BUHO AUTOFIN', 
+		  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Buho Autofin revoluciona la forma de comprar autos en los siguientes pasos: Fotografía o ingresa la patente del auto que te gusta, Buho te da el valor del auto y opciones similares, simula en línea tu ﬁnanciamiento y sigue el proceso de venta. Además Buho Autofin te ofrece Chat Online con sus ejecutivos.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'BK APP', 
+		  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'BIKE SANTIAGO', 
+		  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para clientes de este servicio de arriendo de bicicletas, Bike Santiago. Los usuarios acceden a: Arriendo de bicicletas, estaciones Bike Santiago, cantidad de bicicletas disponibles, historial de viajes, asistencia en caso de accidentes y mucho más.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MALLPLAZA AUDITORÍA', 
+		  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de Mallplaza la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MUSEO', 
+		  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Es una aplicación interactiva que brinda a los usuarios del museo, poder interactuar con las piezas de arte por medio de beacons instalados en el museo. El usuario podrá ver todas las piezas destacadas por medio de un radar y mucho más.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'BLOCKASSIST', 
+		  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Blockassist es una aplicación exclusiva para clientes Mercedes-Benz, quienes podrán monitorear, recibir notificaciones y alertas, y bloquear en caso de robo el vehículo.', 
+		  	'btn_vermas':null, 
+		  	'btn_playstore':null, 
+		  	'btn_appstore':null
+		  },
+
+		  {
+	  		'fondo_url':null, 
+		  	'titulo':'ESTILO DE VIDA', 
+		  	'subtitulo':'MAVIGPS', 
+		  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. MaviGPS es una aplicación que junto al servicio MaviGPS  permite monitorear 24/7 el vehículo. Además ofrece alertas y notificaciones de exceso de velocidad, encendido/apagado motor, kilometraje de mantención y mucho más.', 
 		  	'btn_vermas':null, 
 		  	'btn_playstore':null, 
 		  	'btn_appstore':null
@@ -249,89 +319,18 @@
 		  {
 	  		'fondo_url':null, 
 		  	'titulo':'ESTILO DE VIDA', 
-		  	'subtitulo':'MI AUTOFIN', 
-		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
+		  	'subtitulo':'RED SALUD AUDITORÍA', 
+		  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de los centro médicos de RedSalud, la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.', 
 		  	'btn_vermas':null, 
 		  	'btn_playstore':null, 
 		  	'btn_appstore':null
 		  },
-
-		  {
-	  		'fondo_url':null, 
-		  	'titulo':'ESTILO DE VIDA', 
-		  	'subtitulo':'MI AUTOFIN', 
-		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
-		  	'btn_vermas':null, 
-		  	'btn_playstore':null, 
-		  	'btn_appstore':null
-		  },
-
-		  {
-	  		'fondo_url':null, 
-		  	'titulo':'ESTILO DE VIDA', 
-		  	'subtitulo':'MI AUTOFIN', 
-		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
-		  	'btn_vermas':null, 
-		  	'btn_playstore':null, 
-		  	'btn_appstore':null
-		  },
-
-		  {
-	  		'fondo_url':null, 
-		  	'titulo':'ESTILO DE VIDA', 
-		  	'subtitulo':'MI AUTOFIN', 
-		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
-		  	'btn_vermas':null, 
-		  	'btn_playstore':null, 
-		  	'btn_appstore':null
-		  },
-
-		  {
-	  		'fondo_url':null, 
-		  	'titulo':'ESTILO DE VIDA', 
-		  	'subtitulo':'MI AUTOFIN', 
-		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
-		  	'btn_vermas':null, 
-		  	'btn_playstore':null, 
-		  	'btn_appstore':null
-		  },
-
-		  {
-	  		'fondo_url':null, 
-		  	'imagen_url':'assets/web/img/app-museo.png', 
-		  	'titulo':'ESTILO DE VIDA', 
-		  	'subtitulo':'MI AUTOFIN', 
-		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
-		  	'btn_vermas':null, 
-		  	'btn_playstore':null, 
-		  	'btn_appstore':null
-		  },
-
-		  {
-	  		'fondo_url':null, 
-		  	'imagen_url':'assets/web/img/app-museo.png', 
-		  	'titulo':'ESTILO DE VIDA', 
-		  	'subtitulo':'MI AUTOFIN', 
-		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
-		  	'btn_vermas':null, 
-		  	'btn_playstore':null, 
-		  	'btn_appstore':null
-		  },
-
-		  {
-	  		'fondo_url':null, 
-		  	'imagen_url':'assets/web/img/app-museo.png', 
-		  	'titulo':'ESTILO DE VIDA', 
-		  	'subtitulo':'MI AUTOFIN', 
-		  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
-		  	'btn_vermas':null, 
-		  	'btn_playstore':null, 
-		  	'btn_appstore':null
-		  },];
+		];
 
  		
 
  		$scope.anterior_solution = function (index) {
+ 			console.log(index, $scope.solutions.length);
  			if (index==0) {
  			$scope.solution_selected = $scope.solutions.length-1;
 	 		} else {

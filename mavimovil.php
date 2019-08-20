@@ -2,7 +2,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 col-md-offset-1">
-						<h1 class="heading-1 animated fadeInRight fast" data-down="fadeOut "><span class="text-span">Hacemos posible la app y la plataforma web <br>que necesitas</span></h1><p class="paragraph-1 animated fadeInRight" data-down="fadeOut ">Diseñamos, desarrollamos e integramos la tecnologia que requieras.</p>
+						<h1 class="heading-1 animated fadeInRight fast" data-down="fadeOut "><span class="text-span">Hacemos posible la app y la plataforma web <br>que necesitas</span></h1><p class="paragraph-1 animated fadeInRight" data-down="fadeOut ">Diseñamos, desarrollamos e integramos la tecnología que requieras.</p>
 						<a href="#" class="button-1 animated fadeInRight" data-down="fadeOut "><span>Ver más</span></a>
 					</div>
 					<div class="col-md-5"></div>
@@ -14,7 +14,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 col-md-offset-1">
-						<h1 class="heading-1 animated fadeInRight fast" data-down="fadeOut "><span class="text-span">Hacemos posible la app y la plataforma web que necesitas</span></h1><p class="paragraph-1 animated fadeInRight" data-down="fadeOut ">Diseñamos, desarrollamos e integramos la tecnologia que requieras.</p>
+						<h1 class="heading-1 animated fadeInRight fast" data-down="fadeOut "><span class="text-span">Hacemos posible la app y la plataforma web que necesitas</span></h1><p class="paragraph-1 animated fadeInRight" data-down="fadeOut ">Diseñamos, desarrollamos e integramos la tecnología que requieras.</p>
 						<a href="#" class="button-1 animated fadeInRight" data-down="fadeOut "><span>Ver más</span></a>
 					</div>
 					<div class="col-md-5"></div>
@@ -26,7 +26,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 col-md-offset-1">
-						<h1 class="heading-1 animated fadeInRight fast" data-down="fadeOut "><span class="text-span">Hacemos posible la app y la plataforma web que necesitas</span></h1><p class="paragraph-1 animated fadeInRight" data-down="fadeOut ">Diseñamos, desarrollamos e integramos la tecnologia que requieras.</p>
+						<h1 class="heading-1 animated fadeInRight fast" data-down="fadeOut "><span class="text-span">Integramos la tecnología que necesites</span></h1><p class="paragraph-1 animated fadeInRight" data-down="fadeOut ">Diseñamos, desarrollamos e integramos la tecnología que requieras.</p>
 						<a href="#" class="button-1 animated fadeInRight" data-down="fadeOut "><span>Ver más</span></a>
 					</div>
 					<div class="col-md-5"></div>

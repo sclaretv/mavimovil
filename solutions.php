@@ -16,13 +16,13 @@
 				<div class="row">
 					<div class="col-md-4 col-md-offset-1">
 						<div class="text-right">
-							<img src="assets/web/img/solutions/{{$index+1}}.png" class="animated fadeInLeft" height="400" alt=""  aria-hidden=true>	
+							<img src="assets/web/img/solutions/{{$index}}.png" class="animated fadeInLeft" height="400" alt=""  aria-hidden=true>	
 						</div>
 						
 					</div>
 					<div class="col-md-5">
 						<div class="animated fadeInRight">
-							<h3 class="heading-7">{{s.titulo}}</h3>
+							<h3 class="heading-7">{{s.titulo}} {{$index}}</h3>
 							<h1 class="heading-8">{{s.subtitulo}}</h1>
 							<p class="paragraph-8">{{s.descripcion}}</p>
 							<a href="{{s.btn_vermas}}" class="button-2"><span>Ver más</span></a>
@@ -50,7 +50,7 @@
 		<ul class="list-inline list-inline-sol text-center">
 			<li ng-repeat="s in solutions" class="list-inline-solutions {{($index==solution_selected)?'active':''}}" title="{{s.subtitulo}}" >
 	          <a href="#" ng-click="seleccionar_solution($index)">
-	            <img src="assets/web/img/solutions/nav-slider-solutions-{{$index+1}}.svg" height="90" alt=""  aria-hidden=true>
+	            <img src="assets/web/img/solutions/app-navegation-icon-{{$index}}.svg" height="90" alt=""  aria-hidden=true>
 	          </a></li>
 
 	    </ul>
