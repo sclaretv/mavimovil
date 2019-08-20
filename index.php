@@ -144,7 +144,17 @@
 		    });
 
 
-		    // logo sliders
+		    // carousel tecnologias
+		    $('.carousel-tecnologias').slick({
+			  infinite: true,
+			  slidesToShow: 6,
+			  slidesToScroll: 1,
+			  autoplaySpeed: 2000,
+			  prevArrow: "<button type="button" class="slick-prev">Previous</button>"
+			});
+
+
+		    // carousel clientes
 			$('.carousel-confian').slick({
 		        slidesToShow: 4,
 				slidesToScroll: 1,

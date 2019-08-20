@@ -4,7 +4,7 @@
 				<p class="paragraph-4">Somos MaviMovil, una empresa que caracteriza en desarrollar soluciones<br> tecnológicas a medida, integrando los entornos tecnológicos.</p>
 			</div>
 
-			<div class="carousel-confian">
+			<div class="carousel-tecnologias">
 			    <div><img class="imagen-confian" alt="Kaufmann" src="assets/web/img/clientes_Mesa de trabajo1.png"  height="50"></div>
 			    <div><img class="imagen-confian" alt="Autofin" src="assets/web/img/clientes-02.png"  height="50"></div>
 			    <div><img class="imagen-confian" alt="MaviGPS" src="assets/web/img/clientes-03.png"  height="50"></div>
