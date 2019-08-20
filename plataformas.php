@@ -7,7 +7,9 @@
 			</div>
 			<div>
 				<h1 class="heading-6 efx" data-up="fadeInLeft" data-down="fadeOut ">Desarrollo de <br>Plataformas</h1>
-				<p class="paragraph-7 efx" data-up="fadeInLeft" data-down="fadeOut ">Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.</p>
+				<p class="paragraph-7 efx" data-up="fadeInLeft" data-down="fadeOut ">Diseñamos y desarrollamos plataformas digitales, acorde a los objetivos y metas de cada cliente y su respectiva audiencia. No sin antes, definir objetivos y arquetipos de usuarios para enfocar de forma correctas nuestros esfuerzos y la inversión de nuestro cliente.</p>
+				<p class="paragraph-7 efx" data-up="fadeInLeft" data-down="fadeOut ">Nos destacamos por ser innovadores y prolijos en términos de códigos, administración y gestión de proyectos digitales.
+				</p>
 			</div>
 		</div>
 
@@ -36,7 +38,7 @@
 						<div class="row">
 							<div class="col-md-6">
 								<div class="text-left">
-									<img src="assets/web/img/plataformas/{{$index+1}}.png" class="animated fadeInLeft img-responsive" alt=""  aria-hidden=true>	
+									<img src="assets/web/img/plataformas/{{$index}}.png" class="animated fadeInLeft img-responsive" alt=""  aria-hidden=true>	
 								</div>
 								
 							</div>
@@ -69,7 +71,7 @@
 				<ul class="list-inline list-inline-sol text-center">
 					<li ng-repeat="s in plataformas" class="list-inline-plataformas {{($index==plataforma_selected)?'active':''}}" title="{{s.subtitulo}}" >
 			          <a href="#" ng-click="seleccionar_plataforma($index)">
-			            <img src="assets/web/img/plataformas/nav{{$index+1}}.svg" height="90" alt=""  aria-hidden=true>
+			            <img src="assets/web/img/plataformas/platform-navegation-icon-{{$index}}.svg" height="90" alt=""  aria-hidden=true>
 			          </a></li>
 
 			    </ul>

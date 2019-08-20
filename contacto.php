@@ -11,7 +11,7 @@
 						<h1 class="heading-5 efx" data-up="fadeInLeft" data-down="fadeOut ">¿Alguna necesidad que cubrir?</h1>
 					</div>
 					<div>
-						<p class="paragraph-5 efx" data-up="fadeInLeft" data-down="fadeOut ">Somos Mavimovil una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos.</p>
+						<p class="paragraph-5 efx" data-up="fadeInLeft" data-down="fadeOut ">Es importante saber que tipo de necesidades deseas cubrir para innovar en los resultados, es por esto que te invitamos a llenar el formulario y agendar una reunión.</p>
 					</div>
 				</div>
 

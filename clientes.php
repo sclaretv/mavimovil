@@ -1,7 +1,7 @@
 <div class="container">
 			<div class="row">
 				<h1 class="heading-4">Confían en nosotros</h1>
-				<p class="paragraph-4">Somos Mavimovil una empresa que caracteriza en desarrollar soluciones<br> tecnológicas a medida, integrando los entornos tecnológicos.</p>
+				<p class="paragraph-4">Cada uno de nuestros proyectos ha cambiado la vida de estas empresas.</p>
 			</div>
 
 			<div class="carousel-confian">
