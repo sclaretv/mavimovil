@@ -5,11 +5,13 @@
 			</div>
 
 			<div class="carousel-tecnologias">
-			    <div><img class="imagen-confian" alt="Kaufmann" src="assets/web/img/clientes_Mesa de trabajo1.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Autofin" src="assets/web/img/clientes-02.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="MaviGPS" src="assets/web/img/clientes-03.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="MallPlaza" src="assets/web/img/clientes-04.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="BKSPA" src="assets/web/img/clientes-05.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="RedSalud" src="assets/web/img/clientes-06.png"  height="50"></div>
+			    <div><img class="" alt="Cordova" src="assets/web/img/tecnologias_01.png"  height="200"></div>
+			    <div><img class="" alt="Ionic" src="assets/web/img/tecnologias_02.png"  height="200"></div>
+			    <div><img class="" alt="IOS" src="assets/web/img/tecnologias_03.png"  height="200"></div>
+			    <div><img class="" alt="React" src="assets/web/img/tecnologias_04.png"  height="200"></div>
+			    <div><img class="" alt="Android" src="assets/web/img/tecnologias_05.png"  height="200"></div>
+			    <div><img class="" alt="SQLite" src="assets/web/img/tecnologias_06.png"  height="200"></div>
+			    <div><img class="" alt="Xamarin" src="assets/web/img/tecnologias_07.png"  height="200"></div>
+			    <div><img class="" alt="JavaScript" src="assets/web/img/tecnologias_08.png"  height="200"></div>
 			</div>
 		</div>

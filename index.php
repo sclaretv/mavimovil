@@ -149,8 +149,9 @@
 			  infinite: true,
 			  slidesToShow: 6,
 			  slidesToScroll: 1,
-			  autoplaySpeed: 2000,
-			  prevArrow: "<button type="button" class="slick-prev">Previous</button>"
+			  arrows: true,
+			  prevArrow:"<img class='a-left control-c prev slick-prev' src='assets/web/img/slider-cliente-izquierda.svg'>",
+      		  nextArrow:"<img class='a-right control-c next slick-next' src='assets/web/img/slider-cliente-derecha.svg'>"
 			});
 
 

@@ -596,13 +596,6 @@ transition: background 500ms ease;
   -ms-animation-duration: 0.7s
 }
 
-@media screen and (max-width: 1400px) {
-  .slider1, .slider2, .slider3 { background-size: 1400px; }
-  .sliders-index-controls { 
-  bottom: 90px;
-}
-  }
-
 #form_contact {
   height: 620px;
   width: 640px;
@@ -618,3 +611,15 @@ transition: background 500ms ease;
   width: 100%;
 
 }
+
+.control-c {
+  height: 300px;
+}
+
+@media screen and (max-width: 1400px) {
+  .slider1, .slider2, .slider3 { background-size: 1400px; }
+  .sliders-index-controls { 
+  bottom: 90px;
+}
+  }
+
