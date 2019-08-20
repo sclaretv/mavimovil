@@ -613,7 +613,9 @@ transition: background 500ms ease;
 }
 
 .control-c {
-  height: 300px;
+  width: 65px;
+  height: 65px;
+  z-index: 5;
 }
 
 @media screen and (max-width: 1400px) {
