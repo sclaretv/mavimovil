@@ -6,7 +6,7 @@
 
 		<div class="col-lg-6 container-3">
 			<div class="text-right">
-				<img alt="Desarrollo de Apps" src="assets/web/img/IconoApp.svg" width="300" height="200" class="efx" data-up="fadeInRight" data-down="fadeOut ">
+				<img alt="Desarrollo de Apps" src="/assets/web/img/IconoApp.svg" width="300" height="200" class="efx" data-up="fadeInRight" data-down="fadeOut ">
 			</div>
 			<div>
 				<h1 class="heading-2 efx" data-up="fadeInRight" data-down="fadeOut ">Desarrollo de Apps</h1>

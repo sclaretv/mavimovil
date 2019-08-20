@@ -618,6 +618,11 @@ transition: background 500ms ease;
   z-index: 5;
 }
 
+.nav>li>a>img {
+    /* max-width: 100px; */
+    width: 35px;
+}
+
 @media screen and (max-width: 1400px) {
   .slider1, .slider2, .slider3 { background-size: 1400px; }
   .sliders-index-controls { 

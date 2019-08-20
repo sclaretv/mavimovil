@@ -25,9 +25,9 @@
         <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link af-link" href="es/index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="img-idioma" alt="Español" src="/assets/web/img/espanol.svg"> <span class="caret"></span></a>
+          <a class="nav-link af-link" href="es/index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="Español" src="/assets/web/img/espanol.svg"> <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="nav-item"><a class="nav-link af-link" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="img-idioma" alt="Ingles" src="/assets/web/img/ingles.svg"> <span class="caret"></span></a></li>
+            <li class="nav-item"><a class="nav-link af-link" href="#"><img alt="Español" src="/assets/web/img/ingles.svg"></a></li>
           </ul>
         </li>
       </ul>
