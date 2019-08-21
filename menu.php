@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#mavimovil">
-        <img alt="Mavimovil" src="/assets/web/img/logotipo-mavimovil.svg"  height="80">
+        <img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil.svg"  height="80">
       </a>
     </div>
 
@@ -25,11 +25,11 @@
         <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link af-link" href="es/index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="Español/Spanish" src="/assets/web/img/espanol.svg"> <span class="caret"></span></a>
+          <a class="nav-link af-link" href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="Español/Spanish" src="assets/web/img/espanol.svg"> <span class="caret"></span></a>
           <!--
           <ul class="dropdown-menu">
             
-            <li class="nav-item"><a class="nav-link af-link" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="English/Inglés" src="/assets/web/img/ingles.svg"> <span class="caret"></span></a></li>
+            <li class="nav-item"><a class="nav-link af-link" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="English/Inglés" src="assets/web/img/ingles.svg"> <span class="caret"></span></a></li>
           </ul>
         </li>
       </ul>-->

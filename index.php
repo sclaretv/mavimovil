@@ -10,31 +10,31 @@
 	<meta name="description" content="Autofin"> 
 
 
-	<link rel="stylesheet" href="/assets/web/css/bootstrap.min.css?<?php echo $version ?>">
-	<link rel="stylesheet" href="/assets/web/css/animate.css?<?php echo $version ?>">
+	<link rel="stylesheet" href="assets/web/css/bootstrap.min.css?<?php echo $version ?>">
+	<link rel="stylesheet" href="assets/web/css/animate.css?<?php echo $version ?>">
 	
-	<link rel="stylesheet" type="text/css" href="/assets/web/slick/slick/slick.css"/>
-  	<link rel="stylesheet" type="text/css" href="/assets/web/slick/slick/slick-theme.css"/
+	<link rel="stylesheet" type="text/css" href="assets/web/slick/slick/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="assets/web/slick/slick/slick-theme.css"/
   	>
-	<link rel="stylesheet" href="/assets/web/css/main.css?<?php echo $version ?>">
+	<link rel="stylesheet" href="assets/web/css/main.css?<?php echo $version ?>">
 
 
-	<script src="/assets/web/js/vendor/jquery-1.11.2.min.js?<?php echo $version ?>"></script>
-	<script src="/assets/web/js/vendor/bootstrap.min.js?<?php echo $version ?>"></script>
-	<script src="/assets/web/js/vendor/jquery.waypoints.min.js"></script>
-	<script src="/assets/web/angularjs/angular.min.js"></script>
-	<script type="text/javascript" src="/assets/web/slick/slick/slick.min.js"></script>
+	<script src="assets/web/js/vendor/jquery-1.11.2.min.js?<?php echo $version ?>"></script>
+	<script src="assets/web/js/vendor/bootstrap.min.js?<?php echo $version ?>"></script>
+	<script src="assets/web/js/vendor/jquery.waypoints.min.js"></script>
+	<script src="assets/web/angularjs/angular.min.js"></script>
+	<script type="text/javascript" src="assets/web/slick/slick/slick.min.js"></script>
 
 
 	
-	<script src="/assets/web/js/webflow.min.js" type="text/javascript"></script>
+	<script src="assets/web/js/webflow.min.js" type="text/javascript"></script>
 
 	<script type="text/javascript" src="assets/web/slick/slick/slick.min.js"></script>
 
 
 	<script src="https://www.google.com/recaptcha/api.js"></script> 
 
-	<script type="text/javascript" src="/assets/web/js/index.js"></script>
+	<script type="text/javascript" src="assets/web/js/index.js"></script>
 
 </head>
 <body  ng-controller="Mavimovil" style="display: none;" data-spy="scroll" data-target="#main-header">
@@ -79,7 +79,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<img alt="Mavimovil" src="/assets/web/img/logotipo-mavimovil-blanco.svg"  height="100">
+					<img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil-blanco.svg"  height="100">
 				</div>
 				<div class="col-md-5">
 					<p class="paragraph-6">
@@ -90,7 +90,7 @@
 					<div class="text-right">
 						<br>
 						<a href="#mavimovil">
-					        <img alt="Volver al inicio" src="/assets/web/img/top-boton.svg"  height="50">
+					        <img alt="Volver al inicio" src="assets/web/img/top-boton.svg"  height="50">
 					     </a>
 					</div>
 					

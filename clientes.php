@@ -5,12 +5,12 @@
 			</div>
 
 			<div class="carousel-confian">
-			    <div><img class="imagen-confian" alt="Mavimovil" src="/assets/web/img/clientes_01.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="/assets/web/img/clientes-02.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="/assets/web/img/clientes-03.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="/assets/web/img/clientes-04.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="/assets/web/img/clientes-05.png"  height="50"></div>
-			    <div><img class="imagen-confian" alt="Mavimovil" src="/assets/web/img/clientes-06.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes_01.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-02.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-03.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-04.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-05.png"  height="50"></div>
+			    <div><img class="imagen-confian" alt="Mavimovil" src="assets/web/img/clientes-06.png"  height="50"></div>
 			</div>
 			
 		</div>	

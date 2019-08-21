@@ -4,7 +4,7 @@
 			<div class="col-lg-6" style="z-index: 1;">
 				<div >
 					<div class="text-left">
-						<img alt="Desarrollo de Apps" src="/assets/web/img/IconoPlataforma.svg" height="200" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
+						<img alt="Desarrollo de Apps" src="assets/web/img/IconoPlataforma.svg" height="200" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
 					</div>
 					<div>
 						<h1 class="heading-6 efx" data-up="fadeInLeft" data-down="fadeOut ">Desarrollo de <br>Plataformas</h1>
@@ -17,9 +17,9 @@
 
 		<div class="col-lg-6" style="z-index: -1;">
 			<div >
-				<img src="/assets/web/img/plataforma-fondo-contenedor-md.svg" class="fondo1" alt=""  aria-hidden=true>
-				<img src="/assets/web/img/fondo-verde.svg" alt=""  class="fondo2" aria-hidden=true>
-				<img src="/assets/web/img/img-plataforma.png" alt="" class="fondo3" aria-hidden=true>
+				<img src="assets/web/img/plataforma-fondo-contenedor-md.svg" class="fondo1" alt=""  aria-hidden=true>
+				<img src="assets/web/img/fondo-verde.svg" alt=""  class="fondo2" aria-hidden=true>
+				<img src="assets/web/img/img-plataforma.png" alt="" class="fondo3" aria-hidden=true>
 			</div>
 			
 		</div>
@@ -35,17 +35,17 @@
 				
 			<a  ng-click="anterior_plataforma($index)" class="slider-btn-prev">
 
-			            	<img src="/assets/web/img/plataformas-izquierda.svg" height="70" alt=""  aria-hidden=true>
+			            	<img src="assets/web/img/plataformas-izquierda.svg" height="70" alt=""  aria-hidden=true>
 			          	</a>
 
 			          	<a  ng-click="siguiente_plataforma($index)" class="slider-btn-next">
-			            	<img src="/assets/web/img/plataformas-derecha.svg" height="70" alt=""  aria-hidden=true>
+			            	<img src="assets/web/img/plataformas-derecha.svg" height="70" alt=""  aria-hidden=true>
 			          	</a>
 					<div class="plataformas-slide">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="text-center" style="z-index: 5;">
-									<img src="/assets/web/img/plataformas/{{$index}}.png" class="animated fadeInLeft" alt=""  aria-hidden=true style="width: 110%; margin-left: 20px;">	
+									<img src="assets/web/img/plataformas/{{$index}}.png" class="animated fadeInLeft" alt=""  aria-hidden=true style="width: 110%; margin-left: 20px;">	
 								</div>
 								
 							</div>
@@ -61,11 +61,11 @@
 								<div class="animated fadeInRight">
 									<div class="buttons-store1">
 										<a href="{{s.btn_playstore}}" class="button-5">
-											<img src="/assets/web/img/GooglePlay.svg" height="30" alt=""  aria-hidden=true></a>
+											<img src="assets/web/img/GooglePlay.svg" height="30" alt=""  aria-hidden=true></a>
 									</div>
 									<div class="buttons-store2">
 										<a href="{{s.btn_appstore}}" class="button-5">
-											<img src="/assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
+											<img src="assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
 									</div>
 								</div>
 							</div>
@@ -78,7 +78,7 @@
 				<ul class="list-inline list-inline-sol text-center">
 					<li ng-repeat="s in plataformas" class="list-inline-plataformas {{($index==plataforma_selected)?'active':''}}" title="{{s.subtitulo}}" >
 			          <a  ng-click="seleccionar_plataforma($index)">
-			            <img src="/assets/web/img/plataformas/platform-navegation-icon-{{$index}}.svg" height="90" alt=""  aria-hidden=true>
+			            <img src="assets/web/img/plataformas/platform-navegation-icon-{{$index}}.svg" height="90" alt=""  aria-hidden=true>
 			          </a></li>
 
 			    </ul>
