@@ -601,7 +601,8 @@ transition: background 500ms ease;
 }
 
 .apps-1{
-  padding-bottom: 50px; 
+    padding-bottom: 200px;
+    min-height: 656px;
 }
 
 #plataformas {
@@ -660,6 +661,30 @@ transition: background 500ms ease;
 
 .nav>li>a>img { 
     width: 35px;
+}
+
+.fondo1 {
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.fondo2 {
+    height: 480px;
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+    top: 40px;
+}
+
+.fondo3 {
+    position: absolute;
+    z-index: 2;
+    top: -50px;
+    left: -170px;
+    width: 700px;
 }
 /* .img-idioma*/
 
