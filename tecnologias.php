@@ -5,13 +5,13 @@
 			</div>
 
 			<div class="carousel-tecnologias">
-			    <div><img class="" alt="Cordova" src="assets/web/img/tecnologias_01.png"  height="200"></div>
-			    <div><img class="" alt="Ionic" src="assets/web/img/tecnologias_02.png"  height="200"></div>
-			    <div><img class="" alt="IOS" src="assets/web/img/tecnologias_03.png"  height="200"></div>
-			    <div><img class="" alt="React" src="assets/web/img/tecnologias_04.png"  height="200"></div>
-			    <div><img class="" alt="Android" src="assets/web/img/tecnologias_05.png"  height="200"></div>
-			    <div><img class="" alt="SQLite" src="assets/web/img/tecnologias_06.png"  height="200"></div>
-			    <div><img class="" alt="Xamarin" src="assets/web/img/tecnologias_07.png"  height="200"></div>
-			    <div><img class="" alt="JavaScript" src="assets/web/img/tecnologias_08.png"  height="200"></div>
+			    <div><img class="" alt="Cordova" src="/assets/web/img/tecnologias_01.png"  height="200"></div>
+			    <div><img class="" alt="Ionic" src="/assets/web/img/tecnologias_02.png"  height="200"></div>
+			    <div><img class="" alt="IOS" src="/assets/web/img/tecnologias_03.png"  height="200"></div>
+			    <div><img class="" alt="React" src="/assets/web/img/tecnologias_04.png"  height="200"></div>
+			    <div><img class="" alt="Android" src="/assets/web/img/tecnologias_05.png"  height="200"></div>
+			    <div><img class="" alt="SQLite" src="/assets/web/img/tecnologias_06.png"  height="200"></div>
+			    <div><img class="" alt="Xamarin" src="/assets/web/img/tecnologias_07.png"  height="200"></div>
+			    <div><img class="" alt="JavaScript" src="/assets/web/img/tecnologias_08.png"  height="200"></div>
 			</div>
 		</div>

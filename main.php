@@ -6,10 +6,10 @@
 
                     <ul class="list-inline">
                       <li class="list-inline-item btn-auto active">
-                        <a  id="control-auto"> <img src="assets/icons/autofin-icono-web-1.svg"  width="30" height="30" alt=""  aria-hidden=true></a>
+                        <a  id="control-auto"> <img src="/assets/icons/autofin-icono-web-1.svg"  width="30" height="30" alt=""  aria-hidden=true></a>
                       </li>
                       <li class="list-inline-item btn-moto">
-                         <a  id="control-moto"><img src="assets/icons/autofin-icono-web-2.svg"  width="30" height="30" alt=""  aria-hidden=true></a>
+                         <a  id="control-moto"><img src="/assets/icons/autofin-icono-web-2.svg"  width="30" height="30" alt=""  aria-hidden=true></a>
                       </li>
                     </ul>
                 </div>
@@ -17,7 +17,7 @@
 
                 <div id="box-y-auto">
                   
-                  <img src="assets/img/auto.png"   class="auto ">
+                  <img src="/assets/img/auto.png"   class="auto ">
 
                   <div class="contenido-box-y animated fadeIn">
 
@@ -39,7 +39,7 @@
 
                  <div id="box-y-moto" class="hide">
                   
-                  <img src="assets/img/MOTO.png"   class="moto ">
+                  <img src="/assets/img/MOTO.png"   class="moto ">
 
                   <div class="contenido-box-y animated fadeIn">
 
