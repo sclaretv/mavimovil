@@ -206,23 +206,26 @@ transition: background 500ms ease;
 }
 
 .slider1 {
-  background-color: #54d5fa !important;
-  background-image: url(../img/imagen4.jpg);
+  /*background-color: #54d5fa !important;*/
+  background-color: white !important;
+  background-image: url(../img/slider-1-unido.png);
   background-repeat: no-repeat;
   background-position: bottom;
 
 }
 
 .slider2 {
-  background-color: #415965 !important;
-  background-image: url(../img/imagen5.jpg);
+  /*background-color: #415965 !important;*/
+  background-color: white !important;
+  background-image: url(../img/slider-2-unido.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
 .slider3 {
-  background-color: #65dfb6 !important;
-  background-image: url(../img/imagen6.jpg);
+  /*background-color: #65dfb6 !important;*/
+  background-color: white !important;
+  background-image: url(../img/slider-3-unido.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -357,6 +360,20 @@ transition: background 500ms ease;
   display: inline-block;
 }
 
+.button-6 {
+  padding: 15px 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1d497e !important;
+  border-radius: 25px;
+  color: hsla(0, 0%, 100%, 0.82) !important;
+  background-color: #1d497e !important;
+  box-shadow: 0 5px 6px 0 rgba(41, 42, 43, 0.13);
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+}
+
 .button-2 {
     font-size: 17px;
     font-weight: bold;
@@ -440,7 +457,7 @@ transition: background 500ms ease;
    display: inline-block;
   border-top-style: solid;
   border-top-width: 5px;
-  border-top-color: #0e4289 !important;
+  border-top-color: white !important;
   font-weight: bold;
 }
 
@@ -448,12 +465,16 @@ transition: background 500ms ease;
 .list-inline-a {
   text-decoration: none;
   background-color: transparent !important;
-  color: #415965;
+  color: white;
   font-size: 14px; 
 }
 
 .list-inline-a:hover, .list-inline-a:focus {
   color: #4e5961;
+}
+
+.list-inline-item:hover, .list-inline-item:focus {
+  border-top-color: #4e5961 !important;
 }
 
 .container-1 {
@@ -618,13 +639,13 @@ transition: background 500ms ease;
   z-index: 5;
 }
 
-.nav>li>a>img {
-    /* max-width: 100px; */
+.nav>li>a>img { 
     width: 35px;
 }
+/* .img-idioma*/
 
 @media screen and (max-width: 1400px) {
-  .slider1, .slider2, .slider3 { background-size: 1400px; }
+  .slider1, .slider2, .slider3 { background-size: 1350px; }
   .sliders-index-controls { 
   bottom: 90px;
 }
