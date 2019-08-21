@@ -1,6 +1,6 @@
 <div class="container">
-	<div class="row">
-		<div class="apps-1">
+	<div class="apps-1">
+		<div class="row">
 			<div class="col-lg-6">
 			<div class="text-left">
 				<img alt="Desarrollo de Apps" src="/assets/web/img/IconoPlataforma.svg" height="200" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
@@ -21,7 +21,7 @@
 		
 	</div>
 
-	<div>
+	<div class="section-7">
 		
 		<div class="" id="plataformas_carousel">
 			<div   ng-repeat="s in plataformas" ng-show="$index==plataforma_selected" class="plataformas_slide animated fadeIn">
@@ -37,13 +37,13 @@
 					<div class="plataformas-slide">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="text-left">
-									<img src="/assets/web/img/plataformas/{{$index}}.png" class="animated fadeInLeft img-responsive" alt=""  aria-hidden=true>	
+								<div class="text-center" style="z-index: 5;">
+									<img src="/assets/web/img/plataformas/{{$index}}.png" class="animated fadeInLeft" alt=""  aria-hidden=true style="width: 110%; margin-left: 20px;">	
 								</div>
 								
 							</div>
 							<div class="col-md-4">
-								<div class="animated fadeInRight">
+								<div class="animated fadeInRight" style="z-index: 6;">
 									<h3 class="heading-7">{{s.titulo}}</h3>
 									<h1 class="heading-8">{{s.subtitulo}}</h1>
 									<p class="paragraph-8">{{s.descripcion}}</p>

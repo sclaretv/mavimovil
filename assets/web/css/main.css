@@ -112,6 +112,24 @@ transition: background 500ms ease;
   padding-bottom: 100px;
 }
 
+.section-4 {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  background-image: url(../img/apps-fondo-unido-contenedor-lg.svg);
+  background-size: 980px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.section-7 {
+  padding-top: 10px;
+  padding-bottom: 100px;
+  background-image: url(../img/plataforma-fondo-unido-contenedor-lg.svg);
+  background-size: 1100px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
   
 
 .section-5 {
@@ -281,12 +299,10 @@ transition: background 500ms ease;
 
 .heading-7 {
   text-align: left;
-  color: black;
   font-size: 23px;
 }
 
 .heading-8 {
-  color: black;
   font-size: 40px;
   font-weight: bold;
   text-align: left;
@@ -345,7 +361,6 @@ transition: background 500ms ease;
 }
 
 .paragraph-8 {
-  color: black;
   text-align: justify;
   font-size: 17px;
   padding-bottom: 20px;
@@ -570,7 +585,9 @@ transition: background 500ms ease;
   padding-bottom: 20px;
 }
 
-.plataformas-slide {
+.plataformas_slide {
+  margin-top: 150px;
+  min-height: 490px;
   padding-bottom: 40px;
 }
 
@@ -592,9 +609,6 @@ transition: background 500ms ease;
   margin-bottom: 300px;
 }
 
-#plataformas_carousel {
-  margin-top: 200px;
-}
 
 #solutions, #plataformas_carousel {
   position: relative;

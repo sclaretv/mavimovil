@@ -54,7 +54,7 @@
 		<?php include 'app.php'  ?>	
 	</section>
 
-	<section class="section-3" >
+	<section class="section-4" >
 		<?php include 'solutions.php'  ?>	
 	</section>
 
