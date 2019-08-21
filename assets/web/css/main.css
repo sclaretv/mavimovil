@@ -207,10 +207,12 @@ transition: background 500ms ease;
 
 .slider1 {
   /*background-color: #54d5fa !important;*/
+
   background-color: white !important;
   background-image: url(../img/slider-1-unido.png);
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: cover;
 
 }
 
@@ -220,6 +222,8 @@ transition: background 500ms ease;
   background-image: url(../img/slider-2-unido.png);
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: cover;
+
 }
 
 .slider3 {
@@ -228,6 +232,7 @@ transition: background 500ms ease;
   background-image: url(../img/slider-3-unido.png);
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: cover;
 }
 
 
@@ -645,7 +650,7 @@ transition: background 500ms ease;
 /* .img-idioma*/
 
 @media screen and (max-width: 1400px) {
-  .slider1, .slider2, .slider3 { background-size: 1350px; }
+  .slider1, .slider2, .slider3 { background-size: 1400px; }
   .sliders-index-controls { 
   bottom: 90px;
 }
