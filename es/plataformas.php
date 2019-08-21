@@ -26,12 +26,12 @@
 		<div class="" id="plataformas_carousel">
 			<div   ng-repeat="s in plataformas" ng-show="$index==plataforma_selected" class="plataformas_slide animated fadeIn">
 				
-			<a href="#" ng-click="anterior_plataforma($index)" class="slider-btn-prev">
+			<a  ng-click="anterior_plataforma($index)" class="slider-btn-prev">
 
 			            	<img src="/assets/web/img/plataformas-izquierda.svg" height="70" alt=""  aria-hidden=true>
 			          	</a>
 
-			          	<a href="#" ng-click="siguiente_plataforma($index)" class="slider-btn-next">
+			          	<a  ng-click="siguiente_plataforma($index)" class="slider-btn-next">
 			            	<img src="/assets/web/img/plataformas-derecha.svg" height="70" alt=""  aria-hidden=true>
 			          	</a>
 					<div class="plataformas-slide">
@@ -70,7 +70,7 @@
 			<div >
 				<ul class="list-inline list-inline-sol text-center">
 					<li ng-repeat="s in plataformas" class="list-inline-plataformas {{($index==plataforma_selected)?'active':''}}" title="{{s.subtitulo}}" >
-			          <a href="#" ng-click="seleccionar_plataforma($index)">
+			          <a  ng-click="seleccionar_plataforma($index)">
 			            <img src="/assets/web/img/plataformas/platform-navegation-icon-{{$index}}.svg" height="90" alt=""  aria-hidden=true>
 			          </a></li>
 
