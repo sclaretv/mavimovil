@@ -24,14 +24,15 @@
         <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
         <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
 
-        <!--<li class="nav-item dropdown">
-          <a class="nav-link af-link" href="es/index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Drop <span class="caret"></span></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link af-link" href="es/index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="Español/Spanish" src="/assets/web/img/espanol.svg"> <span class="caret"></span></a>
+          <!--
           <ul class="dropdown-menu">
-            <img alt="Español/Spanish" src="/assets/web/img/espanol.svg">
+            
             <li class="nav-item"><a class="nav-link af-link" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="English/Inglés" src="/assets/web/img/ingles.svg"> <span class="caret"></span></a></li>
           </ul>
-        </li>-->
-      </ul>
+        </li>
+      </ul>-->
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
