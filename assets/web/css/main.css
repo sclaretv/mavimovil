@@ -759,9 +759,9 @@ transition: background 500ms ease;
     bottom: 90px;
   }
 
-  #main-header.mini, #main-header:hover {
+  /*#main-header.mini, #main-header:hover {
     background-color: transparent; 
-  }
-  
+  }*/
+
 }
 
