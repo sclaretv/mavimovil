@@ -752,9 +752,16 @@ transition: background 500ms ease;
 /* .img-idioma*/
 
 @media screen and (max-width: 1400px) {
-  .slider1, .slider2, .slider3 { background-size: 1400px; }
+  
+  /*.slider1, .slider2, .slider3 { background-size: 1400px; }*/
+  
   .sliders-index-controls { 
-  bottom: 90px;
-}
+    bottom: 90px;
   }
+
+  #main-header.mini, #main-header:hover {
+    background-color: transparent; 
+  }
+  
+}
 
