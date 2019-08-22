@@ -78,7 +78,7 @@
 				<ul class="list-inline list-inline-sol text-center">
 					<li ng-repeat="s in plataformas" class="list-inline-plataformas {{($index==plataforma_selected)?'active':''}}" title="{{s.subtitulo}}" >
 			          <a  ng-click="seleccionar_plataforma($index)">
-			            <img src="assets/web/img/plataformas/platform-navegation-icon-{{$index}}.svg" height="90" alt=""  aria-hidden=true>
+			            <img src="assets/web/img/plataformas/platform-navegation-icon-{{$index}}.svg" height="80" alt=""  aria-hidden=true>
 			          </a></li>
 
 			    </ul>

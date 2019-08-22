@@ -50,7 +50,7 @@
 		<ul class="list-inline list-inline-sol text-center">
 			<li ng-repeat="s in solutions" class="list-inline-solutions {{($index==solution_selected)?'active':''}}" title="{{s.subtitulo}}" >
 	          <a href="#" ng-click="seleccionar_solution($index)">
-	            <img src="assets/web/img/solutions/app-navegation-icon-{{$index}}.svg" height="90" alt=""  aria-hidden=true>
+	            <img src="assets/web/img/solutions/app-navegation-icon-{{$index}}.svg" height="80" alt=""  aria-hidden=true>
 	          </a></li>
 
 	    </ul>
