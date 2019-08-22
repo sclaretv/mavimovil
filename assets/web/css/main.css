@@ -323,8 +323,7 @@ transition: background 500ms ease;
 
 
 .paragraph-2 {
-  padding-left: 10px;
-  padding-right: 90px;
+  margin-right: 40px;
   color: #6f8393;
   text-align: justify;
   font-size: 17px;
@@ -365,6 +364,14 @@ transition: background 500ms ease;
   text-align: justify;
   font-size: 17px;
   padding-bottom: 20px;
+}
+
+.paragraph-9 {
+  padding-left: 10px;
+  padding-right: 90px;
+  color: #6f8393;
+  text-align: justify;
+  font-size: 17px;
 }
 
 .button-1 {

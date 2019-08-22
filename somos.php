@@ -5,7 +5,7 @@
 					<img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil.svg" height="160" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
 				</div>
 				<div>
-					<p class="paragraph-2 efx " data-up="fadeInLeft" data-down="fadeOut ">Somos MaviMovil, una empresa que caracteriza en diseñar y desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utilizan. Nos impulsa la innovación.</p>
+					<p class="paragraph-9 efx " data-up="fadeInLeft" data-down="fadeOut ">Somos MaviMovil, una empresa que caracteriza en diseñar y desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utilizan. Nos impulsa la innovación.</p>
 				</div>
 			</div>
 
