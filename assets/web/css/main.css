@@ -323,7 +323,8 @@ transition: background 500ms ease;
 
 
 .paragraph-2 {
-  margin-right: 10%;
+  padding-left: 10px;
+  padding-right: 90px;
   color: #6f8393;
   text-align: justify;
   font-size: 17px;
