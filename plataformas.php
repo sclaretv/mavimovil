@@ -45,12 +45,12 @@
 						<div class="row">
 							<div class="col-md-6">
 								<div class="text-center" style="z-index: 5;">
-									<img src="assets/web/img/plataformas/{{$index}}.png" class="animated fadeInLeft" alt=""  aria-hidden=true style="width: 110%; margin-left: 20px;">	
+									<img src="assets/web/img/plataformas/{{$index}}.png" class="animated fadeInLeft" height="240" alt=""  aria-hidden=true style="margin-left: 160px;">	
 								</div>
 								
 							</div>
 							<div class="col-md-4">
-								<div class="animated fadeInRight" style="z-index: 6;">
+								<div class="animated fadeInRight" style="z-index: 6; margin-left: 40px;">
 									<h3 class="heading-7">{{s.titulo}}</h3>
 									<h1 class="heading-8">{{s.subtitulo}}</h1>
 									<p class="paragraph-8">{{s.descripcion}}</p>
@@ -76,7 +76,7 @@
 			
 			<div >
 				<ul class="list-inline list-inline-sol text-center">
-					<li ng-repeat="s in plataformas" class="list-inline-plataformas {{($index==plataforma_selected)?'active':''}}" title="{{s.subtitulo}}" >
+					<li ng-repeat="s in plataformas" class="list-inline-plataformas zoom {{($index==plataforma_selected)?'active':''}}" title="{{s.subtitulo}}" >
 			          <a  ng-click="seleccionar_plataforma($index)">
 			            <img src="assets/web/img/plataformas/platform-navegation-icon-{{$index}}.svg" height="80" alt=""  aria-hidden=true>
 			          </a></li>

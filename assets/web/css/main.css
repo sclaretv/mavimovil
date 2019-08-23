@@ -116,7 +116,7 @@ transition: background 500ms ease;
   padding-top: 120px;
   padding-bottom: 100px;
   background-image: url(../img/apps-fondo-unido-contenedor-lg.svg);
-  background-size: 980px;
+  background-size: 870px;
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -125,7 +125,7 @@ transition: background 500ms ease;
   padding-top: 10px;
   padding-bottom: 100px;
   background-image: url(../img/plataforma-fondo-unido-contenedor-lg.svg);
-  background-size: 1100px;
+  background-size: 850px;
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -301,17 +301,21 @@ transition: background 500ms ease;
 .heading-7 {
   text-align: left;
   font-size: 23px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .heading-8 {
   font-size: 40px;
   font-weight: bold;
   text-align: left;
+  margin-top: 0px !important;
 }
 
 #plataformas .heading-8 {
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 50px;
+  line-height: 50px;
+  margin-top: 0px !important;
 }
 
 .paragraph-1 {
@@ -363,7 +367,7 @@ transition: background 500ms ease;
 
 .paragraph-8 {
   text-align: justify;
-  font-size: 17px;
+  font-size: 15px;
   padding-bottom: 20px;
 }
 
@@ -571,9 +575,6 @@ transition: background 500ms ease;
   font-weight: bold;
 }
 
-.list-inline-sol {
-    padding-top: 30px;
-}
 
 .list-inline-sol>li {
     width: 85px;
@@ -582,28 +583,45 @@ transition: background 500ms ease;
     padding: 0px;
 }
 
+.zoom:hover {
+  transform: scale(1.1);
+}
+
 .solutions-left-right {
   padding-top: 150px;
 }
 
 .solutions-carousel {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .plataformas_slide {
   margin-top: 150px;
-  min-height: 490px;
-  padding-bottom: 40px;
+  min-height: 350px;
 }
 
 .buttons-store1 {
-    padding-top: 230px;
-    padding-bottom: 50px;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    margin-left: -20px;
 }
 
 .buttons-store2 {
   padding-bottom: 30px; 
+  margin-left: -20px;
 }
+
+.buttons-store3 {
+    padding-top: 180px;
+    padding-bottom: 40px;
+    margin-left: -50px;
+}
+
+.buttons-store4 {
+  padding-bottom: 30px; 
+  margin-left: -50px;
+}
+
 
 .apps-1{
     padding-bottom: 200px;
@@ -624,12 +642,20 @@ transition: background 500ms ease;
 .slider-btn-prev, .slider-btn-next{
   position: absolute;
   z-index: 10;
-  top: 80px;
+  top: -40px;
   left: -50px;
   right: auto;
 }
 
-.slider-btn-next{
+.slider-btn-prev-solutions, .slider-btn-next-solutions{
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  left: -50px;
+  right: auto;
+}
+
+.slider-btn-next, .slider-btn-next-solutions{
   left: auto;
   right: -50px;
 }
@@ -762,7 +788,7 @@ transition: background 500ms ease;
 
 @media screen and (max-width: 1400px) {
   
-  .slider1, .slider2, .slider3 { background-size: 1400px; }
+  /*.slider1, .slider2, .slider3 { background-size: 1400px; }*/
   
   .sliders-index-controls { 
     bottom: 90px;
