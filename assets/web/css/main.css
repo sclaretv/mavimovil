@@ -550,6 +550,7 @@ transition: all 0.5s ease;
   -webkit-filter: grayscale(0%);
    -moz-filter: grayscale(0%);
    filter: grayscale(0%);
+   opacity: 1;
 
    -webkit-transition: all 0.5s ease;
 -moz-transition: all 0.5s ease;
@@ -594,8 +595,24 @@ transition: all 0.5s ease;
     padding: 0px;
 }
 
+.zoom {
+  transform: scale(1);
+
+  -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
 .zoom:hover {
   transform: scale(1.1);
+
+  -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
 }
 
 .solutions-left-right {

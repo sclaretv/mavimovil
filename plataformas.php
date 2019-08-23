@@ -16,10 +16,12 @@
 			</div>
 
 		<div class="col-md-6" style="z-index: -1;">
-			<div >
-				<img src="assets/web/img/plataforma-fondo-contenedor-md.svg" class="fondo1" alt=""  aria-hidden=true>
-				<img src="assets/web/img/fondo-verde.svg" alt=""  class="fondo2" aria-hidden=true>
-				<img src="assets/web/img/img-plataforma.png" alt="" class="fondo3" aria-hidden=true>
+			<div class="efx" data-up="fadeInRight fast" data-down="fadeOut ">
+				<img src="assets/web/img/plataforma-fondo-contenedor-md.svg" class="fondo1 "   alt=""  aria-hidden=true>
+				<img src="assets/web/img/fondo-verde.svg" alt=""  class="fondo2 "   aria-hidden=true>
+			</div>
+			<div class="efx" data-up="rotateInUpRight" data-down="fadeOut ">
+				<img src="assets/web/img/img-plataforma.png" alt="" class="fondo3"   aria-hidden=true>
 			</div>
 			
 		</div>
