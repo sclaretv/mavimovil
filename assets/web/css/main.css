@@ -114,7 +114,7 @@ transition: background 500ms ease;
 
 .section-4 {
   padding-top: 120px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background-image: url(../img/apps-fondo-unido-contenedor-lg.svg);
   background-size: 870px;
   background-repeat: no-repeat;
@@ -225,9 +225,7 @@ transition: background 500ms ease;
 }
 
 .slider1 {
-  /*background-color: #54d5fa !important;*/
-
-  background-color: white !important;
+  background-color: #54d5fa !important;
   background-image: url(../img/slider-1-unido.png);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -236,8 +234,7 @@ transition: background 500ms ease;
 }
 
 .slider2 {
-  /*background-color: #415965 !important;*/
-  background-color: white !important;
+  background-color: #415965 !important;
   background-image: url(../img/slider-2-unido.png);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -246,8 +243,7 @@ transition: background 500ms ease;
 }
 
 .slider3 {
-  /*background-color: #65dfb6 !important;*/
-  background-color: white !important;
+  background-color: #65dfb6 !important;
   background-image: url(../img/slider-3-unido.png);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -262,8 +258,8 @@ transition: background 500ms ease;
 }
 
 .heading-2 {
-  margin-right: 10%;
-  margin-left: 25%;
+  margin-right: 40px;
+  margin-left: 150px;
   color: #6f8393;
   font-size: 40px;
   font-weight: bold;
@@ -271,7 +267,7 @@ transition: background 500ms ease;
 }
 
 .heading-3 {
-  margin-right: 10%;
+  margin-right: 40px;
   color: #6f8393;
   font-size: 23px;
   font-weight: bold;
@@ -313,8 +309,8 @@ transition: background 500ms ease;
 }
 
 #plataformas .heading-8 {
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 40px;
+  line-height: 40px;
   margin-top: 0px !important;
 }
 
@@ -645,6 +641,7 @@ transition: background 500ms ease;
   top: -40px;
   left: -50px;
   right: auto;
+  padding-left: 50px;
 }
 
 .slider-btn-prev-solutions, .slider-btn-next-solutions{
@@ -653,11 +650,13 @@ transition: background 500ms ease;
   top: 0px;
   left: -50px;
   right: auto;
+  padding-left: 50px;
 }
 
 .slider-btn-next, .slider-btn-next-solutions{
   left: auto;
   right: -50px;
+  padding-right: 50px;
 }
 
 .animated.fast{
@@ -693,6 +692,7 @@ transition: background 500ms ease;
   padding: 100px 165px;
   z-index: 3;
   margin-top: -80px;
+  margin-left: -60px;
 }
 
 #form_contact .form-control {
@@ -800,3 +800,66 @@ transition: background 500ms ease;
 
 }
 
+@media screen and (max-width: 1199px) {
+
+  .nav>li>a {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .section-1 {
+    height: 85%;
+  }
+  
+  .img-somos {
+    height: 125px;
+  }
+
+  .img-plataforma-carousel {
+    margin-left: 60px !important;
+  }
+
+  .heading-3 {
+    font-size: 20px;
+  }
+
+  .heading-5 {
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+  .paragraph-1 {
+    padding: 0px 50px 0px 0px;
+  }
+
+  .paragraph-2 {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  .paragraph-8 {
+    font-size: 14px;
+  }
+
+  .sliders-index-controls {
+    bottom: 30px;
+  }
+
+  .fondo1 {
+    height: 550px;
+    left: 0;
+    top: 20px;
+  }
+
+  .fondo2 {
+      height: 450px;
+      left: 80px;
+      top: 60px;
+  }
+
+  .fondo3 {
+    top: 10px;
+    left: -130px;
+    width: 600px;
+  }
+}

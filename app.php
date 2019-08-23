@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="row">
-		<div class="col-lg-7">
+		<div class="col-md-7">
 			<div>
 				<img src="assets/web/img/apps-fondo-2.svg" class="fondo4" alt=""  aria-hidden=true>
 				<img src="assets/web/img/fondo-verde.svg" alt=""  class="fondo5" aria-hidden=true>
@@ -21,7 +21,7 @@
 			</div>
 		</div>
 
-		<div class="col-lg-5 ">
+		<div class="col-md-5 ">
 			<div class="text-right">
 				<img alt="Desarrollo de Apps" src="assets/web/img/IconoApp.svg" width="300" height="200" class="efx" data-up="fadeInRight" data-down="fadeOut ">
 			</div>

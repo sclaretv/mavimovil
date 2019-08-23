@@ -1,15 +1,15 @@
 <div class="container container-1">
 		<div class="row">
-			<div class="col-lg-6">
+			<div class="col-md-6">
 				<div class="text-left">
-					<img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil.svg" height="160" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
+					<img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil.svg" height="160" class="img-somos efx " data-up="fadeInLeft" data-down="fadeOut ">
 				</div>
 				<div>
 					<p class="paragraph-9 efx " data-up="fadeInLeft" data-down="fadeOut ">Somos MaviMovil, una empresa que caracteriza en diseñar y desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utilizan. Nos impulsa la innovación.</p>
 				</div>
 			</div>
 
-			<div class="col-lg-6">
+			<div class="col-md-6">
 				<div class="container-2">
 				<div class="text-center">
 					<p class="paragraph-3 efx" data-up="fadeInRight" data-down="fadeOut "><strong>Los mercados en los cuales hemos creado son:</strong></p>

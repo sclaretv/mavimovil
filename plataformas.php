@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="apps-1">
 		<div class="row">
-			<div class="col-lg-6" style="z-index: 1;">
+			<div class="col-md-6" style="z-index: 1;">
 				<div >
 					<div class="text-left">
 						<img alt="Desarrollo de Apps" src="assets/web/img/IconoPlataforma.svg" height="200" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
@@ -15,7 +15,7 @@
 				</div>
 			</div>
 
-		<div class="col-lg-6" style="z-index: -1;">
+		<div class="col-md-6" style="z-index: -1;">
 			<div >
 				<img src="assets/web/img/plataforma-fondo-contenedor-md.svg" class="fondo1" alt=""  aria-hidden=true>
 				<img src="assets/web/img/fondo-verde.svg" alt=""  class="fondo2" aria-hidden=true>
@@ -45,7 +45,7 @@
 						<div class="row">
 							<div class="col-md-6">
 								<div class="text-center" style="z-index: 5;">
-									<img src="assets/web/img/plataformas/{{$index}}.png" class="animated fadeInLeft" height="240" alt=""  aria-hidden=true style="margin-left: 160px;">	
+									<img src="assets/web/img/plataformas/{{$index}}.png" class="img-plataforma-carousel animated fadeInLeft" height="240" alt=""  aria-hidden=true style="margin-left: 160px;">	
 								</div>
 								
 							</div>

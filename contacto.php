@@ -1,12 +1,14 @@
+<div class="container " style="z-index: 2;">
+
 <svg version="1.1" id="contacto_top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1400 300" style="enable-background:new 0 0 1400 300;"  preserveAspectRatio="none" >
  
 <path class="st0" d="M1402.6,311v-32.8L900,86.7c-181-62.7-263.4-51.1-409.5,0l-490.9,192V311H1402.6z"/>
 </svg>
 
-<div class="container " style="z-index: 2;">
+
 			<div class="row">
-				<div class="col-lg-4 col-lg-offset-2">
+				<div class="col-md-4 col-md-offset-2">
 					<div>
 						<h1 class="heading-5 efx" data-up="fadeInLeft" data-down="fadeOut ">¿Alguna necesidad que cubrir?</h1>
 					</div>
@@ -15,8 +17,8 @@
 					</div>
 				</div>
 
-				<div class="col-lg-6">
-					<div class="fondo-contacto">
+				<div class="col-md-6">
+					<div class="fondo-contacto text-center">
 						<form method="post" action="/form/insert/home" id="form_contact">
 
 						<div class="form-group">
