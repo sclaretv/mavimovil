@@ -661,6 +661,10 @@ transition: all 0.5s ease;
 }
 
 
+#solutions{
+  /* height: 480px;*/
+}
+
 #solutions, #plataformas_carousel {
   position: relative;
   color: white;
@@ -688,6 +692,28 @@ transition: all 0.5s ease;
   left: auto;
   right: -50px;
   padding-right: 50px;
+}
+
+
+.circle_slide{
+  display: inline-block;
+  margin: 10px;
+  height: 16px;
+  width: 16px;
+  -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+ 
+  background: rgba(255,255,255,0.6);
+  border:1px solid transparent;
+  border-radius : 8px;
+  z-index: 1;
+}
+
+.circle_slide.active{
+  background: white;
 }
 
 .animated.fast{
