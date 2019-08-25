@@ -842,23 +842,6 @@ transition: all 0.5s ease;
     height: 490px;
 }
 
-@media screen and (min-height: 1301px) {
-  
-.section-1 {
- height:100% !important;
-}
-
-}
-
-
-/*@media screen and (max-height: 1300px) {
-  
-.section-1 {
- height:657px !important;
-}
-
-}*/
-
 
 @media screen and (max-width: 1400px) {
   
@@ -867,10 +850,6 @@ transition: all 0.5s ease;
   .sliders-index-controls { 
     bottom: 90px;
   }
-
-  /*#main-header.mini, #main-header:hover {
-    background-color: transparent; 
-  }*/
 
 }
 
@@ -940,4 +919,40 @@ transition: all 0.5s ease;
   .carousel-tecnologias-img {
     height: 150px !important;
   }
+}
+
+
+
+/* aqui empieza mobile */
+
+@media screen and (max-width: 991px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .sliders-index {
+    align-items: normal;
+    top: 100px;
+  }
+  
+  .heading-1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .paragraph-1 {
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .button-1 {
+    display: none;
+  }
+
+
+  .somos-logo {
+    text-align: center;
+  }
+
 }
