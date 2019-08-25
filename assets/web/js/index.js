@@ -116,8 +116,7 @@ $('.efx').each(function(index, el) {
   var $elem = $(this);    
   var up = ($elem.data('up'))?$elem.data('up'):'fadeIn'; 
   var down = ($elem.data('down'))?$elem.data('down'):'fadeOut'; 
-  $elem .addClass('animated '+up); 
-
+  $elem .addClass('animated '+up);  
 
   	var waypoint = new Waypoint({
 	  element: this,
@@ -136,139 +135,113 @@ $('.efx').each(function(index, el) {
 });
 
 
-angular.module('mavimovilApp', [])
-.controller('Mavimovil', function($scope, $timeout) {
+var app = angular.module('mavimovilApp',[]);
 
-	$scope.solution_selected=0;
+app.controller('slider', function($scope, $timeout) {
 
 
-	$scope.solutions=[
-	{
-		'fondo_url':null, 
-  	'titulo':'ESTILO DE VIDA', 
-  	'subtitulo':'Mi Autofin', 
-  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Mi Autofin posee múltiples herramientas exclusivas para clientes Autofin, entre ellas destacamos: Localizat tu auto mediante GPS. Sincroniza tu llavero con tu celular. Busca tu celular o llaves. Recibe notificaciones de ofertas y promociones. Notifica accidentes o situaciones de peligro y recibe ayuda, paga tu cuota y mucho más.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
+	$scope.data =[
+		{  
+			'titulo':'ESTILO DE VIDA', 
+			'subtitulo':'Mi Autofin',   
+			'imagenes' :['assets/web/img/solutions/0.png','assets/web/img/solutions/1.png','assets/web/img/solutions/3.png'],
+			'descripciones':['texto a','texto b','texto c'], 
+			'btn_icono':'assets/web/img/solutions/nav-slider-solutions-1.svg',  
+			'playstore':'/link_falso', 
+			'appstore':'/link_falso'
+		} ,
 
-  {
-		'fondo_url':null, 
-  	'titulo':'ESTILO DE VIDA', 
-  	'subtitulo':'Búho Autofin', 
-  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Búho Autofin revoluciona la forma de comprar autos en los siguientes pasos: Fotografía o ingresa la patente del auto que te gusta, Búho te da el valor del auto y opciones similares, simula en línea tu ﬁnanciamiento y sigue el proceso de venta. Además Búho Autofin te ofrece Chat Online con sus ejecutivos.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
+		{  
+			'titulo':'ESTILO DE VIDA', 
+			'subtitulo':'Mi Autofin',   
+			'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
+			'descripciones':['texto de a','texto de b','texto de c'], 
+			'btn_icono':'assets/web/img/solutions/nav-slider-solutions-3.svg',  
+			'playstore':'/link_falso', 
+			'appstore':'/link_falso'
+		} 
+		]; 
 
-  {
-		'fondo_url':null, 
-  	'titulo':'ESTILO DE VIDA', 
-  	'subtitulo':'BK App', 
-  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
+	$scope.index_item_selected=0;
+	$scope.item ={}; 
+	$scope.imagen_item ='';
+	$scope.desc_item = '';
 
-  {
-		'fondo_url':null, 
-  	'titulo':'ESTILO DE VIDA', 
-  	'subtitulo':'Bike Santiago', 
-  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para clientes de este servicio de arriendo de bicicletas, Bike Santiago. Los usuarios acceden a: Arriendo de bicicletas, estaciones Bike Santiago, cantidad de bicicletas disponibles, historial de viajes, asistencia en caso de accidentes y mucho más.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
+	 
 
-  {
-		'fondo_url':null, 
-  	'titulo':'ESTILO DE VIDA', 
-  	'subtitulo':'Mallplaza Auditoría', 
-  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de Mallplaza la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
+	$scope.set_imagen_item = function (index) { 
+		$scope.imagen_item = '';
+		$scope.imagen_item = $scope.item.imagenes[index]; 
+		 // $timeout(function() { $scope.imagen_item = $scope.item.imagenes[index]; }, 1); 
+	}
 
-  {
-		'fondo_url':null, 
-  	'titulo':'ESTILO DE VIDA', 
-  	'subtitulo':'Museo', 
-  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Es una aplicación interactiva que brinda a los usuarios del museo, poder interactuar con las piezas de arte por medio de beacons instalados en el museo. El usuario podrá ver todas las piezas destacadas por medio de un radar y mucho más.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
+	$scope.d_index = 0;
 
-  {
-		'fondo_url':null, 
-  	'titulo':'ESTILO DE VIDA', 
-  	'subtitulo':'BlockAssist', 
-  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Blockassist es una aplicación exclusiva para clientes Mercedes-Benz, quienes podrán monitorear, recibir notificaciones y alertas, y bloquear en caso de robo el vehículo.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
+	$scope.next_desc_item = function (set_cero) {  
+		if(set_cero==1){
+			$scope.d_index = 0;
+		}else{
+			if ($scope.d_index==$scope.item.descripciones.length-1) {
+				$scope.d_index = 0;
+			} else {
+				$scope.d_index = $scope.d_index+1;
+			}
+		} 
+		$scope.desc_item = $scope.item.descripciones[$scope.d_index];
+	}
 
-  {
-		'fondo_url':null, 
-  	'titulo':'ESTILO DE VIDA', 
-  	'subtitulo':'MaviGPS', 
-  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. MaviGPS es una aplicación que junto al servicio MaviGPS  permite monitorear 24/7 el vehículo. Además ofrece alertas y notificaciones de exceso de velocidad, encendido/apagado motor, kilometraje de mantención y mucho más.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-  {
-		'fondo_url':null, 
-  	'titulo':'ESTILO DE VIDA', 
-  	'subtitulo':'MI AUTOFIN', 
-  	'descripcion':'Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza. Somos Mavimovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utiliza.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-  {
-		'fondo_url':null, 
-  	'titulo':'ESTILO DE VIDA', 
-  	'subtitulo':'RedSalud Auditoría', 
-  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de los centro médicos de RedSalud, la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-];
-
-	
-
-	$scope.anterior_solution = function (index) {
-		console.log(index, $scope.solutions.length);
+	$scope.anterior_item = function (index) { 
 		if (index==0) {
-		$scope.solution_selected = $scope.solutions.length-1;
+			$scope.seleccionar_item($scope.data.length-1);
 		} else {
-			$scope.solution_selected = index-1;
+			$scope.seleccionar_item(index-1);
 		}
 	}
 
-	$scope.siguiente_solution = function (index) {
-		if (index==$scope.solutions.length-1) {
-		$scope.solution_selected = 0;
+	$scope.siguiente_item = function (index) {
+		if (index==$scope.data.length-1) {
+			$scope.seleccionar_item(0);
 		} else {
-			$scope.solution_selected = index+1;
+			$scope.seleccionar_item(index+1);
 		}
 	}
 
-	$scope.seleccionar_solution = function (index) {
-		$scope.solution_selected = index;
+	$scope.seleccionar_item = function (index) { 
+		$scope.index_item_selected = index;
+		$scope.item = $scope.data[index];  
+		$scope.next_desc_item(1)
+		$scope.set_imagen_item(0);
 	}
 
-	$scope.plataforma_selected=0;
+	$scope.seleccionar_item(0);
+ 
+});
 
+
+app.controller('Mavimovil', function($scope, $timeout) {
+
+
+	$scope.data_s =[
+		{  
+			'titulo':'ESTILO DE VIDA', 
+			'subtitulo':'Mi Autofin',   
+			'imagenes' :['assets/web/img/solutions/0.png','assets/web/img/solutions/1.png','assets/web/img/solutions/3.png'],
+			'descripciones':['texto a','texto b','texto c'], 
+			'btn_icono':'assets/web/img/solutions/nav-slider-solutions-1.svg',  
+			'playstore':'/link_falso', 
+			'appstore':'/link_falso'
+		} ,
+
+		{  
+			'titulo':'ESTILO DE VIDA', 
+			'subtitulo':'Mi Autofin',   
+			'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
+			'descripciones':['texto de a','texto de b','texto de c'], 
+			'btn_icono':'assets/web/img/solutions/nav-slider-solutions-3.svg',  
+			'playstore':'/link_falso', 
+			'appstore':'/link_falso'
+		} 
+		]; 
 
 	$scope.plataformas=[
 	{
