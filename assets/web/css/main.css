@@ -929,4 +929,55 @@ transition: all 0.5s ease;
     text-align: center;
   }
 
+  .paragraph-9 {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+
+  .container-2 {
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-left: 0px; 
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .container-2-a {
+    margin-top: 0px;
+    margin-bottom:0px;
+  }
+
+  .paragraph-2 {
+    font-size: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .heading-3 {
+    margin-right: 0px;
+    text-align: center;
+  }
+
+
+
+  .app-icono {
+    height: 150px;
+  }
+
+  .heading-2 {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .app-icono-2 {
+    height: 140px;
+  }
+
 }
