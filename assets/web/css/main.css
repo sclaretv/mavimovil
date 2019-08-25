@@ -98,7 +98,8 @@ transition: background 500ms ease;
 
 .section-1 {
   position:relative;
-  height:657px !important;
+  height:100% !important;
+  min-height: 760px;
   background-color: #54d5fa !important;
 }
 
@@ -210,6 +211,7 @@ transition: background 500ms ease;
   position:relative;
   margin-top: 0%;
   height:100%;
+
 
   box-sizing:border-box;
   display:-webkit-box;
@@ -816,11 +818,28 @@ transition: all 0.5s ease;
     z-index: 4;
     height: 490px;
 }
-/* .img-idioma*/
+
+@media screen and (min-height: 1301px) {
+  
+.section-1 {
+ height:100% !important;
+}
+
+}
+
+
+/*@media screen and (max-height: 1300px) {
+  
+.section-1 {
+ height:657px !important;
+}
+
+}*/
+
 
 @media screen and (max-width: 1400px) {
   
-  /*.slider1, .slider2, .slider3 { background-size: 1400px; }*/
+  .slider1, .slider2, .slider3 { background-size: 1400px; }
   
   .sliders-index-controls { 
     bottom: 90px;
