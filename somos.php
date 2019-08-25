@@ -1,7 +1,7 @@
 <div class="container container-1">
 		<div class="row">
 			<div class="col-md-6">
-				<div class="text-left">
+				<div class="text-left somos-logo">
 					<img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil.svg" height="160" class="img-somos efx " data-up="fadeInLeft" data-down="fadeOut ">
 				</div>
 				<div>

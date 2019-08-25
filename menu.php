@@ -2,11 +2,8 @@
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="assets/web/img/menu-responsive.svg" height="40" alt=""  aria-hidden=true>
       </button>
       <a class="navbar-brand" href="#mavimovil">
         <img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil.svg"  height="80">
@@ -26,13 +23,9 @@
 
         <li class="nav-item dropdown">
           <a class="nav-link af-link" href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="Español/Spanish" src="assets/web/img/espanol.svg"> <span class="caret"></span></a>
-          <!--
-          <ul class="dropdown-menu">
-            
-            <li class="nav-item"><a class="nav-link af-link" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="English/Inglés" src="assets/web/img/ingles.svg"> <span class="caret"></span></a></li>
-          </ul>
+
         </li>
-      </ul>-->
+      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

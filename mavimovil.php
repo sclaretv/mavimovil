@@ -1,11 +1,11 @@
 		<div class="sliders-index slider1 animated fadeIn">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 col-md-offset-1">
+					<div class="col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-3">
 						<h1 class="heading-1 animated fadeInRight fast" data-down="fadeOut "><span class="text-span">Hacemos posible la app y la plataforma web <br>que necesitas</span></h1><p class="paragraph-1 animated fadeInRight" data-down="fadeOut ">Diseñamos, desarrollamos e integramos la tecnología que requieras.</p>
 						<a href="#" class="button-1 animated fadeInRight" data-down="fadeOut "><span>Ver más</span></a>
 					</div>
-					<div class="col-md-5"></div>
+					<div class="col-md-5 col-sm-12"></div>
 				</div>
 			</div>
 		</div>
@@ -13,7 +13,7 @@
 		<div class="sliders-index slider2 animated fadeIn hide " >
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 col-md-offset-1">
+					<div class="col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-3">
 						<h1 class="heading-1 animated fadeInRight fast" data-down="fadeOut "><span class="text-span">Hacemos posible la app y la plataforma web que necesitas</span></h1><p class="paragraph-1 animated fadeInRight" data-down="fadeOut ">Diseñamos, desarrollamos e integramos la tecnología que requieras.</p>
 						<a href="#" class="button-6 animated fadeInRight" data-down="fadeOut "><span>Ver más</span></a>
 					</div>
@@ -25,7 +25,7 @@
 		<div class="sliders-index slider3 animated fadeIn hide" >
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 col-md-offset-1">
+					<div class="col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-3">
 						<h1 class="heading-1 animated fadeInRight fast" data-down="fadeOut "><span class="text-span">Integramos la tecnología que necesites</span></h1><p class="paragraph-1 animated fadeInRight" data-down="fadeOut ">Diseñamos, desarrollamos e integramos la tecnología que requieras.</p>
 						<a href="#" class="button-6 animated fadeInRight" data-down="fadeOut "><span>Ver más</span></a>
 					</div>
