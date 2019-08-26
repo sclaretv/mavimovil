@@ -70,7 +70,7 @@
 								<h3 class="heading-7">{{s.titulo}}</h3>
 								<h1 class="heading-8">{{s.subtitulo}}</h1> 
 								<p class="paragraph-8 animated fadeIn " ng-show="desc_item" >{{desc_item}}</p>  
-								<a href="" class="button-4" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a> 
+								<a href="" class="button-6" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a> 
 							</div>
 						</div>
 						<div class="col-md-2">

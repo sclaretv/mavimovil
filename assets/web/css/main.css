@@ -444,6 +444,20 @@ transition: background 500ms ease;
     box-shadow: 0 5px 6px 0 rgba(41, 42, 43, 0.51);
 }
 
+.button-6 {
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1d497e !important;
+    border-radius: 25px;
+    color: hsla(0, 0%, 100%, 0.82) !important;
+    background-color: #1d497e !important;
+    box-shadow: 0 5px 6px 0 rgba(41, 42, 43, 0.51);
+}
+
 .button-5 {
   text-align: left;
   padding: 15px 20px;
