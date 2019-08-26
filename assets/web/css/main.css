@@ -42,7 +42,7 @@ overflow:visible
 .text-fondo-blanco {
   color: #6f8393;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #main-header {
@@ -434,7 +434,7 @@ transition: background 500ms ease;
     font-size: 17px;
     font-weight: bold;
     display: inline-block;
-    padding: 12px 50px;
+    padding: 12px 10px;
     border-style: solid;
     border-width: 1px;
     border-color: #1d497e !important;
@@ -724,22 +724,22 @@ transition: all 0.5s ease;
 .circle_slide{
   display: inline-block;
   margin: 10px;
-  height: 16px;
-  width: 16px;
+  height: 12px;
+  width: 12px;
   -webkit-transition: all 0.5s ease;
 -moz-transition: all 0.5s ease;
 -ms-transition: all 0.5s ease;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
  
-  background: rgba(255,255,255,0.6);
+  background: rgba(45, 43, 43, 0.6);
   border:1px solid transparent;
   border-radius : 8px;
   z-index: 1;
 }
 
 .circle_slide.active{
-  background: white;
+  background: black;
 }
 
 .animated.fast{
@@ -921,7 +921,7 @@ transition: all 0.5s ease;
   }
 
   .sliders-index-controls {
-    bottom: 30px;
+    bottom: 50px;
   }
 
   .fondo1 {
@@ -1029,7 +1029,7 @@ transition: all 0.5s ease;
   }
 
   .app-icono-2 {
-    height: 140px;
+    height: 180px;
   }
 
 

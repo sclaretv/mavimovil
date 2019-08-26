@@ -19,52 +19,52 @@
 				<div class="row container-2-a text-center">
 					<div class="col-md-3 col-sm-4 ">
 						<div class="efx app-icono-2" data-up="fadeInRight" data-down="fadeOut ">			
-							<img alt="Mavimovil" src="assets/web/img/icono-1-mercados.svg" width="100" height="100"><br>
+							<img alt="Mavimovil" src="assets/web/img/icono-1-mercados.svg"  height="100"><br>
 							<span class="text-fondo-blanco">Estilo de Vida</
 							</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-4 ">
 						<div class="efx app-icono-2" data-up="fadeInRight" data-down="fadeOut ">
-							<img alt="Mavimovil" src="assets/web/img/icono-2-mercados.svg" width="100" height="100"><br>
+							<img alt="Mavimovil" src="assets/web/img/icono-2-mercados.svg"  height="100"><br>
 							<span class="text-fondo-blanco">Financiero</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-4 ">
 						<div class="efx app-icono-2" data-up="fadeInRight" data-down="fadeOut ">
-							<img alt="Mavimovil" src="assets/web/img/icono-3-mercados.svg" width="100" height="100"><br>
+							<img alt="Mavimovil" src="assets/web/img/icono-3-mercados.svg"  height="100"><br>
 							<span class="text-fondo-blanco">Retail</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-4 ">
 						<div class="efx app-icono-2" data-up="fadeInRight" data-down="fadeOut ">
-							<img alt="Mavimovil" src="assets/web/img/icono-4-mercados.svg" width="100" height="100"><br>
+							<img alt="Mavimovil" src="assets/web/img/icono-4-mercados.svg"  height="100"><br>
 							<span class="text-fondo-blanco">Automotriz</span>
 						</div>
 					</div>
 
 					<div class="col-md-3 col-sm-4 ">
 						<div class="efx app-icono-2" data-up="fadeInRight" data-down="fadeOut ">			
-							<img alt="Mavimovil" src="assets/web/img/icono-5-mercados.svg" width="100" height="100"><br>
+							<img alt="Mavimovil" src="assets/web/img/icono-5-mercados.svg"  height="100"><br>
 							<span class="text-fondo-blanco text-center">
 							Industrial</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-4 ">
 						<div class="efx app-icono-2" data-up="fadeInRight" data-down="fadeOut ">
-							<img alt="Mavimovil" src="assets/web/img/icono-6-mercados.svg" width="100" height="100"><br>
+							<img alt="Mavimovil" src="assets/web/img/icono-6-mercados.svg"  height="100"><br>
 							<span class="text-fondo-blanco">Educativo</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-4 ">
 						<div class="efx app-icono-2" data-up="fadeInRight" data-down="fadeOut ">
-							<img alt="Mavimovil" src="assets/web/img/icono-7-mercados.svg" width="100" height="100"><br>
+							<img alt="Mavimovil" src="assets/web/img/icono-7-mercados.svg"  height="100"><br>
 							<span class="text-fondo-blanco">Salud</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-4 ">
 						<div class="efx app-icono-2" data-up="fadeInRight" data-down="fadeOut ">
-							<img alt="Mavimovil" src="assets/web/img/icono-8-mercados.svg" width="100" height="100"><br>
+							<img alt="Mavimovil" src="assets/web/img/icono-8-mercados.svg"  height="100"><br>
 							<span class="text-fondo-blanco">Inmobiliario</span>
 						</div>
 					</div>
