@@ -531,6 +531,10 @@ transition: background 500ms ease;
   margin-top: 2%;
 }
 
+ .carousel-confian2 {
+      display: none;
+  }
+
 .imagen-confian {
   -webkit-filter: grayscale(100%);
    -moz-filter: grayscale(100%);
@@ -1004,6 +1008,46 @@ transition: all 0.5s ease;
 
   .app-icono-2 {
     height: 140px;
+  }
+
+
+  .paragraph-4 {
+    font-size: 15px;
+  }
+
+
+  .slick-slider {
+    width: 350px !important;
+    margin-left: 30% !important;
+  }
+
+  .slick-prev {
+    left: -65px;
+  }
+
+  .slick-next {
+    right: -40px;
+  }
+
+  .slide {
+    width: 170px;
+  }
+
+
+
+  .carousel-confian {
+      display: none;
+  }
+
+  .carousel-confian2 {
+      display: block;
+  }
+
+  .imagen-confian2 {
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
   }
 
 }
