@@ -528,6 +528,10 @@ transition: background 500ms ease;
   margin-top: 2%;
 }
 
+ .carousel-confian2 {
+      display: none;
+  }
+
 .imagen-confian {
   -webkit-filter: grayscale(100%);
    -moz-filter: grayscale(100%);
@@ -968,6 +972,110 @@ transition: all 0.5s ease;
 
   .somos-logo {
     text-align: center;
+  }
+
+  .paragraph-9 {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+
+  .container-2 {
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-left: 0px; 
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .container-2-a {
+    margin-top: 0px;
+    margin-bottom:0px;
+  }
+
+  .paragraph-2 {
+    font-size: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .heading-3 {
+    margin-right: 0px;
+    text-align: center;
+  }
+
+
+
+  .app-icono {
+    height: 150px;
+  }
+
+  .heading-2 {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .app-icono-2 {
+    height: 140px;
+  }
+
+
+  .paragraph-4 {
+    font-size: 15px;
+  }
+
+
+  .slick-slider {
+    width: 350px !important;
+    margin-left: 30% !important;
+  }
+
+  .slick-prev {
+    left: -65px;
+  }
+
+  .slick-next {
+    right: -40px;
+  }
+
+  .slide {
+    width: 170px;
+  }
+
+
+
+  .carousel-confian {
+      display: none;
+  }
+
+  .carousel-confian2 {
+      display: block;
+  }
+
+  .imagen-confian2 {
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+
+
+  .paragraph-6 {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+  }
+
+
+  #go_top {
+    display: none;
   }
 
 }

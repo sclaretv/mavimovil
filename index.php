@@ -78,16 +78,16 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-3">
 					<img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil-blanco.svg"  height="100">
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-5 col-md-offset-0 col-sm-6 col-sm-offset-3">
 					<p class="paragraph-6">
 						<br>Teléfono: +562 2848 5162<br>
 											Av. Del Valle 945, Oficina 2607,<br>Huechuraba, Santiago</p>
 				</div>
 				<div class="col-md-1">
-					<div class="text-right">
+					<div id="go_top" class="text-right">
 						<br>
 						<a href="#mavimovil">
 					        <img alt="Volver al inicio" src="assets/web/img/top-boton.svg"  height="50">

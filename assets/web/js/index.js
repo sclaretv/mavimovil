@@ -44,30 +44,44 @@ $(document).ready(function(){
     	}
     } 
 
-	// sliders index
-	btn_slide_1.click(function() { cambia_slide(1); }); 
+  	// sliders index
+  	btn_slide_1.click(function() { cambia_slide(1); }); 
     btn_slide_2.click(function() { cambia_slide(2); }); 
     btn_slide_3.click(function() { cambia_slide(3); });
 
 
     // carousel tecnologias
-    $('.carousel-tecnologias').slick({
-	  infinite: true,
-	  slidesToShow: 6,
-	  slidesToScroll: 1,
-	  arrows: true,
-	  prevArrow:"<img class='a-left control-c prev slick-prev' src='assets/web/img/slider-cliente-izquierda.svg'>",
-	   nextArrow:"<img class='a-right control-c next slick-next' src='assets/web/img/slider-cliente-derecha.svg'>"
-	});
+  $('.carousel-tecnologias').slick({
+    dots: false,
+    infinite: true,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    arrows: true,
+    prevArrow:"<img class='a-left control-c prev slick-prev' src='assets/web/img/slider-cliente-izquierda.svg'>",
+    nextArrow:"<img class='a-right control-c next slick-next' src='assets/web/img/slider-cliente-derecha.svg'>",
+    responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      }
+    ]
+  });
+  
 
 
     // carousel clientes
 	$('.carousel-confian').slick({
-        slidesToShow: 4,
+    slidesToShow: 4,
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2000,
-    });
+  });
+
 
 
     // form contactos
