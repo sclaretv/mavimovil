@@ -87,7 +87,7 @@
 				</div> 
 			</div> 
 
-			<div  class="slider-icons">
+			<div  class="slider-icons-plat">
 				<ul class="list-inline list-inline-sol text-center">
 					<li ng-repeat="s in data" class="list-inline zoom {{($index==index_item_selected)?'active':''}}" title="{{s.subtitulo}}" >
 			          <a href="#" ng-click="seleccionar_item($index)">

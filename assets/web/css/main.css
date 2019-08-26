@@ -705,7 +705,14 @@ transition: all 0.5s ease;
 
 .slider-icons{
   position: absolute;
-  bottom: -130px;
+  bottom: -80px;
+  left: 0px;
+  right: 0px;
+}
+
+.slider-icons-plat{
+  position: absolute;
+  bottom: -150px;
   left: 0px;
   right: 0px;
 }

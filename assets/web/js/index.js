@@ -250,7 +250,7 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
       'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de los centro médicos de RedSalud, la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.',
       'texto de b'], 
-      'btn_icono':'assets/web/img/solutions/app-navegation-icon-8.svg',  
+      'btn_icono':'assets/web/img/solutions/platform-navegation-icon-9-sindefinir.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
     } 
@@ -262,8 +262,9 @@ app.controller('Mavimovil', function($scope, $timeout) {
 			'titulo':'ESTILO DE VIDA', 
 			'subtitulo':'CRM BUHO',   
 			'imagenes' :['assets/web/img/plataformas/0.png','assets/web/img/plataformas/1.png','assets/web/img/plataformas/3.png'],
-			'descripciones':['Plataforma web diseñada para que los agentes de venta de Autofin S.A. puedan comunicarse con los clientes y usuarios de la aplicación Búho Autofin.'], 
-			'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-1.svg',  
+			'descripciones':['Plataforma web diseñada para que los agentes de venta de Autofin S.A. puedan comunicarse con los clientes y usuarios de la aplicación Búho Autofin.',
+      'texto de b'], 
+			'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-0.svg',  
 			
 			'enlace':'/link_falso'
 		} ,
@@ -272,8 +273,9 @@ app.controller('Mavimovil', function($scope, $timeout) {
 			'titulo':'ESTILO DE VIDA', 
 			'subtitulo':'Autofin SOS',   
 			'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-			'descripciones':['Plataforma web para brindar asistencia al personal en terreno de Autofin S.A.'], 
-			'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-3.svg',  
+			'descripciones':['Plataforma web para brindar asistencia al personal en terreno de Autofin S.A.',
+      'texto de b'], 
+			'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-1.svg',  
 			
 			'enlace':'/link_falso'
 		} ,
@@ -282,11 +284,111 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Plataforma Ticket Autofin',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':['Plataforma web para realizar la creación y seguimiento a las tareas comerciales de Autofin S.A.'], 
+      'descripciones':['Plataforma web para realizar la creación y seguimiento a las tareas comerciales de Autofin S.A.',
+      'texto de b'], 
+      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-2.svg',  
+      
+      'enlace':'/link_falso'
+    },
+
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'Autofin Proximity',   
+      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'descripciones':['Plataforma web para realizar la creación de campañas interactivas para los clientes de la Aplicación Mi Autofin.',
+      'texto de b'], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-3.svg',  
       
       'enlace':'/link_falso'
-    } 
+    },
+
+    
+
+    
+
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'Mallplaza GLA',   
+      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'descripciones':['Plataforma web de geolocalización indoor interactivo, en donde se puede hacer un seguimiento a la actividad de cada mall.',
+      'texto de b'], 
+      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-4.svg',  
+      
+      'enlace':'/link_falso'
+    },
+
+    
+    
+
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'Mallplaza Locales',   
+      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'descripciones':['Plataforma web para visualizar y auditar las ventas de cada mall.',
+      'texto de b'], 
+      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-5.svg',  
+      
+      'enlace':'/link_falso'
+    },
+
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'Mallplaza Auditoría',   
+      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'descripciones':['Plataforma web para auditar eventuales incidencias que existan en los malls.',
+      'texto de b'], 
+      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-6.svg',  
+      
+      'enlace':'/link_falso'
+    },
+
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'RedSalud Auditoría',   
+      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'descripciones':['Plataforma web para auditar eventuales incidencias que existan en los centro médicos RedSalud.',
+      'texto de b'], 
+      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-7.svg',  
+      
+      'enlace':'/link_falso'
+    },
+
+  
+
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'Autofin Meeting',   
+      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'descripciones':['Plataforma web para realizar videoconferencias para todo el equipo de Autofin S.A. Además tiene innovadoras herramientas para que las reuniones sean muy productivas.',
+      'texto de b'], 
+      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-9-sindefinir.svg',  
+      
+      'enlace':'/link_falso'
+    },
+
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'Plataforma Ticket MaviGPS',   
+      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'descripciones':['Plataforma web para realizar la creación y seguimiento a las tareas de instalación y soporte de GPS.',
+      'texto de b'], 
+      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-9-sindefinir.svg',  
+      
+      'enlace':'/link_falso'
+    },
+
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'BK Agendamiento',   
+      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.',
+      'texto de b'], 
+      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-9-sindefinir.svg',  
+      
+      'enlace':'/link_falso'
+    }
+
+    
 		]; 
 
  
