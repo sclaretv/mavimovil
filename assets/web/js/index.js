@@ -137,247 +137,130 @@ $('.efx').each(function(index, el) {
 
 var app = angular.module('mavimovilApp',[]);
 
-app.controller('slider', function($scope, $timeout) {
-
-
-	$scope.data =[
-		{  
-			'titulo':'ESTILO DE VIDA', 
-			'subtitulo':'Mi Autofin',   
-			'imagenes' :['assets/web/img/solutions/0.png','assets/web/img/solutions/1.png','assets/web/img/solutions/3.png'],
-			'descripciones':['texto a','texto b','texto c'], 
-			'btn_icono':'assets/web/img/solutions/nav-slider-solutions-1.svg',  
-			'playstore':'/link_falso', 
-			'appstore':'/link_falso'
-		} ,
-
-		{  
-			'titulo':'ESTILO DE VIDA', 
-			'subtitulo':'Mi Autofin',   
-			'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-			'descripciones':['texto de a','texto de b','texto de c'], 
-			'btn_icono':'assets/web/img/solutions/nav-slider-solutions-3.svg',  
-			'playstore':'/link_falso', 
-			'appstore':'/link_falso'
-		} 
-		]; 
-
-	$scope.index_item_selected=0;
-	$scope.item ={}; 
-	$scope.imagen_item ='';
-	$scope.desc_item = '';
-
-	 
-
-	$scope.set_imagen_item = function (index) { 
-		$scope.imagen_item = '';
-		$scope.imagen_item = $scope.item.imagenes[index]; 
-		 // $timeout(function() { $scope.imagen_item = $scope.item.imagenes[index]; }, 1); 
-	}
-
-	$scope.d_index = 0;
-
-	$scope.next_desc_item = function (set_cero) {  
-		if(set_cero==1){
-			$scope.d_index = 0;
-		}else{
-			if ($scope.d_index==$scope.item.descripciones.length-1) {
-				$scope.d_index = 0;
-			} else {
-				$scope.d_index = $scope.d_index+1;
-			}
-		} 
-		$scope.desc_item = $scope.item.descripciones[$scope.d_index];
-	}
-
-	$scope.anterior_item = function (index) { 
-		if (index==0) {
-			$scope.seleccionar_item($scope.data.length-1);
-		} else {
-			$scope.seleccionar_item(index-1);
-		}
-	}
-
-	$scope.siguiente_item = function (index) {
-		if (index==$scope.data.length-1) {
-			$scope.seleccionar_item(0);
-		} else {
-			$scope.seleccionar_item(index+1);
-		}
-	}
-
-	$scope.seleccionar_item = function (index) { 
-		$scope.index_item_selected = index;
-		$scope.item = $scope.data[index];  
-		$scope.next_desc_item(1)
-		$scope.set_imagen_item(0);
-	}
-
-	$scope.seleccionar_item(0);
- 
-});
 
 
 app.controller('Mavimovil', function($scope, $timeout) {
 
+  $scope.data_s =[
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'Mi Autofin',   
+      'imagenes' :['assets/web/img/solutions/0.png','assets/web/img/solutions/1.png','assets/web/img/solutions/3.png'],
+      'descripciones':['texto a','texto b','texto c'], 
+      'btn_icono':'assets/web/img/solutions/nav-slider-solutions-1.svg',  
+      'playstore':'/link_falso', 
+      'appstore':'/link_falso'
+    } ,
 
-	$scope.data_s =[
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'Mi Autofin',   
+      'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
+      'descripciones':['texto de a','texto de b','texto de c'], 
+      'btn_icono':'assets/web/img/solutions/nav-slider-solutions-3.svg',  
+      'playstore':'/link_falso', 
+      'appstore':'/link_falso'
+    } 
+    ]; 
+
+
+	$scope.data_p =[
 		{  
 			'titulo':'ESTILO DE VIDA', 
-			'subtitulo':'Mi Autofin',   
-			'imagenes' :['assets/web/img/solutions/0.png','assets/web/img/solutions/1.png','assets/web/img/solutions/3.png'],
-			'descripciones':['texto a','texto b','texto c'], 
-			'btn_icono':'assets/web/img/solutions/nav-slider-solutions-1.svg',  
-			'playstore':'/link_falso', 
-			'appstore':'/link_falso'
+			'subtitulo':'CRM BUHO',   
+			'imagenes' :['assets/web/img/plataformas/0.png','assets/web/img/plataformas/1.png','assets/web/img/plataformas/3.png'],
+			'descripciones':['Plataforma web diseñada para que los agentes de venta de Autofin S.A. puedan comunicarse con los clientes y usuarios de la aplicación Búho Autofin.'], 
+			'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-1.svg',  
+			
+			'enlace':'/link_falso'
 		} ,
 
 		{  
 			'titulo':'ESTILO DE VIDA', 
-			'subtitulo':'Mi Autofin',   
-			'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-			'descripciones':['texto de a','texto de b','texto de c'], 
-			'btn_icono':'assets/web/img/solutions/nav-slider-solutions-3.svg',  
-			'playstore':'/link_falso', 
-			'appstore':'/link_falso'
-		} 
+			'subtitulo':'Autofin SOS',   
+			'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+			'descripciones':['Plataforma web para brindar asistencia al personal en terreno de Autofin S.A.'], 
+			'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-3.svg',  
+			
+			'enlace':'/link_falso'
+		} ,
+
+    {  
+      'titulo':'ESTILO DE VIDA', 
+      'subtitulo':'Plataforma Ticket Autofin',   
+      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'descripciones':['Plataforma web para realizar la creación y seguimiento a las tareas comerciales de Autofin S.A.'], 
+      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-3.svg',  
+      
+      'enlace':'/link_falso'
+    } 
 		]; 
 
-	$scope.plataformas=[
-	{
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'CRM BUHO', 
-  	'descripcion':'Plataforma web diseñada para que los agentes de venta de Autofin S.A. puedan comunicarse con los clientes y usuarios de la aplicación Búho Autofin.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-  {
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'Autofin SOS', 
-  	'descripcion':'Plataforma web para brindar asistencia al personal en terreno de Autofin S.A.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-  {
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'Plataforma Ticket Autofin', 
-  	'descripcion':'Plataforma web para realizar la creación y seguimiento a las tareas comerciales de Autofin S.A.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-  {
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'Autofin Proximity', 
-  	'descripcion':'Plataforma web para realizar la creación de campañas interactivas para los clientes de la Aplicación Mi Autofin.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-  {
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'Mallplaza GLA', 
-  	'descripcion':'Plataforma web de geolocalización indoor interactivo, en donde se puede hacer un seguimiento a la actividad de cada mall.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-  {
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'Mallplaza Locales', 
-  	'descripcion':'Plataforma web para visualizar y auditar las ventas de cada mall.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-   {
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'Mallplaza Auditoría', 
-  	'descripcion':'Plataforma web para auditar eventuales incidencias que existan en los malls.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-  {
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'RedSalud Auditoría', 
-  	'descripcion':'Plataforma web para auditar eventuales incidencias que existan en los centro médicos RedSalud.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-   {
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'Autofin Meeting', 
-  	'descripcion':'Plataforma web para realizar videoconferencias para todo el equipo de Autofin S.A. Además tiene innovadoras herramientas para que las reuniones sean muy productivas.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },
-
-  /*{
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'BK Agendamiento', 
-  	'descripcion':'Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },		 
-
-  {
-		'fondo_url':null, 
-  	'titulo':'FINANCIERO', 
-  	'subtitulo':'Plataforma Ticket MaviGPS', 
-  	'descripcion':'Plataforma web para realizar la creación y seguimiento a las tareas de instalación y soporte de GPS.', 
-  	'btn_vermas':null, 
-  	'btn_playstore':null, 
-  	'btn_appstore':null
-  },*/
  
- ];
-
-	
-
-	$scope.anterior_plataforma = function (index) {
-		if (index==0) {
-		$scope.plataforma_selected = $scope.plataformas.length-1;
-		} else {
-			$scope.plataforma_selected = index-1;
-		}
-	}
-
-	$scope.siguiente_plataforma = function (index) {
-		if (index==$scope.plataformas.length-1) {
-		$scope.plataforma_selected = 0;
-		} else {
-			$scope.plataforma_selected = index+1;
-		}
-	}
-
-	$scope.seleccionar_plataforma = function (index) {
-		$scope.plataforma_selected = index;
-	}
+  
 
 	$('body').show();
+
+});
+
+
+
+
+app.controller('slider', function($scope, $timeout) {
+
+  $scope.data = [];  
+  $scope.index_item_selected=0;
+  $scope.item ={}; 
+  $scope.imagen_item ='';
+  $scope.desc_item = '';
+
+  $scope.set_imagen_item = function (index) { 
+    $scope.imagen_item = '';
+    $scope.imagen_item = $scope.item.imagenes[index]; 
+     // $timeout(function() { $scope.imagen_item = $scope.item.imagenes[index]; }, 1); 
+  }
+
+  $scope.d_index = 0;
+
+  $scope.next_desc_item = function (set_cero) {  
+    if(set_cero==1){
+      $scope.d_index = 0;
+    }else{
+      if ($scope.d_index==$scope.item.descripciones.length-1) {
+        $scope.d_index = 0;
+      } else {
+        $scope.d_index = $scope.d_index+1;
+      }
+    } 
+    $scope.desc_item = $scope.item.descripciones[$scope.d_index];
+  }
+
+  $scope.anterior_item = function (index) { 
+    if (index==0) {
+      $scope.seleccionar_item($scope.data.length-1);
+    } else {
+      $scope.seleccionar_item(index-1);
+    }
+  } 
+
+  $scope.siguiente_item = function (index) {
+    if (index==$scope.data.length-1) {
+      $scope.seleccionar_item(0);
+    } else {
+      $scope.seleccionar_item(index+1);
+    }
+  } 
+
+  $scope.seleccionar_item = function (index) { 
+    $scope.index_item_selected = index;
+    $scope.item = $scope.data[index];  
+    $scope.next_desc_item(1)
+    $scope.set_imagen_item(0);
+  } 
+
+  $scope.init = function(data){
+    $scope.data = data;
+    $scope.seleccionar_item(0);
+  }  
 
 });

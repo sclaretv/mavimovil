@@ -1,4 +1,11 @@
+<svg version="1.1" id="plataformas_top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1400 300" style="enable-background:new 0 0 1400 300;" preserveAspectRatio="none" > 
+<path class="st0" d="M1402.6,311v-32.8L900,86.7c-181-62.7-263.4-51.1-409.5,0l-490.9,192V311H1402.6z"/>
+</svg>
+
 <div class="container">
+
+
 	<div class="apps-1">
 		<div class="row">
 			<div class="col-md-6" style="z-index: 1;">
@@ -30,72 +37,73 @@
 		
 	</div>
 
-	<div class="section-7">
-		
-		<div class="" id="plataformas_carousel">
-			<div   ng-repeat="s in plataformas" ng-show="$index==plataforma_selected" class="plataformas_slide animated fadeIn">
-				
-			<a  ng-click="anterior_plataforma($index)" class="slider-btn-prev">
+	<div class="section-7" id="plataformas_carousel" >
+		<div  ng-controller="slider" ng-init="init(data_p)" class="container position-rlt"  >
+	
 
-			            	<img src="assets/web/img/plataformas-izquierda.svg" height="70" alt=""  aria-hidden=true>
-			          	</a>
+			<div   ng-repeat="s in data"  ng-show="$index==index_item_selected" class="  animated fadeIn">
+				<a href="#" ng-click="anterior_item($index)" class="slider-btn-prev" > 
+			    	<img src="assets/web/img/plataformas-izquierda.svg" height="70" alt=""  aria-hidden=true>
+			  	</a>
 
-			          	<a  ng-click="siguiente_plataforma($index)" class="slider-btn-next">
-			            	<img src="assets/web/img/plataformas-derecha.svg" height="70" alt=""  aria-hidden=true>
-			          	</a>
-					<div class="plataformas-slide">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="text-center" style="z-index: 5;">
-									<img src="assets/web/img/plataformas/{{$index}}.png" class="img-plataforma-carousel animated fadeInLeft" height="240" alt=""  aria-hidden=true style="margin-left: 160px;">	
-								</div>
-								
+			  	<a href="#" ng-click="siguiente_item($index)" class="slider-btn-next" >
+			         <img src="assets/web/img/plataformas-derecha.svg" height="70" alt=""  aria-hidden=true>
+			     </a>
+				<div class=" ">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-1">
+							<div class="text-center">
+ 
+								<img src="{{imagen_item}}" ng-show="imagen_item" class="animated fadeInLeft"
+								 style=" height:260px;   "  alt=""  aria-hidden=true>	 
+
+								<div ng-show="s.imagenes.length>1" > 
+									<span ng-repeat="item in s.imagenes"  class="circle_slide {{(item==imagen_item)?'active':''}}" 
+									ng-click="set_imagen_item($index)" >   </span>
+								</div> 
+									
 							</div>
-							<div class="col-md-4">
-								<div class="animated fadeInRight" style="z-index: 6; margin-left: 40px;">
-									<h3 class="heading-7">{{s.titulo}}</h3>
-									<h1 class="heading-8">{{s.subtitulo}}</h1>
-									<p class="paragraph-8">{{s.descripcion}}</p>
-									<a href="{{s.btn_vermas}}" class="button-4"><span>Ver más</span></a>
-								</div>
-							</div>
-							<div class="col-md-2">
-								<div class="animated fadeInRight">
-									<div class="buttons-store1">
-										<a href="{{s.btn_playstore}}" class="button-5">
-											<img src="assets/web/img/GooglePlay.svg" height="30" alt=""  aria-hidden=true></a>
-									</div>
-									<div class="buttons-store2">
-										<a href="{{s.btn_appstore}}" class="button-5">
-											<img src="assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
-									</div>
-								</div>
+							
+						</div>
+						<div class="col-md-3">
+							<div class="animated fadeInRight" style="margin-left: -50px;">
+								<h3 class="heading-7">{{s.titulo}}</h3>
+								<h1 class="heading-8">{{s.subtitulo}}</h1> 
+								<p class="paragraph-8 animated fadeIn " ng-show="desc_item" >{{desc_item}}</p>  
+								<a href="" class="button-4" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a> 
 							</div>
 						</div>
-				
-			</div>
-			</div>
-			
-			<div >
+						<div class="col-md-2">
+							<div class="animated fadeInRight">
+								<div class="buttons-store1" ng-show="s.enlace">
+									<a href="{{s.enlace}}" class="button-4"> 
+										Ver platafomas
+									</a> 
+								</div>
+								 
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div> 
+
+			<div  class="slider-icons">
 				<ul class="list-inline list-inline-sol text-center">
-					<li ng-repeat="s in plataformas" class="list-inline-plataformas zoom {{($index==plataforma_selected)?'active':''}}" title="{{s.subtitulo}}" >
-			          <a  ng-click="seleccionar_plataforma($index)">
-			            <img src="assets/web/img/plataformas/platform-navegation-icon-{{$index}}.svg" height="80" alt=""  aria-hidden=true>
-			          </a></li>
+					<li ng-repeat="s in data" class="list-inline zoom {{($index==index_item_selected)?'active':''}}" title="{{s.subtitulo}}" >
+			          <a href="#" ng-click="seleccionar_item($index)">
+			            <img src="{{s.btn_icono}}" height="80" alt=""  aria-hidden=true>
+			          </a>
+			        </li>
 
 			    </ul>
-			</div>
-		</div>
+			</div>  
+			
 
-	</div>
-
+		</div> 
+	</div> 
 </div> 
 
- 
-<svg version="1.1" id="plataformas_top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1400 300" style="enable-background:new 0 0 1400 300;" preserveAspectRatio="none" > 
-<path class="st0" d="M1402.6,311v-32.8L900,86.7c-181-62.7-263.4-51.1-409.5,0l-490.9,192V311H1402.6z"/>
-</svg>
+
 
 
 <svg version="1.1" id="plataformas_bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
