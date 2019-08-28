@@ -431,7 +431,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 		{  
 			'titulo':'ESTILO DE VIDA', 
 			'subtitulo':'Autofin SOS',   
-			'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+			'imagenes' :['assets/web/img/plataformas/1.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
 			'descripciones':[
        {'texto':$sce.trustAsHtml('Plataforma web para brindar asistencia al personal en terreno de Autofin S.A.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Autofin SOS usa:'), 
@@ -458,7 +458,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Plataforma Ticket Autofin',   
-      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/2.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('Plataforma web para realizar la creación y seguimiento a las tareas comerciales de Autofin S.A.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Plataforma Ticket Autofin usa:'), 
@@ -512,7 +512,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Mallplaza GLA',   
-      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/6.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('Plataforma web de geolocalización indoor interactivo, en donde se puede hacer un seguimiento a la actividad de cada mall.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza GLA usa:'), 
@@ -540,7 +540,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Mallplaza Locales',   
-      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/4.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('Plataforma web para visualizar y auditar las ventas de cada mall.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza Locales usa:'), 
@@ -567,7 +567,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Mallplaza Auditoría',   
-      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/5.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('Plataforma web para auditar eventuales incidencias que existan en los malls.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza Auditoría usa:'), 
@@ -594,7 +594,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'RedSalud Auditoría',   
-      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/7.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('Plataforma web para auditar eventuales incidencias que existan en los centro médicos RedSalud.')},
       {'texto':$sce.trustAsHtml('Tecnologías que RedSalud Auditoría usa:'), 
@@ -621,7 +621,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Autofin Meeting',   
-      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/8.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('Plataforma web para realizar videoconferencias para todo el equipo de Autofin S.A. Además tiene innovadoras herramientas para que las reuniones sean muy productivas.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Autofin Meeting usa:'), 
@@ -648,7 +648,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Plataforma Ticket MaviGPS',   
-      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/9.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('Plataforma web para realizar la creación y seguimiento a las tareas de instalación y soporte de GPS.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Plataforma Ticket MaviGPS usa:'), 
@@ -675,7 +675,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'BK Agendamiento',   
-      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/10.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.')},
       {'texto':$sce.trustAsHtml('Tecnologías que BK Agendamiento usa:'), 
