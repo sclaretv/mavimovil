@@ -49,12 +49,12 @@
 			  	<a href="#" ng-click="siguiente_item($index)" class="slider-btn-next" >
 			         <img src="assets/web/img/plataformas-derecha.svg" height="70" alt=""  aria-hidden=true>
 			     </a>
-				<div class=" ">
+				<div class=" " style="min-height: 390px;">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-1">
 							<div class="text-center">
  
-								<img src="{{imagen_item}}" ng-show="imagen_item" class="animated fadeInLeft"
+								<img src="{{imagen_item}}" class="img_carousel_plat" ng-show="imagen_item" class="animated fadeInLeft"
 								 style=" height:260px;   "  alt=""  aria-hidden=true>	 
 
 								<div ng-show="s.imagenes.length>1" > 
@@ -66,10 +66,18 @@
 							
 						</div>
 						<div class="col-md-3">
-							<div class="animated fadeInRight" style="margin-left: -50px;">
+							<div class="animated fadeInRight" style="margin-left: -100px;">
 								<h3 class="heading-7">{{s.titulo}}</h3>
 								<h1 class="heading-8">{{s.subtitulo}}</h1> 
-								<p class="paragraph-8 animated fadeIn " ng-show="desc_item" >{{desc_item}}</p>  
+
+								<div class="paragraph-8 animated fadeIn " ng-show="desc_item.texto" >
+									<div ng-bind-html="desc_item.texto"></div>
+								</div>  
+								<div class="row" ng-show="desc_item.imagenes.length>0">
+									<div class="col-md-3" ng-repeat="imag in desc_item.imagenes">
+										<img alt="" src="assets/web/img/{{imag}}"  height="55">
+									</div>
+								</div>
 								<a href="" class="button-6" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a> 
 							</div>
 						</div>

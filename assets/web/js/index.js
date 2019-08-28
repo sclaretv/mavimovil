@@ -153,15 +153,31 @@ var app = angular.module('mavimovilApp',[]);
 
 
 
-app.controller('Mavimovil', function($scope, $timeout) {
+app.controller('Mavimovil', function($scope, $timeout, $sce) {
 
   $scope.data_s =[
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Mi Autofin',   
       'imagenes' :['assets/web/img/solutions/0.png','assets/web/img/solutions/1.png','assets/web/img/solutions/3.png'],
-      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Mi Autofin posee múltiples herramientas exclusivas para clientes Autofin, entre ellas destacamos: Localizar tu auto mediante GPS. Sincroniza tu llavero con tu celular. Busca tu celular o llaves. Recibe notificaciones de ofertas y promociones. Notifica accidentes o situaciones de peligro y recibe ayuda, paga tu cuota y mucho más.',
-      'texto b'], 
+      'descripciones':[
+{'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Mi Autofin posee múltiples herramientas exclusivas para clientes Autofin, entre ellas destacamos: Localizar tu auto mediante GPS. Sincroniza tu llavero con tu celular. Busca tu celular o llaves. Recibe notificaciones de ofertas y promociones. Notifica accidentes o situaciones de peligro y recibe ayuda, paga tu cuota y mucho más.')},
+  {'texto':$sce.trustAsHtml('Tecnologías que Mi Autofin usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-0.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
@@ -171,8 +187,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Búho Autofin',   
       'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Búho Autofin revoluciona la forma de comprar autos en los siguientes pasos: Fotografía o ingresa la patente del auto que te gusta, Búho te da el valor del auto y opciones similares, simula en línea tu ﬁnanciamiento y sigue el proceso de venta. Además Búho Autofin te ofrece Chat Online con sus ejecutivos.',
-      'texto de b'], 
+      'descripciones':[
+      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Búho Autofin revoluciona la forma de comprar autos en los siguientes pasos: Fotografía o ingresa la patente del auto que te gusta, Búho te da el valor del auto y opciones similares, simula en línea tu ﬁnanciamiento y sigue el proceso de venta. Además Búho Autofin te ofrece Chat Online con sus ejecutivos.')},
+       {'texto':$sce.trustAsHtml('Tecnologías que Búho Autofin usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-1.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
@@ -182,8 +214,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'BK App',   
       'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.',
-      'texto de b'], 
+      'descripciones':[
+      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.')},
+       {'texto':$sce.trustAsHtml('Tecnologías que BK App usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-2.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
@@ -193,8 +241,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Bike Santiago',   
       'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para clientes de este servicio de arriendo de bicicletas, Bike Santiago. Los usuarios acceden a: Arriendo de bicicletas, estaciones Bike Santiago, cantidad de bicicletas disponibles, historial de viajes, asistencia en caso de accidentes y mucho más.',
-      'texto de b'], 
+      'descripciones':[
+      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para clientes de este servicio de arriendo de bicicletas, Bike Santiago. Los usuarios acceden a: Arriendo de bicicletas, estaciones Bike Santiago, cantidad de bicicletas disponibles, historial de viajes, asistencia en caso de accidentes y mucho más.')},
+       {'texto':$sce.trustAsHtml('Tecnologías que Bike Santiago usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-3.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
@@ -204,8 +268,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Mallplaza Auditoría',   
       'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de Mallplaza la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.',
-      'texto de b'], 
+      'descripciones':[
+      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de Mallplaza la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.')},
+       {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza Auditoría usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-4.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
@@ -215,8 +295,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Museo',   
       'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Es una aplicación interactiva que brinda a los usuarios del museo, poder interactuar con las piezas de arte por medio de beacons instalados en el museo. El usuario podrá ver todas las piezas destacadas por medio de un radar y mucho más.',
-      'texto de b'], 
+      'descripciones':[
+      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Es una aplicación interactiva que brinda a los usuarios del museo, poder interactuar con las piezas de arte por medio de beacons instalados en el museo. El usuario podrá ver todas las piezas destacadas por medio de un radar y mucho más.')},
+       {'texto':$sce.trustAsHtml('Tecnologías que Museo usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-5.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
@@ -226,8 +322,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'BlockAssist',   
       'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Blockassist es una aplicación exclusiva para clientes Mercedes-Benz, quienes podrán monitorear, recibir notificaciones y alertas, y bloquear en caso de robo el vehículo.',
-      'texto de b'], 
+      'descripciones':[
+      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Blockassist es una aplicación exclusiva para clientes Mercedes-Benz, quienes podrán monitorear, recibir notificaciones y alertas, y bloquear en caso de robo el vehículo.')},
+       {'texto':$sce.trustAsHtml('Tecnologías que BlockAssist usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-6.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
@@ -237,8 +349,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'MaviGPS',   
       'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. MaviGPS es una aplicación que junto al servicio MaviGPS  permite monitorear 24/7 el vehículo. Además ofrece alertas y notificaciones de exceso de velocidad, encendido/apagado motor, kilometraje de mantención y mucho más.',
-      'texto de b'], 
+      'descripciones':[
+      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. MaviGPS es una aplicación que junto al servicio MaviGPS  permite monitorear 24/7 el vehículo. Además ofrece alertas y notificaciones de exceso de velocidad, encendido/apagado motor, kilometraje de mantención y mucho más.')},
+       {'texto':$sce.trustAsHtml('Tecnologías que MaviGPS usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-7.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
@@ -248,13 +376,28 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'RedSalud Auditoría',   
       'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de los centro médicos de RedSalud, la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.',
-      'texto de b'], 
+      'descripciones':[
+      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de los centro médicos de RedSalud, la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.')},
+       {'texto':$sce.trustAsHtml('Tecnologías que RedSalud Auditoría usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/solutions/platform-navegation-icon-9-sindefinir.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
-    } 
-    ]; 
+    }]; 
 
 
 	$scope.data_p =[
@@ -262,19 +405,51 @@ app.controller('Mavimovil', function($scope, $timeout) {
 			'titulo':'ESTILO DE VIDA', 
 			'subtitulo':'CRM BUHO',   
 			'imagenes' :['assets/web/img/plataformas/0.png','assets/web/img/plataformas/1.png','assets/web/img/plataformas/3.png'],
-			'descripciones':['Plataforma web diseñada para que los agentes de venta de Autofin S.A. puedan comunicarse con los clientes y usuarios de la aplicación Búho Autofin.',
-      'texto de b'], 
-			'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-0.svg',  
+			'descripciones':[
+       {'texto':$sce.trustAsHtml('Plataforma web diseñada para que los agentes de venta de Autofin S.A. puedan comunicarse con los clientes y usuarios de la aplicación Búho Autofin.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que CRM BUHO usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
+      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-0.svg',  
 			
 			'enlace':'/link_falso'
-		} ,
+		}, 
 
 		{  
 			'titulo':'ESTILO DE VIDA', 
 			'subtitulo':'Autofin SOS',   
 			'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-			'descripciones':['Plataforma web para brindar asistencia al personal en terreno de Autofin S.A.',
-      'texto de b'], 
+			'descripciones':[
+       {'texto':$sce.trustAsHtml('Plataforma web para brindar asistencia al personal en terreno de Autofin S.A.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que Autofin SOS usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
 			'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-1.svg',  
 			
 			'enlace':'/link_falso'
@@ -284,8 +459,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Plataforma Ticket Autofin',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':['Plataforma web para realizar la creación y seguimiento a las tareas comerciales de Autofin S.A.',
-      'texto de b'], 
+      'descripciones':[
+       {'texto':$sce.trustAsHtml('Plataforma web para realizar la creación y seguimiento a las tareas comerciales de Autofin S.A.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que Plataforma Ticket Autofin usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-2.svg',  
       
       'enlace':'/link_falso'
@@ -295,37 +486,79 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Autofin Proximity',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':['Plataforma web para realizar la creación de campañas interactivas para los clientes de la Aplicación Mi Autofin.',
-      'texto de b'], 
+      'descripciones':[
+       {'texto':$sce.trustAsHtml('Plataforma web para realizar la creación de campañas interactivas para los clientes de la Aplicación Mi Autofin.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que Autofin Proximity usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-3.svg',  
       
       'enlace':'/link_falso'
     },
 
-    
-
-    
-
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Mallplaza GLA',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':['Plataforma web de geolocalización indoor interactivo, en donde se puede hacer un seguimiento a la actividad de cada mall.',
-      'texto de b'], 
+      'descripciones':[
+       {'texto':$sce.trustAsHtml('Plataforma web de geolocalización indoor interactivo, en donde se puede hacer un seguimiento a la actividad de cada mall.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza GLA usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-4.svg',  
       
       'enlace':'/link_falso'
     },
 
-    
-    
 
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Mallplaza Locales',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':['Plataforma web para visualizar y auditar las ventas de cada mall.',
-      'texto de b'], 
+      'descripciones':[
+       {'texto':$sce.trustAsHtml('Plataforma web para visualizar y auditar las ventas de cada mall.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza Locales usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-5.svg',  
       
       'enlace':'/link_falso'
@@ -335,8 +568,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Mallplaza Auditoría',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':['Plataforma web para auditar eventuales incidencias que existan en los malls.',
-      'texto de b'], 
+      'descripciones':[
+       {'texto':$sce.trustAsHtml('Plataforma web para auditar eventuales incidencias que existan en los malls.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza Auditoría usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-6.svg',  
       
       'enlace':'/link_falso'
@@ -346,21 +595,51 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'RedSalud Auditoría',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':['Plataforma web para auditar eventuales incidencias que existan en los centro médicos RedSalud.',
-      'texto de b'], 
+      'descripciones':[
+       {'texto':$sce.trustAsHtml('Plataforma web para auditar eventuales incidencias que existan en los centro médicos RedSalud.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que RedSalud Auditoría usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-7.svg',  
       
       'enlace':'/link_falso'
     },
 
-  
-
     {  
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Autofin Meeting',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':['Plataforma web para realizar videoconferencias para todo el equipo de Autofin S.A. Además tiene innovadoras herramientas para que las reuniones sean muy productivas.',
-      'texto de b'], 
+      'descripciones':[
+       {'texto':$sce.trustAsHtml('Plataforma web para realizar videoconferencias para todo el equipo de Autofin S.A. Además tiene innovadoras herramientas para que las reuniones sean muy productivas.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que Autofin Meeting usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-9-sindefinir.svg',  
       
       'enlace':'/link_falso'
@@ -370,8 +649,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'Plataforma Ticket MaviGPS',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':['Plataforma web para realizar la creación y seguimiento a las tareas de instalación y soporte de GPS.',
-      'texto de b'], 
+      'descripciones':[
+       {'texto':$sce.trustAsHtml('Plataforma web para realizar la creación y seguimiento a las tareas de instalación y soporte de GPS.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que Plataforma Ticket MaviGPS usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-9-sindefinir.svg',  
       
       'enlace':'/link_falso'
@@ -381,8 +676,24 @@ app.controller('Mavimovil', function($scope, $timeout) {
       'titulo':'ESTILO DE VIDA', 
       'subtitulo':'BK Agendamiento',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':['Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.',
-      'texto de b'], 
+      'descripciones':[
+       {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que BK Agendamiento usa:'), 
+  'imagenes':[
+    'technology-icon-1.svg',
+    'technology-icon-2.svg',
+    'technology-icon-3.svg',
+    'technology-icon-4.svg',
+    'technology-icon-5.svg',
+    'technology-icon-6.svg',
+    'technology-icon-7.svg',
+    'technology-icon-8.svg',
+    'technology-icon-9.svg',
+    'technology-icon-10.svg',
+    'technology-icon-11.svg',
+    'technology-icon-12.svg'
+    ]}
+    ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-9-sindefinir.svg',  
       
       'enlace':'/link_falso'

@@ -726,7 +726,7 @@ transition: all 0.5s ease;
 
 .slider-icons-plat{
   position: absolute;
-  bottom: -150px;
+  bottom: -100px;
   left: 0px;
   right: 0px;
 }
@@ -882,6 +882,22 @@ transition: all 0.5s ease;
     height: 490px;
 }
 
+
+@media screen and (max-width: 1400px) {
+  
+  .slider1, .slider2, .slider3 { background-size: 1400px; }
+  
+  .sliders-index-controls { 
+    bottom: 90px;
+  }
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 991px) {
+  .img_carousel_plat{
+    margin-left: -80px;
+  }
+}
 
 @media screen and (max-width: 1400px) {
   

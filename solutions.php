@@ -11,7 +11,7 @@
 		  	<a href="#" ng-click="siguiente_item($index)" class="slider-btn-next" >
 		         <img src="assets/web/img/apps-derecha.svg" height="70" alt=""  aria-hidden=true>
 		     </a>
-			<div class="solutions-carousel">
+			<div class="solutions-carousel" style="min-height: 415px;">
 				<div class="row">
 					<div class="col-md-3 col-md-offset-2">
 						<div class="text-center">
@@ -29,8 +29,18 @@
 					<div class="col-md-5">
 						<div class="animated fadeInRight" style="margin-right: 70px;">
 							<h3 class="heading-7">{{s.titulo}}</h3>
-							<h1 class="heading-8">{{s.subtitulo}}</h1> 
-							<p class="paragraph-8 animated fadeIn " ng-show="desc_item" >{{desc_item}}</p>  
+							<h1 class="heading-8">{{s.subtitulo}}</h1>
+
+							<div class="paragraph-8 animated fadeIn " ng-show="desc_item.texto" ><div ng-bind-html="desc_item.texto"></div>
+							
+
+							</div>  
+							<div class="row" ng-show="desc_item.imagenes.length>0">
+								<div class="col-md-3" ng-repeat="imag in desc_item.imagenes">
+									<img alt="" src="assets/web/img/{{imag}}"  height="55">
+								</div>
+							</div>
+
 							<a href="" class="button-2" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a> 
 						</div>
 					</div>
