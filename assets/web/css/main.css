@@ -1011,6 +1011,10 @@ transition: all 0.5s ease;
     align-items: normal;
     top: 100px;
   }
+
+  .slider1, .slider2, .slider3 {
+    background-position: right !important;
+  }
   
   .heading-1 {
     font-size: 45px;
@@ -1025,6 +1029,12 @@ transition: all 0.5s ease;
 
   .button-1 {
     display: none;
+  }
+
+  .sliders-index-controls {
+    bottom: -120px;
+    right: 0;
+    left: auto;
   }
 
   .button-6 {
