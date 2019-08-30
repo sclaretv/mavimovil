@@ -1,11 +1,11 @@
 <div class="container">
 			<div class="row">
-				<div class="col-md-12 col-md-offset-0 col-sm-6 col-sm-offset-3 ">
+				<div class="col-md-12 col-md-offset-0 col-xs-6 col-xs-offset-3 ">
 					<h1 class="heading-4">Combinando tecnologías,<br> logramos mejores resultados</h1>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12 col-md-offset-0 col-sm-6 col-sm-offset-3 ">
+				<div class="col-md-12 col-md-offset-0 col-xs-6 col-xs-offset-3 ">
 					<p class="paragraph-4">Somos MaviMovil, una empresa que caracteriza en desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos.</p>
 				</div>
 			</div>

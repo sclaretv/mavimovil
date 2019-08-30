@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="row">
-		<div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-2">
+		<div class="col-md-7 col-md-offset-0 col-xs-10 col-xs-offset-1">
 			<div>
 				<img src="assets/web/img/apps-fondo-2.svg" class="fondo4" alt=""  aria-hidden=true>
 				<img src="assets/web/img/fondo-verde.svg" alt=""  class="fondo5" aria-hidden=true>
@@ -21,7 +21,7 @@
 			</div>
 		</div>
 
-		<div class="col-md-5 col-md-offset-0 col-sm-6 col-sm-offset-3">
+		<div class="col-md-5 col-md-offset-0 col-xs-6 col-xs-offset-3">
 			<div class="text-right">
 				<img alt="Desarrollo de Apps" src="assets/web/img/IconoApp.svg" width="300" height="200" class="app-icono efx" data-up="fadeInRight" data-down="fadeOut ">
 			</div>

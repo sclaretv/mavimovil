@@ -13,9 +13,9 @@
 		     </a>
 			<div class="solutions-carousel" style="min-height: 415px;">
 				<div class="row">
-					<div class="col-md-3 col-md-offset-2">
+					<div class="col-md-3 col-md-offset-2 col-xs-10 col-xs-offset-1">
 						<div class="text-center">
-							<img src="{{imagen_item}}" ng-show="imagen_item" class="animated fadeInLeft" height="340" style=" margin-top: -20px; margin-right: -30px;" alt=""  aria-hidden=true>	
+							<img src="{{imagen_item}}" ng-show="imagen_item" class="img-carousel-sol img-responsive animated fadeInLeft"  style=" margin-top: -20px; margin-right: -30px; height: 340px;" alt=""  aria-hidden=true>	
 
 
 							<div ng-show="s.imagenes.length>1" > 
@@ -26,8 +26,8 @@
 						</div>
 						
 					</div>
-					<div class="col-md-5">
-						<div class="animated fadeInRight" style="margin-right: 70px;">
+					<div class="col-md-5 col-md-offset-0  col-xs-8 col-xs-offset-2">
+						<div class="sol_carousel_texto animated fadeInRight">
 							<h3 class="heading-7">{{s.titulo}}</h3>
 							<h1 class="heading-8">{{s.subtitulo}}</h1>
 
@@ -36,12 +36,24 @@
 
 							</div>  
 							<div class="row" ng-show="desc_item.imagenes.length>0">
-								<div class="col-md-3" ng-repeat="imag in desc_item.imagenes">
-									<img alt="" src="assets/web/img/{{imag}}"  height="55">
+								<div class="col-md-3 col-xs-3" ng-repeat="imag in desc_item.imagenes">
+									<img alt="" class="animated fadeInRight" src="assets/web/img/{{imag}}"  height="55">
 								</div>
 							</div>
 
-							<a href="" class="button-2" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a> 
+							<div class="row">
+								<div class="col-md-12 col-xs-4">
+									<a href="" class="button-2" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a>
+								</div>
+								<div class="col-xs-4">
+									<a href="{{s.playstore}}" class="button-7"><img src="assets/web/img/GooglePlay.svg" height="30" alt=""  aria-hidden=true></a>
+								</div>
+								<div class="col-xs-4">
+									<a href="{{s.appstore}}" class="button-7"><img src="assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
+								</div>
+								
+							</div>
+							
 						</div>
 					</div>
 					<div class="col-md-2">

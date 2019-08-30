@@ -8,7 +8,19 @@
 
 	<div class="apps-1">
 		<div class="row">
-			<div class="col-md-6" style="z-index: 1;">
+
+			<div class="col-xs-12 hidden-md hidden-lg" style="z-index: -1;  ">
+				<div class="efx" data-up="fadeInRight fast" data-down="fadeOut " style="top:0; width: 74%; left: 15%; position: absolute;">
+					<img src="assets/web/img/plataforma-fondo-contenedor-md.svg" class="fondo1 "   alt=""  aria-hidden=true>
+					<img src="assets/web/img/fondo-verde.svg" alt=""  class="fondo2 "   aria-hidden=true>
+				</div>
+				<div class="efx" data-up="rotateInUpRight" data-down="fadeOut ">
+					<img src="assets/web/img/img-plataforma.png" alt="" class="fondo3"   aria-hidden=true>
+				</div>
+				
+			</div>
+
+			<div class="col-md-6 col-md-offset-0 col-xs-8 col-xs-offset-2" style="z-index: 1;">
 				<div >
 					<div class="text-left">
 						<img alt="Desarrollo de Apps" src="assets/web/img/IconoPlataforma.svg" height="200" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
@@ -22,7 +34,7 @@
 				</div>
 			</div>
 
-		<div class="col-md-6" style="z-index: -1;">
+		<div class="col-md-6 col-md-offset-0 hidden-xs hidden-sm" style="z-index: -1;">
 			<div class="efx" data-up="fadeInRight fast" data-down="fadeOut ">
 				<img src="assets/web/img/plataforma-fondo-contenedor-md.svg" class="fondo1 "   alt=""  aria-hidden=true>
 				<img src="assets/web/img/fondo-verde.svg" alt=""  class="fondo2 "   aria-hidden=true>
@@ -51,10 +63,10 @@
 			     </a>
 				<div class=" " style="min-height: 390px;">
 					<div class="row">
-						<div class="col-md-6 col-md-offset-1">
+						<div class="col-md-6 col-md-offset-1 col-xs-12">
 							<div class="text-center">
  
-								<img src="{{imagen_item}}" class="img_carousel_plat" ng-show="imagen_item" class="animated fadeInLeft"
+								<img src="{{imagen_item}}" class="img_carousel_plat img-responsive" ng-show="imagen_item" class="animated fadeInLeft"
 								 style=" height:260px;   "  alt=""  aria-hidden=true>	 
 
 								<div ng-show="s.imagenes.length>1" > 
@@ -65,8 +77,8 @@
 							</div>
 							
 						</div>
-						<div class="col-md-3">
-							<div class="animated fadeInRight" style="margin-left: -100px;">
+						<div class="col-md-3 col-md-offset-0  col-xs-8 col-xs-offset-2">
+							<div class="plat_carousel_texto animated fadeInRight" >
 								<h3 class="heading-7">{{s.titulo}}</h3>
 								<h1 class="heading-8">{{s.subtitulo}}</h1> 
 
@@ -74,11 +86,19 @@
 									<div ng-bind-html="desc_item.texto"></div>
 								</div>  
 								<div class="row" ng-show="desc_item.imagenes.length>0">
-									<div class="col-md-3" ng-repeat="imag in desc_item.imagenes">
-										<img alt="" src="assets/web/img/{{imag}}"  height="55">
+									<div class="col-md-3 col-xs-3 text-center" ng-repeat="imag in desc_item.imagenes">
+										<img alt="" class="animated fadeInRight" src="assets/web/img/{{imag}}"  height="55">
 									</div>
 								</div>
-								<a href="" class="button-6" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a> 
+								<div class="row">
+									<div class="col-md-12 col-xs-6">
+										<a href="" class="button-8" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a> 
+									</div>
+									<div class="col-md-12 col-xs-6">
+										<a href="{{s.enlace}}" class="button-9"> 
+									Ver platafomas </a>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-2">

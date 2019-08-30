@@ -8,16 +8,16 @@
 
 
 			<div class="row">
-				<div class="col-md-4 col-md-offset-2">
+				<div class="col-md-4 col-md-offset-2 col-xs-6 col-xs-offset-3">
 					<div>
-						<h1 class="heading-5 efx" data-up="fadeInLeft" data-down="fadeOut ">¿Alguna necesidad que cubrir?</h1>
+						<h1 class="heading-5 efx" data-up="fadeInLeft" data-down="fadeOut ">¿Alguna necesidad <br>que cubrir?</h1>
 					</div>
 					<div>
 						<p class="paragraph-5 efx" data-up="fadeInLeft" data-down="fadeOut ">Es importante saber que tipo de necesidades deseas cubrir para innovar en los resultados, es por esto que te invitamos a llenar el formulario y agendar una reunión.</p>
 					</div>
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-md-6 col-offset-0 col-xs-12">
 					<div class="fondo-contacto text-center">
 						<form method="post" action="/form/insert/home" id="form_contact">
 
