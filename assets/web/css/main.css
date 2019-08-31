@@ -653,6 +653,13 @@ transition: all 0.5s ease;
   padding-bottom: 30px;
 }
 
+  .img-carousel-sol {
+    margin-top: -20px; 
+    margin-right: -30px; 
+    height: 340px !important;     
+    margin-left: 50px;
+  }
+
  .sol_carousel_texto {
     margin-right: 70px;
     
@@ -1184,6 +1191,7 @@ transition: all 0.5s ease;
 
   .img-carousel-sol {
     height: auto !important;
+     margin-left: 170px;
   }
 
   .sol_carousel_texto {
@@ -1198,6 +1206,14 @@ transition: all 0.5s ease;
 
   .heading-8 {
     text-align: center;
+  }
+
+  .heading-9 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-left: 40px;
   }
 
 

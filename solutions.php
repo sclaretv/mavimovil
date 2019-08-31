@@ -15,7 +15,7 @@
 				<div class="row">
 					<div class="col-md-3 col-md-offset-2 col-xs-10 col-xs-offset-1">
 						<div class="text-center">
-							<img src="{{imagen_item}}" ng-show="imagen_item" class="img-carousel-sol img-responsive animated fadeInLeft"  style=" margin-top: -20px; margin-right: -30px; height: 340px;     margin-left: 50px;" alt=""  aria-hidden=true>	
+							<img src="{{imagen_item}}" ng-show="imagen_item" class="img-carousel-sol img-responsive animated fadeInLeft"  alt=""  aria-hidden=true>	
 
 
 							<div ng-show="s.imagenes.length>1" > 

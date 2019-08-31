@@ -22,11 +22,22 @@
 
 			<div class="col-md-6 col-md-offset-0 col-xs-8 col-xs-offset-2" style="z-index: 1;">
 				<div >
-					<div class="text-left">
-						<img alt="Desarrollo de Apps" src="assets/web/img/IconoPlataforma.svg" height="200" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
+					<div class="row">
+						<div class="col-md-12 col-xs-4">
+							<div class="text-left">
+								<img alt="Desarrollo de Apps" src="assets/web/img/IconoPlataforma.svg" height="200" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
+				
+							</div>
+						</div>
+						<div class="col-xs-8 hidden-md hidden-lg">
+							<div class="text-left">
+								<h1 class="heading-9 efx" style="" data-up="fadeInLeft" data-down="fadeOut ">Desarrollo de <br>Plataformas</h1>
+							</div>
+						</div>
 					</div>
+					
 					<div>
-						<h1 class="heading-6 efx" data-up="fadeInLeft" data-down="fadeOut ">Desarrollo de <br>Plataformas</h1>
+						<h1 class="heading-6 hidden-sm hidden-xs efx" data-up="fadeInLeft" data-down="fadeOut ">Desarrollo de <br>Plataformas</h1>
 						<p class="paragraph-7 efx" data-up="fadeInLeft" data-down="fadeOut ">Diseñamos y desarrollamos plataformas digitales, acorde a los objetivos y metas de cada cliente y su respectiva audiencia. No sin antes, definir objetivos y arquetipos de usuarios para enfocar de forma correctas nuestros esfuerzos y la inversión de nuestro cliente.</p>
 						<p class="paragraph-7 efx" data-up="fadeInLeft" data-down="fadeOut ">Nos destacamos por ser innovadores y prolijos en términos de códigos, administración y gestión de proyectos digitales.
 						</p>
