@@ -2,7 +2,7 @@
 		<div class="row">
 			<div class="col-md-6 col-md-offset-0 col-xs-8 col-xs-offset-2  ">
 				<div class="text-left somos-logo">
-					<img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil.svg" height="160" class="img-somos efx  img-responsive" data-up="fadeInLeft" data-down="fadeOut ">
+					<img alt="Mavimovil" src="assets/web/img/logotipo-mavimovil.svg" height="160" class="img-somos efx" data-up="fadeInLeft" data-down="fadeOut ">
 				</div>
 				<div>
 					<p class="paragraph-9 efx " data-up="fadeInLeft" data-down="fadeOut ">Somos MaviMovil, una empresa que caracteriza en diseñar y desarrollar soluciones tecnológicas a medida, integrando los entornos tecnológicos que nuestros clientes utilizan. Nos impulsa la innovación.</p>
