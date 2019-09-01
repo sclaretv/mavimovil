@@ -3,7 +3,7 @@
 	<div  ng-controller="slider" ng-init="init(data_s)" class="container   "  >
 		
 
-		<div   ng-repeat="s in data"  ng-show="$index==index_item_selected" class="solutions_slide animated fadeIn">
+		<div   ng-repeat="s in data"  ng-show="$index==index_item_selected" class="solutions_slide ">
 			<a href="#" ng-click="anterior_item($index)" class="slider-btn-prev" > 
 		    	<img src="assets/web/img/apps-izquierda.svg" height="70" alt=""  aria-hidden=true>
 		  	</a>
@@ -11,7 +11,7 @@
 		  	<a href="#" ng-click="siguiente_item($index)" class="slider-btn-next" >
 		         <img src="assets/web/img/apps-derecha.svg" height="70" alt=""  aria-hidden=true>
 		     </a>
-			<div class="solutions-carousel" style="min-height: 415px;">
+			<div class="solutions-carousel animated fadeInLeft" style="min-height: 536px;">
 				<div class="row">
 					<div class="col-md-3 col-md-offset-2 col-xs-10 col-xs-offset-1">
 						<div class="text-center">

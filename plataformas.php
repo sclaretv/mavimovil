@@ -72,7 +72,7 @@
 			  	<a href="#" ng-click="siguiente_item($index)" class="slider-btn-next" >
 			         <img src="assets/web/img/plataformas-derecha.svg" height="70" alt=""  aria-hidden=true>
 			     </a>
-				<div class=" " style="min-height: 390px;">
+				<div class="plataformas-carousel animated fadeInLeft" style="min-height: 577px;">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-1 col-xs-12">
 							<div class="text-center">

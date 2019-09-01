@@ -394,7 +394,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     'technology-icon-12.svg'
     ]}
     ], 
-      'btn_icono':'assets/web/img/solutions/platform-navegation-icon-9-sindefinir.svg',  
+      'btn_icono':'assets/web/img/solutions/app-navegation-icon-9.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
     }]; 

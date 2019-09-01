@@ -120,6 +120,9 @@ transition: background 500ms ease;
 .section-4 {
   padding-top: 120px;
   padding-bottom: 150px;
+}
+
+.solutions-carousel {
   background-image: url(../img/apps-fondo-unido-contenedor-lg.svg);
   background-size: 870px;
   background-repeat: no-repeat;
@@ -650,12 +653,12 @@ transition: all 0.5s ease;
 }
 
 .solutions-carousel {
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
   .img-carousel-sol {
 
-    margin-top: -40px; 
+    margin-top: 80px; 
     margin-right: -30px; 
     height: 340px !important;     
     margin-left: 50px;
@@ -663,6 +666,7 @@ transition: all 0.5s ease;
 
  .sol_carousel_texto {
     margin-right: 70px;
+    margin-top: 100px;
     
   }
 
@@ -719,16 +723,14 @@ transition: all 0.5s ease;
 }
 
 
-#plataformas_carousel{ 
+.plataformas-carousel{ 
   background-image: url(../img/plataforma-fondo-unido-contenedor-lg.svg);
   background-size: 900px;
   background-repeat: no-repeat;
   background-position: top;
   padding-top:130px;
-  padding-bottom:150px;
+  padding-bottom:120px;
 }
- 
-
  
 
 #solutions_carousel .container, #plataformas_carousel .container{
@@ -738,7 +740,7 @@ transition: all 0.5s ease;
 .slider-btn-prev, .slider-btn-next{
   position: absolute;
   z-index: 10;
-  top: 0px;
+  top: 130px;
   left: -50px;
   right: auto;
   padding-left: 50px;
@@ -759,7 +761,7 @@ transition: all 0.5s ease;
 
 .slider-icons-plat{
   position: absolute;
-  bottom: -100px;
+  bottom: -50px;
   left: 0px;
   right: 0px;
 }
@@ -1191,7 +1193,7 @@ transform: rotate(180deg);
     padding-bottom: 200px;
   }
 
-  .section-4 {
+  .solutions-carousel {
     background-image: url(../img/fondo-responsive-apps.svg);
     padding-bottom: 100px;
     background-size: 400px;
@@ -1314,7 +1316,7 @@ transform: rotate(180deg);
     bottom: -140px;
   }
 
-  #plataformas_carousel {
+  .plataformas-carousel {
     background-image: url(../img/fondo-responsive-platformas.svg);
     background-size: 400px;
     padding-bottom: 350px;
