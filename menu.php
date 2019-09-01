@@ -23,8 +23,13 @@
 
         <li class="nav-item dropdown">
           <a class="nav-link af-link" href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="Español/Spanish" src="assets/web/img/espanol.svg"> <span class="caret"></span></a>
-
+          <ul class="dropdown-menu" style="min-width: 100px;">
+            <li style=" text-align: center;"><a href="#">
+              <img alt="English/Inglés" src="assets/web/img/ingles.svg" style="width: 35px;">
+            </a></li>
+          </ul>
         </li>
+
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
