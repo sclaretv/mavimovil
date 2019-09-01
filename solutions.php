@@ -57,7 +57,7 @@
 										<img src="assets/web/img/googlplay-responsive.svg" height="50" alt=""  aria-hidden=true>
 									</a>
 								</div>
-								<div class="col-xs-4 text-left">
+								<div class="col-xs-2 text-left">
 									<a href="{{s.appstore}}" class="button-7 hidden-sm hidden-xs"><img src="assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
 
 									<a href="{{s.appstore}}" class="hidden-lg hidden-md" >
