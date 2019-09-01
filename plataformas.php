@@ -88,7 +88,7 @@
 							</div>
 							
 						</div>
-						<div class="col-md-3 col-md-offset-0  col-xs-8 col-xs-offset-2">
+						<div class="col-md-3 col-md-offset-0  col-xs-6 col-xs-offset-3">
 							<div class="plat_carousel_texto animated fadeInRight" >
 								<h3 class="heading-7">{{s.titulo}}</h3>
 								<h1 class="heading-8">{{s.subtitulo}}</h1> 
@@ -102,12 +102,16 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-12 col-xs-6">
-										<a href="" class="button-8" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a> 
+									<div class="col-md-12 col-xs-7 text-right">
+										<a href="" class="button-8" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" >
+											<span class="hidden-lg hidden-md">Ver más</span>
+											<img class="hidden-sm hidden-xs" src="assets/web/img/platf-derecha-vermas.svg" height="30" alt=""  aria-hidden=true>
+										</a> 
 									</div>
-									<div class="col-md-12 col-xs-6">
-										<a href="{{s.enlace}}" class="button-9"> 
-									Ver platafomas </a>
+									<div class=" col-md-12 col-xs-5" >
+										<a href="{{s.enlace}}" class="hidden-lg hidden-md "> 
+											<img  src="assets/web/img/link-responsive.svg" height="50" alt=""  aria-hidden=true>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -116,7 +120,7 @@
 							<div class="animated fadeInRight">
 								<div class="buttons-store1" ng-show="s.enlace">
 									<a href="{{s.enlace}}" class="button-4"> 
-										Ver platafomas
+										Ver plataformas
 									</a> 
 								</div>
 								 

@@ -26,7 +26,7 @@
 						</div>
 						
 					</div>
-					<div class="col-md-5 col-md-offset-0  col-xs-8 col-xs-offset-2">
+					<div class="col-md-5 col-md-offset-0  col-xs-6 col-xs-offset-3">
 						<div class="sol_carousel_texto animated fadeInRight">
 							<h3 class="heading-7">{{s.titulo}}</h3>
 							<h1 class="heading-8">{{s.subtitulo}}</h1>
@@ -42,15 +42,29 @@
 							</div>
 
 							<div class="row">
-								<div class="col-md-12 col-xs-4">
-									<a href="" class="button-2" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" ><span>Ver más</span></a>
+								<div class="col-md-12 col-xs-6 text-right">
+									<a href="" class="button-2" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" >
+										<span class="hidden-lg hidden-md">Ver más</span>
+										<img class="hidden-sm hidden-xs" src="assets/web/img/apps-derecha-vermas.svg" height="30" alt=""  aria-hidden=true>
+									</a>
 								</div>
-								<div class="col-xs-4">
-									<a href="{{s.playstore}}" class="button-7"><img src="assets/web/img/GooglePlay.svg" height="30" alt=""  aria-hidden=true></a>
+								<div class="col-xs-2 text-left">
+									<a href="{{s.playstore}}" class="button-7 hidden-sm hidden-xs">
+										<img src="assets/web/img/GooglePlay.svg" height="30" alt=""  aria-hidden=true>
+									</a>
+
+									<a href="{{s.playstore}}" class="hidden-lg hidden-md" >
+										<img src="assets/web/img/googlplay-responsive.svg" height="50" alt=""  aria-hidden=true>
+									</a>
 								</div>
-								<div class="col-xs-4">
-									<a href="{{s.appstore}}" class="button-7"><img src="assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
+								<div class="col-xs-4 text-left">
+									<a href="{{s.appstore}}" class="button-7 hidden-sm hidden-xs"><img src="assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
+
+									<a href="{{s.appstore}}" class="hidden-lg hidden-md" >
+										<img src="assets/web/img/appstore-responsive.svg" height="50" alt=""  aria-hidden=true>
+									</a>
 								</div>
+								<div class="col-xs-2"></div>
 								
 							</div>
 							
