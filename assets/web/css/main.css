@@ -1193,9 +1193,14 @@ transform: rotate(180deg);
     padding-bottom: 200px;
   }
 
+  .section-4 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .solutions-carousel {
     background-image: url(../img/fondo-responsive-apps.svg);
-    padding-bottom: 100px;
+    padding-bottom: 170px;
     background-size: 400px;
   }
 
@@ -1210,13 +1215,13 @@ transform: rotate(180deg);
 
   .img-carousel-sol {
     height: 300px !important;
-    margin-top: -70px; 
-    margin-left: 215px;
+    margin-top: 40px;
+    margin-left: 200px;
   }
 
   .sol_carousel_texto {
     margin-right: 0px;
-
+    margin-top: 20px;
   }
 
   .heading-7 {

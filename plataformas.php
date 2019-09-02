@@ -95,7 +95,7 @@
 
 								<div class="paragraph-8 animated fadeIn " ng-show="desc_item.texto" >
 									<div ng-bind-html="desc_item.texto"></div>
-								</div>  
+								</div> 
 								<div class="row" ng-show="desc_item.imagenes.length>0">
 									<div class="col-md-3 col-xs-3 text-center" ng-repeat="imag in desc_item.imagenes">
 										<img alt="" class="animated fadeInRight" src="assets/web/img/{{imag}}"  height="55">
@@ -105,7 +105,10 @@
 									<div class="col-md-12 col-xs-7 text-right">
 										<a href="" class="button-8" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" >
 											<span class="hidden-lg hidden-md">Ver más</span>
-											<img class="hidden-sm hidden-xs" src="assets/web/img/platf-derecha-vermas.svg" height="30" alt=""  aria-hidden=true>
+											
+											<img class="hidden-sm hidden-xs" ng-show="d_index==0" src="assets/web/img/platf-derecha-vermas.svg" height="30" alt="Ver más"  aria-hidden=true>
+
+											<img class="hidden-sm hidden-xs" ng-show="d_index==1" src="assets/web/img/platf-izquierda-vermas.svg" height="30" alt="Ver menos"  aria-hidden=true>
 										</a> 
 									</div>
 									<div class=" col-md-12 col-xs-5" >
