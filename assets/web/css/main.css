@@ -1219,7 +1219,7 @@ transform: rotate(180deg);
 
   .solutions-carousel {
     background-image: url(../img/fondo-responsive-apps.svg);
-    padding-bottom: 170px;
+    padding-bottom: 210px;
     background-size: 400px;
   }
 
@@ -1488,5 +1488,240 @@ transform: rotate(180deg);
   #go_top {
     display: none;
   }
+
+}
+
+
+@media screen and (max-width: 729px) {
+
+  .heading-1 {
+    font-size: 40px;
+  }
+
+  .img-carousel-sol {
+      margin-left: 160px;
+  }
+
+  .button-2 {
+    padding: 15px 30px;
+  }
+
+  .img_carousel_plat {
+    margin-left: 100px;
+  }
+
+  .slider-btn-next {
+    right: -20px;
+  }
+
+  .slick-slider {
+    margin-left: 25% !important;
+  }
+
+}
+
+@media screen and (max-width: 630px) {
+
+  .heading-1 {
+    font-size: 39px;
+  }
+
+  .img-carousel-sol {
+      margin-left: 150px;
+  }
+
+  .heading-9 {
+    font-size: 32px;
+  }
+
+  .img_carousel_plat {
+    margin-left: 90px;
+  }
+
+  .slick-slider {
+    margin-left: 20% !important;
+  }
+
+  #form_contact {
+    margin-left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 613px) {
+
+  .heading-1 {
+    font-size: 35px;
+  }
+
+  #form_contact {
+    margin-left: -10px;
+  }
+
+}
+
+@media screen and (max-width: 601px) {
+
+  .celus-app {
+    left: -25%;
+  }
+
+  .heading-2 {
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  .img-carousel-sol {
+    margin-left: 130px;
+  }
+
+  .button-2 {
+    padding: 15px 20px;
+  }
+
+  .heading-9 {
+    font-size: 30px;
+  }
+
+  .slider-btn-prev {
+    left: -20px;
+  }
+
+  .slider-btn-next {
+    right: -40px;
+  }
+
+  .button-8 {
+    padding: 15px 30px;
+  }
+
+  #form_contact {
+    margin-left: -40px;
+  }
+
+}
+
+
+@media screen and (max-width: 561px) {
+
+  .heading-1 {
+    font-size: 30px;
+  }
+
+  .celus-app {
+    top: 60px;
+  }
+
+  .img-carousel-sol {
+    margin-left: 110px;
+  }
+
+  .heading-8 {
+    font-size: 30px;
+  }
+
+  .paragraph-8 {
+    padding-bottom: 10px;
+  }
+
+  .heading-9 {
+    font-size: 25px;
+  }
+
+  .fondo3 {
+    top: 80px;
+    margin-bottom: 100px;
+  }
+
+  .img_carousel_plat {
+    margin-left: 60px;
+  }
+
+  .button-8 {
+    padding: 15px 20px;
+  }
+
+  #form_contact {
+    margin-left: -50px;
+  }
+
+}
+
+
+@media screen and (max-width: 522px) {
+
+
+  .img-app {
+    height: 500px;
+  }
+
+  .fondo7 {
+    left: 260px;
+  }
+
+  .fondo6 {
+    left: 350px;
+  }
+
+  .button-2 {
+    padding: 10px 10px;
+  }
+
+  .img-carousel-sol {
+    margin-left: 100px;
+  }
+
+  .heading-8, .heading-2 {
+    font-size: 25px;
+  }
+
+  #plataformas {
+    margin-top: 100px;
+  }
+
+  .img_carousel_plat {
+    margin-left: 40px;
+  }
+
+  #form_contact {
+    margin-left: -60px;
+  }
+
+}
+
+@media screen and (max-width: 510px) {
+
+  .paragraph-1 {
+    font-size: 18px;
+  }
+
+  .sliders-index-controls {
+    bottom: 50px;
+    left: 150px;
+  }
+
+  .section-2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .section-3 {
+    padding-top: 0px;
+  }
+
+  .heading-4, .heading-5 {
+    font-size: 40px;
+  }
+
+  #form_contact {
+    margin-left: -30px;
+}
+
+#form_contact {
+    width: 550px;
+    padding: 100px 150px;
+    
+}
 
 }
