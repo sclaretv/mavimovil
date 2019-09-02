@@ -39,8 +39,8 @@
 				<div class="row">
 					<div class="col-md-6 col-md-offset-1 text-center">
 						<ul class="list-inline">
-					      <li class="list-inline-item active">
-					        <a  id="index-apps" class="list-inline-a">Apps</a>
+					      <li class="list-inline-item ">
+					        <a  id="index-apps" class="list-inline-a active">Apps</a>
 					      </li>
 					      <li class="list-inline-item">
 					         <a  id="index-plat" class="list-inline-a">Plataformas</a>
