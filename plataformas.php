@@ -25,7 +25,7 @@
 					<div class="row">
 						<div class="col-md-12 col-xs-4">
 							<div class="text-left">
-								<img alt="Desarrollo de Apps" src="assets/web/img/IconoPlataforma.svg" height="200" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
+								<img class="plat-icon-xs" alt="Desarrollo de Apps" src="assets/web/img/IconoPlataforma.svg" height="200" class="efx " data-up="fadeInLeft" data-down="fadeOut ">
 				
 							</div>
 						</div>
@@ -98,7 +98,7 @@
 								</div> 
 								<div class="row" ng-show="desc_item.imagenes.length>0">
 									<div class="col-md-3 col-xs-3 text-center" ng-repeat="imag in desc_item.imagenes">
-										<img alt="" class="animated fadeInRight" src="assets/web/img/{{imag}}"  height="55">
+										<img alt="" class="icons-vermas animated fadeInRight" src="assets/web/img/{{imag}}"  height="55">
 									</div>
 								</div>
 								<div class="row">
@@ -113,7 +113,7 @@
 									</div>
 									<div class=" col-md-12 col-xs-5" >
 										<a href="{{s.enlace}}" class="hidden-lg hidden-md "> 
-											<img  src="assets/web/img/link-responsive.svg" height="50" alt=""  aria-hidden=true>
+											<img class="btn-verplat-xs" src="assets/web/img/link-responsive.svg" height="50" alt=""  aria-hidden=true>
 										</a>
 									</div>
 								</div>

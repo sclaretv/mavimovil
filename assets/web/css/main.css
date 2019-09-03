@@ -1727,7 +1727,7 @@ transform: rotate(180deg);
 }
 
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 450px) {
 
 
   .navbar-brand {
@@ -1742,20 +1742,39 @@ transform: rotate(180deg);
     height: 60px !important;
   }
 
-  .heading-1 {
-    font-size: 20px;
+  .section-1 {
+    min-height: 1140px;
+    margin-bottom: -300px !important;
   }
 
-  .paragraph-1, .paragraph-3, .paragraph-9 {
+  .slider1, .slider2, .slider3 {
+    background-position: center !important;
+    background-size: 500px;
+    margin-top: -250px;
+    background-color: white !important;
+  }
+
+  .heading-1 {
+    margin-top: 400px;
+    font-size: 15px;
+  }
+
+  .paragraph-1 {
+    font-size: 10px;
+  }
+
+  .paragraph-3, .paragraph-9 {
     font-size: 15px;
   }
 
 
   .sliders-index-controls {
-    bottom: 50px;
+    bottom: 295px;
     left: auto;
     right: 0 !important;
-  }
+}
+
+  
 
   .list-inline-a, .list-inline-a:hover, .list-inline-a:focus, .list-inline-a.active {
     width: 40px;
@@ -1834,5 +1853,199 @@ transform: rotate(180deg);
     margin-right: -50px;
   }
 
+  .solutions-carousel {
+    background-size: 250px;
+    padding-bottom: 130px;
+  }
+
+  .img-carousel-sol {
+    margin-left: 70px;
+    height: 150px !important;
+  }
+
+  .heading-7 {
+    padding-top: 5px;
+    font-size: 16px;
+  }
+
+  .heading-8, .heading-2 {
+    font-size: 20px;
+  }
+
+  .paragraph-8 {
+    padding-bottom: 10px;
+    font-size: 10px;
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+
+  .button-2 {
+    padding: 5px 2px;
+    font-size: 10px;
+  }
+
+  .btn-store-app-xs {
+    height: 25px;
+  }
+
+  #plataformas_top {
+    height: 60px;
+    top: -60px;
+  }
+
+  #plataformas {
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .apps-1 {
+    min-height: 256px;
+  }
+
+  .fondo1, .fondo2 {
+    height: 350px;
+    top: 0;
+  }
+
+  .fondo3 {
+    top: 70px;
+  }
+
+
+  .plat-icon-xs {
+    height: 100px;
+    margin-left: -30px;
+  }
+
+  .heading-9 {
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+
+  .paragraph-7 {
+    margin-right: -50px;
+    font-size: 15px;
+    margin-left: -50px;
+  }
+
+  .section-7 {
+    padding-bottom: 0px;
+  }
+
+  .plataformas-carousel {
+    background-size: 250px;
+  }
+
+  .slider-btn-prev {
+    left: -50px;
+  }
+
+  .slider-btn-next {
+    right: -50px;
+  }
+
+  .img_carousel_plat {
+    height: 100px !important;
+    margin-left: 35px;
+    margin-top: -80px;
+  }
+
+  .heading-7 {
+    padding-top: 5px;
+    font-size: 14px;
+  }
+
+  #plataformas .heading-8 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .button-8 {
+    padding: 5px 2px;
+    font-size: 10px;
+  }
+
+  .btn-verplat-xs {
+    height: 30px;
+  }
+
+  .icons-vermas {
+        height: 40px;
+  }
+
+  #plataformas_bottom {
+    height: 60px;
+    bottom: -60px;
+  }
+
+  .section-3 {
+    padding-bottom: 50px;
+  }
+
+  .heading-4, .heading-5 {
+    font-size: 20px;
+  }
+
+  .paragraph-4 {
+    font-size: 10px;
+  }
+
+  .slick-prev {
+    left: -75px;
+  }
+
+  .control-c {
+    width: 45px;
+  }
+
+  .slick-slider {
+    width: 170px !important;
+    margin-left: 30% !important;
+  }
+
+  .slide {
+    width: 85px;
+    margin-left: -20px;
+  }
+
+  .carousel-tecnologias-img {
+    height: 80px !important;
+  }
+
+  .section-5 {
+    margin-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  #contacto_top {
+    height: 60px;
+    top: -60px;
+  }
+
+  .paragraph-5 {
+    font-size: 10px;
+  }
+
+  #form_contact {
+    width: 350px;
+    padding: 50px 80px;
+    background-position: top;
+  }
+
+  #form_contact .form-control {
+    width: 90%;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .btn-contact {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+  .paragraph-6 {
+    font-size: 15px;
+  }
 
 }

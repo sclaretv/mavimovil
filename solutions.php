@@ -37,7 +37,7 @@
 							</div>  
 							<div class="row" ng-show="desc_item.imagenes.length>0">
 								<div class="col-md-3 col-xs-3" ng-repeat="imag in desc_item.imagenes">
-									<img alt="" class="animated fadeInRight" src="assets/web/img/{{imag}}"  height="55">
+									<img alt="" class="icons-vermas animated fadeInRight" src="assets/web/img/{{imag}}"  height="55">
 								</div>
 							</div>
 
@@ -56,14 +56,14 @@
 									</a>
 
 									<a href="{{s.playstore}}" class="hidden-lg hidden-md" >
-										<img src="assets/web/img/googlplay-responsive.svg" height="50" alt=""  aria-hidden=true>
+										<img class="btn-store-app-xs" src="assets/web/img/googlplay-responsive.svg" height="50" alt=""  aria-hidden=true>
 									</a>
 								</div>
 								<div class="col-xs-2 text-left">
 									<a href="{{s.appstore}}" class="button-7 hidden-sm hidden-xs"><img src="assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
 
 									<a href="{{s.appstore}}" class="hidden-lg hidden-md" >
-										<img src="assets/web/img/appstore-responsive.svg" height="50" alt=""  aria-hidden=true>
+										<img class="btn-store-app-xs" src="assets/web/img/appstore-responsive.svg" height="50" alt=""  aria-hidden=true>
 									</a>
 								</div>
 								<div class="col-xs-2"></div>
