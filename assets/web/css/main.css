@@ -918,9 +918,9 @@ transition: all 0.5s ease;
 }
 
 
-@media screen and (min-width: 1401px) {
+@media screen and (max-width: 1900px) {
 
-  .sliders-index-controls {
+  .sliders-index-controls { 
     bottom: 100px;
   }
 
