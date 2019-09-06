@@ -42,12 +42,12 @@
 							</div>
 
 							<div class="row">
-								<div class="col-md-12 col-xs-6 text-right">
+								<div class="col-md-12 col-xs-6 text-left">
 									<a href="" class="button-2" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" >
 										<span class="hidden-lg hidden-md">Ver más</span>
-										<img class="hidden-sm hidden-xs" ng-show="d_index==0" src="assets/web/img/apps-derecha-vermas.svg" height="30" alt=""  aria-hidden=true>
+										<img class="hidden-sm hidden-xs" ng-show="d_index==0" src="assets/web/img/apps-derecha-vermas.svg" height="45" alt=""  aria-hidden=true>
 
-										<img class="hidden-sm hidden-xs" ng-show="d_index==1" src="assets/web/img/apps-izquierda-vermas.svg" height="30" alt=""  aria-hidden=true>
+										<img class="hidden-sm hidden-xs" ng-show="d_index==1" src="assets/web/img/apps-izquierda-vermas.svg" height="45" alt=""  aria-hidden=true>
 									</a>
 								</div>
 								<div class="col-xs-2 text-left">
