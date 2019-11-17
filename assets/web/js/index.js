@@ -207,7 +207,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'subtitulo':'BK SPA',   
       'imagenes' :['assets/web/img/solutions/bk-1.png','assets/web/img/solutions/bk-2.png','assets/web/img/solutions/bk-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('BK es la app diseñada para hacer más eficiente la gestión de los ejecutivos en terreno, apoyado por una potente plataforma, el personal de BK y todas sus firmas, logra hacer una gestión empecable.')},
+      {'texto':$sce.trustAsHtml('BK es la app diseñada para hacer más eficiente la gestión de los ejecutivos en terreno, apoyado por una potente plataforma, el personal de BK y todas sus firmas, logra hacer una gestión impecable.')},
       {'texto':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
   'imagenes':[
     'solutions/app-app.svg',
@@ -228,7 +228,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'subtitulo':'BIKE SANTIAGO',   
       'imagenes' :['assets/web/img/solutions/bikesantiago-1.png','assets/web/img/solutions/bikesantiago-2.png','assets/web/img/solutions/bikesantiago-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('Bike Santiago es la primera aplicación de Chile de arriendo de bicicletas, para clientes del Banco Itau. Es una aplicación que revolución en su momento el traslado urbano de 0 emisión de partículas de carbono. ')},
+      {'texto':$sce.trustAsHtml('Bike Santiago es la primera aplicación de Chile de arriendo de bicicletas, para clientes del Banco Itau. Es una aplicación que revoluciono en su momento el traslado urbano de 0 emisión de partículas de carbono.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Bike Santiago usa:'), 
   'imagenes':[
     'solutions/app-app.svg',
@@ -250,7 +250,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'subtitulo':'BLOCKASSIST',   
       'imagenes' :['assets/web/img/solutions/blockassist-1.png','assets/web/img/solutions/blockassist-2.png','assets/web/img/solutions/blockassist-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('Producto exclusivo para mercado automotriz de alta gama que está conformado por un kit gps con garantía de homologación y certificación de la marca,  una app personalizada para el usuario con sistema de detención en caso de robo, y una aplicación web de información para la automora para realizar revisiones preventivas de mantención.')},
+      {'texto':$sce.trustAsHtml('Producto exclusivo para mercado automotriz de alta gama que está conformado por un kit gps con garantía de homologación y certificación de la marca,  una app personalizada para el usuario con sistema de detención en caso de robo, y una aplicación web de información para la automotora para realizar revisiones preventivas de mantención.')},
       {'texto':$sce.trustAsHtml('Tecnologías que BLOCKASSIST usa:'), 
   'imagenes':[
     'solutions/app-app.svg',
@@ -290,11 +290,11 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 
 	$scope.data_p =[
 		{  
-			'titulo':'ESTILO DE VIDA', 
+			'titulo':'', 
 			'subtitulo':'CRM BUHO',   
 			'imagenes' :['assets/web/img/plataformas/0.png','assets/web/img/plataformas/1.png','assets/web/img/plataformas/3.png'],
 			'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma web diseñada para que los agentes de venta de Autofin S.A. puedan comunicarse con los clientes y usuarios de la aplicación Búho Autofin.')},
+       {'texto':$sce.trustAsHtml('La Plataforma CRM reune todas las herramientas para realizar un seguimiento a los clientes.')},
       {'texto':$sce.trustAsHtml('Tecnologías que CRM BUHO usa:'), 
   'imagenes':[
     'technology-icon-1.svg',
@@ -317,12 +317,12 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 		}, 
 
 		{  
-			'titulo':'ESTILO DE VIDA', 
-			'subtitulo':'Autofin SOS',   
+			'titulo':'', 
+			'subtitulo':'BK SPA',   
 			'imagenes' :['assets/web/img/plataformas/1.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
 			'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma web para brindar asistencia al personal en terreno de Autofin S.A.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que Autofin SOS usa:'), 
+       {'texto':$sce.trustAsHtml('Plataforma de gestión, agendamiento y seguimiento a todos los casos que los ejecutivos en terreno realizan, además cuenta con monitoreo geolocalizado.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
   'imagenes':[
     'technology-icon-1.svg',
     'technology-icon-2.svg',
@@ -344,12 +344,12 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 		} ,
 
     {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Plataforma Ticket Autofin',   
+      'titulo':'', 
+      'subtitulo':'GLA MALL PLAZA',   
       'imagenes' :['assets/web/img/plataformas/2.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma web para realizar la creación y seguimiento a las tareas comerciales de Autofin S.A.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que Plataforma Ticket Autofin usa:'), 
+       {'texto':$sce.trustAsHtml('La plataforma GLA permite vizualizar, trazar y configurar los planos y mapas de edificios comerciales, otorgando control, precisión tecnológica que antes no se había desarrollado en Chile.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que GLA MALL PLAZA usa:'), 
   'imagenes':[
     'technology-icon-1.svg',
     'technology-icon-2.svg',
@@ -371,12 +371,12 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     },
 
     {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Autofin Proximity',   
+      'titulo':'', 
+      'subtitulo':'MaviGPS',   
       'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma web para realizar la creación de campañas interactivas para los clientes de la Aplicación Mi Autofin.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que Autofin Proximity usa:'), 
+       {'texto':$sce.trustAsHtml('La Plataforma MaviGPS es el avance tecnológico más importante en el mercado GPS del país, ya que responde a la visión vanguardiasta que día a día cultiva MaviGPS.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que MaviGPS usa:'), 
   'imagenes':[
     'technology-icon-1.svg',
     'technology-icon-2.svg',
@@ -398,12 +398,12 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     },
 
     {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Mallplaza GLA',   
+      'titulo':'', 
+      'subtitulo':'Proximity',   
       'imagenes' :['assets/web/img/plataformas/6.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma web de geolocalización indoor interactivo, en donde se puede hacer un seguimiento a la actividad de cada mall.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza GLA usa:'), 
+       {'texto':$sce.trustAsHtml('Con la Plataforma Proximity podrás realizar campañas de Marketing de Proximidad más interesantes y novedosos del mercado publicitario.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que Proximity usa:'), 
   'imagenes':[
     'technology-icon-1.svg',
     'technology-icon-2.svg',
@@ -426,12 +426,12 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 
 
     {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Mallplaza Locales',   
+      'titulo':'', 
+      'subtitulo':'SOS',   
       'imagenes' :['assets/web/img/plataformas/4.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
       'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma web para visualizar y auditar las ventas de cada mall.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza Locales usa:'), 
+       {'texto':$sce.trustAsHtml('Plataforma de monitoreo y seguimiento de personas online.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que SOS usa:'), 
   'imagenes':[
     'technology-icon-1.svg',
     'technology-icon-2.svg',
@@ -450,145 +450,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-5.svg',  
       
       'enlace':'/link_falso'
-    },
-
-    {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Mallplaza Auditoría',   
-      'imagenes' :['assets/web/img/plataformas/5.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma web para auditar eventuales incidencias que existan en los malls.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza Auditoría usa:'), 
-  'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
-    ]}
-    ], 
-      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-6.svg',  
-      
-      'enlace':'/link_falso'
-    },
-
-    {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'RedSalud Auditoría',   
-      'imagenes' :['assets/web/img/plataformas/7.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma web para auditar eventuales incidencias que existan en los centro médicos RedSalud.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que RedSalud Auditoría usa:'), 
-  'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
-    ]}
-    ], 
-      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-7.svg',  
-      
-      'enlace':'/link_falso'
-    },
-
-    {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Autofin Meeting',   
-      'imagenes' :['assets/web/img/plataformas/8.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma web para realizar videoconferencias para todo el equipo de Autofin S.A. Además tiene innovadoras herramientas para que las reuniones sean muy productivas.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que Autofin Meeting usa:'), 
-  'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
-    ]}
-    ], 
-      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-9-sindefinir.svg',  
-      
-      'enlace':'/link_falso'
-    },
-
-    {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Plataforma Ticket MaviGPS',   
-      'imagenes' :['assets/web/img/plataformas/9.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma web para realizar la creación y seguimiento a las tareas de instalación y soporte de GPS.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que Plataforma Ticket MaviGPS usa:'), 
-  'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
-    ]}
-    ], 
-      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-9-sindefinir.svg',  
-      
-      'enlace':'/link_falso'
-    },
-
-    {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'BK Agendamiento',   
-      'imagenes' :['assets/web/img/plataformas/10.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
-      'descripciones':[
-       {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que BK Agendamiento usa:'), 
-  'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
-    ]}
-    ], 
-      'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-9-sindefinir.svg',  
-      
-      'enlace':'/link_falso'
-    }
-
-    
-		]; 
+    }]; 
 
  
   
