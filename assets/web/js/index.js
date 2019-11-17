@@ -157,25 +157,21 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 
   $scope.data_s =[
     {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Mi Autofin',   
-      'imagenes' :['assets/web/img/solutions/0.png','assets/web/img/solutions/1.png','assets/web/img/solutions/3.png'],
+      'titulo':'', 
+      'subtitulo':'CRM BUHO',   
+      'imagenes' :['assets/web/img/solutions/buho-1.png','assets/web/img/solutions/buho-2.png','assets/web/img/solutions/buho-3.png'],
       'descripciones':[
-{'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Mi Autofin posee múltiples herramientas exclusivas para clientes Autofin, entre ellas destacamos: Localizar tu auto mediante GPS. Sincroniza tu llavero con tu celular. Busca tu celular o llaves. Recibe notificaciones de ofertas y promociones. Notifica accidentes o situaciones de peligro y recibe ayuda, paga tu cuota y mucho más.')},
-  {'texto':$sce.trustAsHtml('Tecnologías que Mi Autofin usa:'), 
+      {'texto':$sce.trustAsHtml('Búho es una App que permite adquirir un nuevo vehículo, desde la búsqueda de la mejor opción, hasta el financiamiento, teniendo la opción de hacer un seguimiento constante.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que CRM BUHO usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'solutions/app-app.svg',
+    'solutions/crm-app.svg',
+    'solutions/machinevision-app.svg',
+    'solutions/integracion-app.svg',
+    'solutions/agendamiento.svg',
+    'solutions/chat-app.svg',
+    'solutions/notifier-app.svg',
+    'solutions/sic-app.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-0.svg',  
@@ -184,25 +180,21 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     } ,
 
     {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Búho Autofin',   
-      'imagenes' :['assets/web/img/solutions/1.png','assets/web/img/solutions/3.png','assets/web/img/solutions/6.png'],
+      'titulo':'', 
+      'subtitulo':'MI AUTOFIN',   
+      'imagenes' :['assets/web/img/solutions/miautofin-1.png','assets/web/img/solutions/miautofin-2.png','assets/web/img/solutions/miautofin-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Búho Autofin revoluciona la forma de comprar autos en los siguientes pasos: Fotografía o ingresa la patente del auto que te gusta, Búho te da el valor del auto y opciones similares, simula en línea tu ﬁnanciamiento y sigue el proceso de venta. Además Búho Autofin te ofrece Chat Online con sus ejecutivos.')},
-       {'texto':$sce.trustAsHtml('Tecnologías que Búho Autofin usa:'), 
+      {'texto':$sce.trustAsHtml('App MI Autofin es una aplicación móvil multi-propósito que a través de un llavero bluetooth te permite de manera sencilla encontrar tus llaves y tu celular. Cuenta además con un botón de pánico de seguridad para apoyo telefónico en caso de emergencia. MI AUTOFIN es un canal de comunicación directo con el mundo Autofin para que puedas estar siempre conectado, recibir asistencia en línea, pagar tu cuota, recibir notificaciones, ofertas y descuentos especiales para Clientes.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que MI Autofin usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'solutions/app-app.svg',
+    'solutions/proximity-app.svg',
+    'solutions/beacons-app.svg',
+    'solutions/plataforma-monitoreo-app.svg',
+    'solutions/sos-app.svg',
+    'solutions/geolocalizacion-app.svg',
+    'solutions/notifier-app.svg',
+    'solutions/sic-app.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-1.svg',  
@@ -211,25 +203,19 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     },
 
     {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'BK App',   
-      'imagenes' :['assets/web/img/solutions/2.png','assets/web/img/solutions/4.png','assets/web/img/solutions/6.png'],
+      'titulo':'', 
+      'subtitulo':'BK SPA',   
+      'imagenes' :['assets/web/img/solutions/bk-1.png','assets/web/img/solutions/bk-2.png','assets/web/img/solutions/bk-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. BK App fue un proyecto que respondió a la necesidad de tener un equipo de ventas móvil, trabajando en sinergia con  con clientes y los operadores comerciales.')},
-       {'texto':$sce.trustAsHtml('Tecnologías que BK App usa:'), 
+      {'texto':$sce.trustAsHtml('BK es la app diseñada para hacer más eficiente la gestión de los ejecutivos en terreno, apoyado por una potente plataforma, el personal de BK y todas sus firmas, logra hacer una gestión empecable.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'solutions/app-app.svg',
+    'solutions/agendamiento.svg',
+    'solutions/geolocalizacion-app.svg',
+    'solutions/plataforma-agendamiento-app.svg',
+    'solutions/notifier-app.svg',
+    'solutions/sic-app.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-2.svg',  
@@ -238,25 +224,20 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     },
 
     {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Bike Santiago',   
-      'imagenes' :['assets/web/img/solutions/3.png','assets/web/img/solutions/4.png','assets/web/img/solutions/6.png'],
+      'titulo':'', 
+      'subtitulo':'BIKE SANTIAGO',   
+      'imagenes' :['assets/web/img/solutions/bikesantiago-1.png','assets/web/img/solutions/bikesantiago-2.png','assets/web/img/solutions/bikesantiago-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para clientes de este servicio de arriendo de bicicletas, Bike Santiago. Los usuarios acceden a: Arriendo de bicicletas, estaciones Bike Santiago, cantidad de bicicletas disponibles, historial de viajes, asistencia en caso de accidentes y mucho más.')},
-       {'texto':$sce.trustAsHtml('Tecnologías que Bike Santiago usa:'), 
+      {'texto':$sce.trustAsHtml('Bike Santiago es la primera aplicación de Chile de arriendo de bicicletas, para clientes del Banco Itau. Es una aplicación que revolución en su momento el traslado urbano de 0 emisión de partículas de carbono. ')},
+      {'texto':$sce.trustAsHtml('Tecnologías que Bike Santiago usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'solutions/app-app.svg',
+    'solutions/proximity-app.svg',
+    'solutions/integracion-zendesk-app.svg',
+    'solutions/sos-app.svg',
+    'solutions/geolocalizacion-app.svg',
+    'solutions/notifier-app.svg',
+    'solutions/sic-app.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-3.svg',  
@@ -265,25 +246,19 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     },
 
     {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Mallplaza Auditoría',   
-      'imagenes' :['assets/web/img/solutions/4.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
+      'titulo':'', 
+      'subtitulo':'BLOCKASSIST',   
+      'imagenes' :['assets/web/img/solutions/blockassist-1.png','assets/web/img/solutions/blockassist-2.png','assets/web/img/solutions/blockassist-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de Mallplaza la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.')},
-       {'texto':$sce.trustAsHtml('Tecnologías que Mallplaza Auditoría usa:'), 
+      {'texto':$sce.trustAsHtml('Producto exclusivo para mercado automotriz de alta gama que está conformado por un kit gps con garantía de homologación y certificación de la marca,  una app personalizada para el usuario con sistema de detención en caso de robo, y una aplicación web de información para la automora para realizar revisiones preventivas de mantención.')},
+      {'texto':$sce.trustAsHtml('Tecnologías que BLOCKASSIST usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'solutions/app-app.svg',
+    'solutions/sos-app.svg',
+    'solutions/geolocalizacion-app.svg',
+    'solutions/notifier-app.svg',
+    'solutions/plataforma-gps-app.svg',
+    'solutions/sic-app.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-4.svg',  
@@ -292,109 +267,22 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     },
 
     {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'Museo',   
-      'imagenes' :['assets/web/img/solutions/5.png','assets/web/img/solutions/6.png','assets/web/img/solutions/7.png'],
+      'titulo':'', 
+      'subtitulo':'RED SALUD',   
+      'imagenes' :['assets/web/img/solutions/redsalud-1.png','assets/web/img/solutions/redsalud-2.png','assets/web/img/solutions/redsalud-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Es una aplicación interactiva que brinda a los usuarios del museo, poder interactuar con las piezas de arte por medio de beacons instalados en el museo. El usuario podrá ver todas las piezas destacadas por medio de un radar y mucho más.')},
-       {'texto':$sce.trustAsHtml('Tecnologías que Museo usa:'), 
+      {'texto':$sce.trustAsHtml('Esta Aplicación ofrece la solución de inteligente y tecnológica de incidencias que puedan ocurrir en los centros médicos RedSalud.')},
+       {'texto':$sce.trustAsHtml('Tecnologías que RED SALUD usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'solutions/app-app.svg',
+    'solutions/plataofrma-auditoria-app.svg',
+    'solutions/integracion-sap-app.svg',
+    'solutions/qr-app.svg',
+    'solutions/notifier-app.svg',
+    'solutions/sic-app.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-5.svg',  
-      'playstore':'/link_falso', 
-      'appstore':'/link_falso'
-    },
-
-    {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'BlockAssist',   
-      'imagenes' :['assets/web/img/solutions/6.png','assets/web/img/solutions/7.png','assets/web/img/solutions/8.png'],
-      'descripciones':[
-      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Blockassist es una aplicación exclusiva para clientes Mercedes-Benz, quienes podrán monitorear, recibir notificaciones y alertas, y bloquear en caso de robo el vehículo.')},
-       {'texto':$sce.trustAsHtml('Tecnologías que BlockAssist usa:'), 
-  'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
-    ]}
-    ], 
-      'btn_icono':'assets/web/img/solutions/app-navegation-icon-6.svg',  
-      'playstore':'/link_falso', 
-      'appstore':'/link_falso'
-    },
-
-    {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'MaviGPS',   
-      'imagenes' :['assets/web/img/solutions/7.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-      'descripciones':[
-      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. MaviGPS es una aplicación que junto al servicio MaviGPS  permite monitorear 24/7 el vehículo. Además ofrece alertas y notificaciones de exceso de velocidad, encendido/apagado motor, kilometraje de mantención y mucho más.')},
-       {'texto':$sce.trustAsHtml('Tecnologías que MaviGPS usa:'), 
-  'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
-    ]}
-    ], 
-      'btn_icono':'assets/web/img/solutions/app-navegation-icon-7.svg',  
-      'playstore':'/link_falso', 
-      'appstore':'/link_falso'
-    },
-
-    {  
-      'titulo':'ESTILO DE VIDA', 
-      'subtitulo':'RedSalud Auditoría',   
-      'imagenes' :['assets/web/img/solutions/9.png','assets/web/img/solutions/5.png','assets/web/img/solutions/6.png'],
-      'descripciones':[
-      {'texto':$sce.trustAsHtml('Aplicación móvil desarrollada para Autofin S.A. y soportada para sistemas operativos Android 9.0 en adelante y IOS 12.4 en adelante. Diseñada para brindar al personal de los centro médicos de RedSalud, la posibilidad de reportar de forma inteligente, las incidencias que ocurran dentro de los mall y hacerles seguimiento.')},
-       {'texto':$sce.trustAsHtml('Tecnologías que RedSalud Auditoría usa:'), 
-  'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
-    ]}
-    ], 
-      'btn_icono':'assets/web/img/solutions/app-navegation-icon-9.svg',  
       'playstore':'/link_falso', 
       'appstore':'/link_falso'
     }]; 

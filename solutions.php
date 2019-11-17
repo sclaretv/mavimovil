@@ -37,7 +37,7 @@
 							</div>  
 							<div class="row" ng-show="desc_item.imagenes.length>0">
 								<div class="col-md-3 col-xs-3" ng-repeat="imag in desc_item.imagenes">
-									<img alt="" class="icons-vermas animated fadeInRight" src="assets/web/img/{{imag}}"  height="55">
+									<img alt="" class="icons-vermas animated fadeInRight" src="assets/web/img/{{imag}}"  height="95">
 								</div>
 							</div>
 
