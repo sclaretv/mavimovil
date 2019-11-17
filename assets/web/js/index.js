@@ -292,7 +292,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 		{  
 			'titulo':'', 
 			'subtitulo':'CRM BUHO',   
-			'imagenes' :['assets/web/img/plataformas/0.png','assets/web/img/plataformas/1.png','assets/web/img/plataformas/3.png'],
+			'imagenes' :['assets/web/img/plataformas/plataforma-crmbuho-1.png','assets/web/img/plataformas/plataforma-crmbuho-2.png','assets/web/img/plataformas/plataforma-crmbuho-3.png'],
 			'descripciones':[
        {'texto':$sce.trustAsHtml('La Plataforma CRM reune todas las herramientas para realizar un seguimiento a los clientes.')},
       {'texto':$sce.trustAsHtml('Tecnologías que CRM BUHO usa:'), 
@@ -319,7 +319,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 		{  
 			'titulo':'', 
 			'subtitulo':'BK SPA',   
-			'imagenes' :['assets/web/img/plataformas/1.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+			'imagenes' :['assets/web/img/plataformas/plataforma-bk-1.png','assets/web/img/plataformas/plataforma-bk-2.png','assets/web/img/plataformas/plataforma-bk-3.png'],
 			'descripciones':[
        {'texto':$sce.trustAsHtml('Plataforma de gestión, agendamiento y seguimiento a todos los casos que los ejecutivos en terreno realizan, además cuenta con monitoreo geolocalizado.')},
       {'texto':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
@@ -346,7 +346,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'', 
       'subtitulo':'GLA MALL PLAZA',   
-      'imagenes' :['assets/web/img/plataformas/2.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/plataforma-gla-1.png','assets/web/img/plataformas/plataforma-gla-2.png','assets/web/img/plataformas/plataforma-gla-3.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('La plataforma GLA permite vizualizar, trazar y configurar los planos y mapas de edificios comerciales, otorgando control, precisión tecnológica que antes no se había desarrollado en Chile.')},
       {'texto':$sce.trustAsHtml('Tecnologías que GLA MALL PLAZA usa:'), 
@@ -373,7 +373,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'', 
       'subtitulo':'MaviGPS',   
-      'imagenes' :['assets/web/img/plataformas/3.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/plataforma-mavigps-1.png','assets/web/img/plataformas/plataforma-mavigps-2.png','assets/web/img/plataformas/plataforma-mavigps-3.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('La Plataforma MaviGPS es el avance tecnológico más importante en el mercado GPS del país, ya que responde a la visión vanguardiasta que día a día cultiva MaviGPS.')},
       {'texto':$sce.trustAsHtml('Tecnologías que MaviGPS usa:'), 
@@ -400,7 +400,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'', 
       'subtitulo':'Proximity',   
-      'imagenes' :['assets/web/img/plataformas/6.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/plataforma-Proximity-1.png','assets/web/img/plataformas/plataforma-Proximity-2.png','assets/web/img/plataformas/plataforma-Proximity-3.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('Con la Plataforma Proximity podrás realizar campañas de Marketing de Proximidad más interesantes y novedosos del mercado publicitario.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Proximity usa:'), 
@@ -428,7 +428,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     {  
       'titulo':'', 
       'subtitulo':'SOS',   
-      'imagenes' :['assets/web/img/plataformas/4.png','assets/web/img/plataformas/5.png','assets/web/img/plataformas/6.png'],
+      'imagenes' :['assets/web/img/plataformas/plataforma-sos-1.png','assets/web/img/plataformas/plataforma-sos-2.png','assets/web/img/plataformas/plataforma-sos-3.png'],
       'descripciones':[
        {'texto':$sce.trustAsHtml('Plataforma de monitoreo y seguimiento de personas online.')},
       {'texto':$sce.trustAsHtml('Tecnologías que SOS usa:'), 
