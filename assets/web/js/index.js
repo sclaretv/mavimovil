@@ -297,18 +297,12 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
        {'texto':$sce.trustAsHtml('La Plataforma CRM reune todas las herramientas para realizar un seguimiento a los clientes.')},
       {'texto':$sce.trustAsHtml('Tecnologías que CRM BUHO usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'plataformas/chat-plat.svg',
+    'plataformas/integracion-plat.svg',
+    'plataformas/seguimiento-plat.svg',
+    'plataformas/analytics-plat.svg',
+    'plataformas/notifier-plat.svg',
+    'plataformas/sic-plat.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-0.svg',  
@@ -324,18 +318,10 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
        {'texto':$sce.trustAsHtml('Plataforma de gestión, agendamiento y seguimiento a todos los casos que los ejecutivos en terreno realizan, además cuenta con monitoreo geolocalizado.')},
       {'texto':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'plataformas/agendamiento-plat.svg',
+    'plataformas/geolocalizacion-plat.svg',
+    'plataformas/notifier-plat.svg',
+    'plataformas/sic-plat.svg'
     ]}
     ], 
 			'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-1.svg',  
@@ -351,18 +337,10 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
        {'texto':$sce.trustAsHtml('La plataforma GLA permite vizualizar, trazar y configurar los planos y mapas de edificios comerciales, otorgando control, precisión tecnológica que antes no se había desarrollado en Chile.')},
       {'texto':$sce.trustAsHtml('Tecnologías que GLA MALL PLAZA usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'plataformas/geolocalizacion-indoor-plat.svg',
+    'plataformas/integracion-sap-plat.svg',
+    'plataformas/beacons-plat.svg',
+    'plataformas/sic-plat.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-2.svg',  
@@ -378,18 +356,10 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
        {'texto':$sce.trustAsHtml('La Plataforma MaviGPS es el avance tecnológico más importante en el mercado GPS del país, ya que responde a la visión vanguardiasta que día a día cultiva MaviGPS.')},
       {'texto':$sce.trustAsHtml('Tecnologías que MaviGPS usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'plataformas/crm-plat.svg',
+    'plataformas/geolocalizacion-plat.svg',
+    'plataformas/integracion-plat.svg',
+    'plataformas/sic-plat.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-3.svg',  
@@ -405,18 +375,13 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
        {'texto':$sce.trustAsHtml('Con la Plataforma Proximity podrás realizar campañas de Marketing de Proximidad más interesantes y novedosos del mercado publicitario.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Proximity usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'plataformas/proximity-plat.svg',
+    'plataformas/geolocalizacion-plat.svg',
+    'plataformas/geolocalizacion-indoor-plat.svg',
+    'plataformas/analytics-plat.svg',
+    'plataformas/beacons-plat.svg',
+    'plataformas/notifier-plat.svg',
+    'plataformas/sic-plat.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-4.svg',  
@@ -433,18 +398,11 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
        {'texto':$sce.trustAsHtml('Plataforma de monitoreo y seguimiento de personas online.')},
       {'texto':$sce.trustAsHtml('Tecnologías que SOS usa:'), 
   'imagenes':[
-    'technology-icon-1.svg',
-    'technology-icon-2.svg',
-    'technology-icon-3.svg',
-    'technology-icon-4.svg',
-    'technology-icon-5.svg',
-    'technology-icon-6.svg',
-    'technology-icon-7.svg',
-    'technology-icon-8.svg',
-    'technology-icon-9.svg',
-    'technology-icon-10.svg',
-    'technology-icon-11.svg',
-    'technology-icon-12.svg'
+    'plataformas/geolocalizacion-plat.svg',
+    'plataformas/sos-plat.svg',
+    'plataformas/notifier-plat.svg',
+    'plataformas/analytics-plat.svg',
+    'plataformas/sic-plat.svg'
     ]}
     ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-5.svg',  
