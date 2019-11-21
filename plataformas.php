@@ -121,12 +121,12 @@
 						</div>
 						<div class="col-md-2">
 							<div class="animated fadeInRight">
-								<div class="buttons-store1" ng-show="s.enlace">
+								<!--<div class="buttons-store1" ng-show="s.enlace">
 									<a href="{{s.enlace}}" class="button-4"> 
 										<img class="btn-verplat-xs" src="assets/web/img/link-responsive.svg" height="40" alt=""  aria-hidden=true>
 										Ver plataformas
 									</a> 
-								</div>
+								</div>-->
 								 
 							</div>
 						</div>

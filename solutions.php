@@ -73,7 +73,7 @@
 						</div>
 					</div>
 					<div class="col-md-2">
-						<div class="animated fadeInRight">
+						<!--<div class="animated fadeInRight">
 							<div class="buttons-store3" ng-show="s.playstore">
 								<a href="{{s.playstore}}" class="button-3">
 									<img src="assets/web/img/GooglePlay.svg" height="30" alt=""  aria-hidden=true></a>
@@ -82,7 +82,7 @@
 								<a href="{{s.appstore}}" class="button-3">
 									<img src="assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
 							</div>
-						</div>
+						</div>-->
 					</div>
 				</div>
 			</div> 
