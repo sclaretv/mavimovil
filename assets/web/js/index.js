@@ -161,7 +161,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'subtitulo':'CRM BUHO',   
       'imagenes' :['assets/web/img/solutions/buho-1.png','assets/web/img/solutions/buho-2.png','assets/web/img/solutions/buho-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('Búho es una App que permite adquirir un nuevo vehículo, desde la búsqueda de la mejor opción, hasta el financiamiento, teniendo la opción de hacer un seguimiento constante.')},
+      {'texto':$sce.trustAsHtml('Búho es una App que permite adquirir un nuevo vehículo, desde la búsqueda de la mejor opción, hasta el financiamiento.')},
       {'texto':$sce.trustAsHtml('Tecnologías que CRM BUHO usa:'), 
   'imagenes':[
     'solutions/app-app.svg',
@@ -184,7 +184,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'subtitulo':'MI AUTOFIN',   
       'imagenes' :['assets/web/img/solutions/miautofin-1.png','assets/web/img/solutions/miautofin-2.png','assets/web/img/solutions/miautofin-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('App MI Autofin es una aplicación móvil multi-propósito que a través de un llavero bluetooth te permite de manera sencilla encontrar tus llaves y tu celular. Cuenta además con un botón de pánico de seguridad para apoyo telefónico en caso de emergencia. MI AUTOFIN es un canal de comunicación directo con el mundo Autofin para que puedas estar siempre conectado, recibir asistencia en línea, pagar tu cuota, recibir notificaciones, ofertas y descuentos especiales para Clientes.')},
+      {'texto':$sce.trustAsHtml('App MI Autofin es una aplicación móvil multi-propósito que a través de un llavero bluetooth te permite encontrar tus llaves y tu celular.')},
       {'texto':$sce.trustAsHtml('Tecnologías que MI Autofin usa:'), 
   'imagenes':[
     'solutions/app-app.svg',
@@ -207,7 +207,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'subtitulo':'BK SPA',   
       'imagenes' :['assets/web/img/solutions/bk-1.png','assets/web/img/solutions/bk-2.png','assets/web/img/solutions/bk-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('BK es la app diseñada para hacer más eficiente la gestión de los ejecutivos en terreno, apoyado por una potente plataforma, el personal de BK y todas sus firmas, logra hacer una gestión impecable.')},
+      {'texto':$sce.trustAsHtml('BK es la app diseñada para hacer más eficiente la gestión de los ejecutivos en terreno, apoyado por una potente plataforma y el personal de BK.')},
       {'texto':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
   'imagenes':[
     'solutions/app-app.svg',
@@ -228,7 +228,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'subtitulo':'BIKE SANTIAGO',   
       'imagenes' :['assets/web/img/solutions/bikesantiago-1.png','assets/web/img/solutions/bikesantiago-2.png','assets/web/img/solutions/bikesantiago-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('Bike Santiago es la primera aplicación de Chile de arriendo de bicicletas, para clientes del Banco Itau. Es una aplicación que revoluciono en su momento el traslado urbano de 0 emisión de partículas de carbono.')},
+      {'texto':$sce.trustAsHtml('Bike Santiago es la primera aplicación de Chile de arriendo de bicicletas, para clientes del Banco Itau.')},
       {'texto':$sce.trustAsHtml('Tecnologías que Bike Santiago usa:'), 
   'imagenes':[
     'solutions/app-app.svg',
@@ -250,7 +250,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'subtitulo':'BLOCKASSIST',   
       'imagenes' :['assets/web/img/solutions/blockassist-1.png','assets/web/img/solutions/blockassist-2.png','assets/web/img/solutions/blockassist-3.png'],
       'descripciones':[
-      {'texto':$sce.trustAsHtml('Producto exclusivo para mercado automotriz de alta gama que está conformado por un kit gps con garantía de homologación y certificación de la marca,  una app personalizada para el usuario con sistema de detención en caso de robo, y una aplicación web de información para la automotora para realizar revisiones preventivas de mantención.')},
+      {'texto':$sce.trustAsHtml('Producto exclusivo para mercado automotriz de alta gama que está conformado por un kit gps con garantía de homologación y certificación de la marca.')},
       {'texto':$sce.trustAsHtml('Tecnologías que BLOCKASSIST usa:'), 
   'imagenes':[
     'solutions/app-app.svg',
