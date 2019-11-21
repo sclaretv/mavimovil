@@ -315,7 +315,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 			'subtitulo':'BK SPA',   
 			'imagenes' :['assets/web/img/plataformas/plataforma-bk-1.png','assets/web/img/plataformas/plataforma-bk-2.png','assets/web/img/plataformas/plataforma-bk-3.png'],
 			'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma de gestión, agendamiento y seguimiento a todos los casos que los ejecutivos en terreno realizan, además cuenta con monitoreo geolocalizado.')},
+       {'texto':$sce.trustAsHtml('Plataforma de gestión, agendamiento y seguimiento a todos los casos que los ejecutivos en terreno realizan.')},
       {'texto':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
   'imagenes':[
     'plataformas/agendamiento-plat.svg',
@@ -334,7 +334,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'subtitulo':'GLA MALL PLAZA',   
       'imagenes' :['assets/web/img/plataformas/plataforma-gla-1.png','assets/web/img/plataformas/plataforma-gla-2.png','assets/web/img/plataformas/plataforma-gla-3.png'],
       'descripciones':[
-       {'texto':$sce.trustAsHtml('La plataforma GLA permite vizualizar, trazar y configurar los planos y mapas de edificios comerciales, otorgando control, precisión tecnológica que antes no se había desarrollado en Chile.')},
+       {'texto':$sce.trustAsHtml('La plataforma GLA permite vizualizar, trazar y configurar los planos y mapas de edificios comerciales, otorgando control y precisión.')},
       {'texto':$sce.trustAsHtml('Tecnologías que GLA MALL PLAZA usa:'), 
   'imagenes':[
     'plataformas/geolocalizacion-indoor-plat.svg',
@@ -353,7 +353,7 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'subtitulo':'MaviGPS',   
       'imagenes' :['assets/web/img/plataformas/plataforma-mavigps-1.png','assets/web/img/plataformas/plataforma-mavigps-2.png','assets/web/img/plataformas/plataforma-mavigps-3.png'],
       'descripciones':[
-       {'texto':$sce.trustAsHtml('La Plataforma MaviGPS es el avance tecnológico más importante en el mercado GPS del país, ya que responde a la visión vanguardiasta que día a día cultiva MaviGPS.')},
+       {'texto':$sce.trustAsHtml('La Plataforma MaviGPS es el avance tecnológico más importante en el mercado GPS del país, ya que responde a una visión vanguardista.')},
       {'texto':$sce.trustAsHtml('Tecnologías que MaviGPS usa:'), 
   'imagenes':[
     'plataformas/crm-plat.svg',
