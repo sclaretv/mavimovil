@@ -160,10 +160,9 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'titulo':'', 
       'subtitulo':'CRM BUHO',   
       'imagenes' :['assets/web/img/solutions/buho-1.png','assets/web/img/solutions/buho-2.png','assets/web/img/solutions/buho-3.png'],
-      'descripciones':[
-      {'texto':$sce.trustAsHtml('Búho es una App que permite adquirir un nuevo vehículo, desde la búsqueda de la mejor opción, hasta el financiamiento.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que CRM BUHO usa:'), 
-  'imagenes':[
+      'texto1':$sce.trustAsHtml('Búho es una App que permite adquirir un nuevo vehículo, desde la búsqueda de la mejor opción, hasta el financiamiento.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que CRM BUHO usa:'), 
+  'iconos':[
     'solutions/app-app.svg',
     'solutions/crm-app.svg',
     'solutions/machinevision-app.svg',
@@ -172,7 +171,6 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     'solutions/chat-app.svg',
     'solutions/notifier-app.svg',
     'solutions/sic-app.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-0.svg',  
       'playstore':'/link_falso', 
@@ -183,10 +181,9 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'titulo':'', 
       'subtitulo':'MI AUTOFIN',   
       'imagenes' :['assets/web/img/solutions/miautofin-1.png','assets/web/img/solutions/miautofin-2.png','assets/web/img/solutions/miautofin-3.png'],
-      'descripciones':[
-      {'texto':$sce.trustAsHtml('App MI Autofin es una aplicación móvil multi-propósito que a través de un llavero bluetooth te permite encontrar tus llaves y tu celular.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que MI Autofin usa:'), 
-  'imagenes':[
+      'texto1':$sce.trustAsHtml('App MI Autofin es una aplicación móvil multi-propósito que a través de un llavero bluetooth te permite encontrar tus llaves y tu celular.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que MI Autofin usa:'), 
+  'iconos':[
     'solutions/app-app.svg',
     'solutions/proximity-app.svg',
     'solutions/beacons-app.svg',
@@ -195,7 +192,6 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     'solutions/geolocalizacion-app.svg',
     'solutions/notifier-app.svg',
     'solutions/sic-app.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-1.svg',  
       'playstore':'/link_falso', 
@@ -206,17 +202,15 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'titulo':'', 
       'subtitulo':'BK SPA',   
       'imagenes' :['assets/web/img/solutions/bk-1.png','assets/web/img/solutions/bk-2.png','assets/web/img/solutions/bk-3.png'],
-      'descripciones':[
-      {'texto':$sce.trustAsHtml('BK es la app diseñada para hacer más eficiente la gestión de los ejecutivos en terreno, apoyado por una potente plataforma y el personal de BK.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
-  'imagenes':[
+      'texto1':$sce.trustAsHtml('BK es la app diseñada para hacer más eficiente la gestión de los ejecutivos en terreno, apoyado por una potente plataforma y el personal de BK.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
+  'iconos':[
     'solutions/app-app.svg',
     'solutions/agendamiento.svg',
     'solutions/geolocalizacion-app.svg',
     'solutions/plataforma-agendamiento-app.svg',
     'solutions/notifier-app.svg',
     'solutions/sic-app.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-2.svg',  
       'playstore':'/link_falso', 
@@ -227,10 +221,9 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'titulo':'', 
       'subtitulo':'BIKE SANTIAGO',   
       'imagenes' :['assets/web/img/solutions/bikesantiago-1.png','assets/web/img/solutions/bikesantiago-2.png','assets/web/img/solutions/bikesantiago-3.png'],
-      'descripciones':[
-      {'texto':$sce.trustAsHtml('Bike Santiago es la primera aplicación de Chile de arriendo de bicicletas, para clientes del Banco Itau.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que Bike Santiago usa:'), 
-  'imagenes':[
+      'texto1':$sce.trustAsHtml('Bike Santiago es la primera aplicación de Chile de arriendo de bicicletas, para clientes del Banco Itau.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que Bike Santiago usa:'), 
+  'iconos':[
     'solutions/app-app.svg',
     'solutions/proximity-app.svg',
     'solutions/integracion-zendesk-app.svg',
@@ -238,7 +231,6 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     'solutions/geolocalizacion-app.svg',
     'solutions/notifier-app.svg',
     'solutions/sic-app.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-3.svg',  
       'playstore':'/link_falso', 
@@ -249,17 +241,15 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'titulo':'', 
       'subtitulo':'BLOCKASSIST',   
       'imagenes' :['assets/web/img/solutions/blockassist-1.png','assets/web/img/solutions/blockassist-2.png','assets/web/img/solutions/blockassist-3.png'],
-      'descripciones':[
-      {'texto':$sce.trustAsHtml('Producto exclusivo para mercado automotriz de alta gama que está conformado por un kit gps con garantía de homologación y certificación de la marca.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que BLOCKASSIST usa:'), 
-  'imagenes':[
+      'texto1':$sce.trustAsHtml('Producto exclusivo para mercado automotriz de alta gama que está conformado por un kit gps con garantía de homologación y certificación de la marca.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que BLOCKASSIST usa:'), 
+  'iconos':[
     'solutions/app-app.svg',
     'solutions/sos-app.svg',
     'solutions/geolocalizacion-app.svg',
     'solutions/notifier-app.svg',
     'solutions/plataforma-gps-app.svg',
     'solutions/sic-app.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-4.svg',  
       'playstore':'/link_falso', 
@@ -270,17 +260,15 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'titulo':'', 
       'subtitulo':'RED SALUD',   
       'imagenes' :['assets/web/img/solutions/redsalud-1.png','assets/web/img/solutions/redsalud-2.png','assets/web/img/solutions/redsalud-3.png'],
-      'descripciones':[
-      {'texto':$sce.trustAsHtml('Esta Aplicación ofrece la solución de inteligente y tecnológica de incidencias que puedan ocurrir en los centros médicos RedSalud.')},
-       {'texto':$sce.trustAsHtml('Tecnologías que RED SALUD usa:'), 
-  'imagenes':[
+      'texto1':$sce.trustAsHtml('Esta Aplicación ofrece la solución de inteligente y tecnológica de incidencias que puedan ocurrir en los centros médicos RedSalud.'),
+       'texto2':$sce.trustAsHtml('Tecnologías que RED SALUD usa:'), 
+  'iconos':[
     'solutions/app-app.svg',
     'solutions/plataofrma-auditoria-app.svg',
     'solutions/integracion-sap-app.svg',
     'solutions/qr-app.svg',
     'solutions/notifier-app.svg',
     'solutions/sic-app.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/solutions/app-navegation-icon-5.svg',  
       'playstore':'/link_falso', 
@@ -468,7 +456,7 @@ app.controller('slider', function($scope, $timeout) {
   $scope.seleccionar_item = function (index) { 
     $scope.index_item_selected = index;
     $scope.item = $scope.data[index];  
-    $scope.next_desc_item(1)
+    //$scope.next_desc_item(1)
     $scope.set_imagen_item(0);
   } 
 
