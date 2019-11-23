@@ -281,17 +281,15 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 			'titulo':'', 
 			'subtitulo':'CRM BUHO',   
 			'imagenes' :['assets/web/img/plataformas/plataforma-crmbuho-1.png','assets/web/img/plataformas/plataforma-crmbuho-2.png','assets/web/img/plataformas/plataforma-crmbuho-3.png'],
-			'descripciones':[
-       {'texto':$sce.trustAsHtml('La Plataforma CRM reune todas las herramientas para realizar un seguimiento a los clientes.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que CRM BUHO usa:'), 
-  'imagenes':[
+			'texto1':$sce.trustAsHtml('La Plataforma CRM reune todas las herramientas para realizar un seguimiento a los clientes.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que CRM BUHO usa:'), 
+  'iconos':[
     'plataformas/chat-plat.svg',
     'plataformas/integracion-plat.svg',
     'plataformas/seguimiento-plat.svg',
     'plataformas/analytics-plat.svg',
     'plataformas/notifier-plat.svg',
     'plataformas/sic-plat.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-0.svg',  
 			
@@ -302,15 +300,13 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
 			'titulo':'', 
 			'subtitulo':'BK SPA',   
 			'imagenes' :['assets/web/img/plataformas/plataforma-bk-1.png','assets/web/img/plataformas/plataforma-bk-2.png','assets/web/img/plataformas/plataforma-bk-3.png'],
-			'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma de gestión, agendamiento y seguimiento a todos los casos que los ejecutivos en terreno realizan.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
-  'imagenes':[
+			'texto1':$sce.trustAsHtml('Plataforma de gestión, agendamiento y seguimiento a todos los casos que los ejecutivos en terreno realizan.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que BK SPA usa:'), 
+  'iconos':[
     'plataformas/agendamiento-plat.svg',
     'plataformas/geolocalizacion-plat.svg',
     'plataformas/notifier-plat.svg',
     'plataformas/sic-plat.svg'
-    ]}
     ], 
 			'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-1.svg',  
 			
@@ -321,15 +317,13 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'titulo':'', 
       'subtitulo':'GLA MALL PLAZA',   
       'imagenes' :['assets/web/img/plataformas/plataforma-gla-1.png','assets/web/img/plataformas/plataforma-gla-2.png','assets/web/img/plataformas/plataforma-gla-3.png'],
-      'descripciones':[
-       {'texto':$sce.trustAsHtml('La plataforma GLA permite vizualizar, trazar y configurar los planos y mapas de edificios comerciales, otorgando control y precisión.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que GLA MALL PLAZA usa:'), 
-  'imagenes':[
+      'texto1':$sce.trustAsHtml('La plataforma GLA permite vizualizar, trazar y configurar los planos y mapas de edificios comerciales, otorgando control y precisión.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que GLA MALL PLAZA usa:'), 
+  'iconos':[
     'plataformas/geolocalizacion-indoor-plat.svg',
     'plataformas/integracion-sap-plat.svg',
     'plataformas/beacons-plat.svg',
     'plataformas/sic-plat.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-2.svg',  
       
@@ -340,15 +334,13 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'titulo':'', 
       'subtitulo':'MaviGPS',   
       'imagenes' :['assets/web/img/plataformas/plataforma-mavigps-1.png','assets/web/img/plataformas/plataforma-mavigps-2.png','assets/web/img/plataformas/plataforma-mavigps-3.png'],
-      'descripciones':[
-       {'texto':$sce.trustAsHtml('La Plataforma MaviGPS es el avance tecnológico más importante en el mercado GPS del país, ya que responde a una visión vanguardista.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que MaviGPS usa:'), 
-  'imagenes':[
+      'texto1':$sce.trustAsHtml('La Plataforma MaviGPS es el avance tecnológico más importante en el mercado GPS del país, ya que responde a una visión vanguardista.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que MaviGPS usa:'), 
+  'iconos':[
     'plataformas/crm-plat.svg',
     'plataformas/geolocalizacion-plat.svg',
     'plataformas/integracion-plat.svg',
     'plataformas/sic-plat.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-3.svg',  
       
@@ -359,10 +351,9 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'titulo':'', 
       'subtitulo':'Proximity',   
       'imagenes' :['assets/web/img/plataformas/plataforma-Proximity-1.png','assets/web/img/plataformas/plataforma-Proximity-2.png','assets/web/img/plataformas/plataforma-Proximity-3.png'],
-      'descripciones':[
-       {'texto':$sce.trustAsHtml('Con la Plataforma Proximity podrás realizar campañas de Marketing de Proximidad más interesantes y novedosos del mercado publicitario.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que Proximity usa:'), 
-  'imagenes':[
+      'texto1':$sce.trustAsHtml('Con la Plataforma Proximity podrás realizar campañas de Marketing de Proximidad más interesantes y novedosos del mercado publicitario.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que Proximity usa:'), 
+  'iconos':[
     'plataformas/proximity-plat.svg',
     'plataformas/geolocalizacion-plat.svg',
     'plataformas/geolocalizacion-indoor-plat.svg',
@@ -370,7 +361,6 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
     'plataformas/beacons-plat.svg',
     'plataformas/notifier-plat.svg',
     'plataformas/sic-plat.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-4.svg',  
       
@@ -382,16 +372,14 @@ app.controller('Mavimovil', function($scope, $timeout, $sce) {
       'titulo':'', 
       'subtitulo':'SOS',   
       'imagenes' :['assets/web/img/plataformas/plataforma-sos-1.png','assets/web/img/plataformas/plataforma-sos-2.png','assets/web/img/plataformas/plataforma-sos-3.png'],
-      'descripciones':[
-       {'texto':$sce.trustAsHtml('Plataforma de monitoreo y seguimiento de personas online.')},
-      {'texto':$sce.trustAsHtml('Tecnologías que SOS usa:'), 
-  'imagenes':[
+      'texto1':$sce.trustAsHtml('Plataforma de monitoreo y seguimiento de personas online.'),
+      'texto2':$sce.trustAsHtml('Tecnologías que SOS usa:'), 
+  'iconos':[
     'plataformas/geolocalizacion-plat.svg',
     'plataformas/sos-plat.svg',
     'plataformas/notifier-plat.svg',
     'plataformas/analytics-plat.svg',
     'plataformas/sic-plat.svg'
-    ]}
     ], 
       'btn_icono':'assets/web/img/plataformas/platform-navegation-icon-5.svg',  
       

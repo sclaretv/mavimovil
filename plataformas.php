@@ -93,11 +93,14 @@
 								<h3 class="heading-7">{{s.titulo}}</h3>
 								<h1 class="heading-8">{{s.subtitulo}}</h1> 
 
-								<div class="paragraph-8 animated fadeIn " ng-show="desc_item.texto" >
-									<div ng-bind-html="desc_item.texto"></div>
+								<div class="paragraph-8 animated fadeIn " ng-show="s.texto1" >
+									<div ng-bind-html="s.texto1"></div>
+								</div>
+								<div class="paragraph-8 animated fadeIn " ng-show="s.texto2" >
+									<div ng-bind-html="s.texto2"></div>
 								</div> 
-								<div class="row" ng-show="desc_item.imagenes.length>0">
-									<div class="col-md-3 col-xs-3 text-center" ng-repeat="imag in desc_item.imagenes">
+								<div class="row" ng-show="s.iconos.length>0">
+									<div class="col-md-3 col-xs-3 text-center" ng-repeat="imag in s.iconos">
 										<img alt="" class="icons-vermas animated fadeInRight" src="assets/web/img/{{imag}}"  height="95">
 									</div>
 								</div>
