@@ -106,13 +106,13 @@
 								</div>
 								<div class="row">
 									<div class="col-md-12 col-xs-7 text-left">
-										<a href="" class="button-8" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" >
+										<!--<a href="" class="button-8" ng-show="s.descripciones.length>1" ng-click="next_desc_item()" >
 											<span class="hidden-lg hidden-md">Ver más</span>
 											
 											<img class="hidden-sm hidden-xs" ng-show="d_index==0" src="assets/web/img/platf-derecha-vermas.svg" height="45" alt="Ver más"  aria-hidden=true>
 
 											<img class="hidden-sm hidden-xs" ng-show="d_index==1" src="assets/web/img/platf-izquierda-vermas.svg" height="45" alt="Ver menos"  aria-hidden=true>
-										</a> 
+										</a>--> 
 									</div>
 									<div class=" col-md-12 col-xs-5" >
 										<a href="{{s.enlace}}" class="hidden-lg hidden-md "> 
