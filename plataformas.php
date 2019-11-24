@@ -82,7 +82,7 @@
 
 								<div ng-show="s.imagenes.length>1" > 
 									<span ng-repeat="item in s.imagenes"  class="circle_slide {{(item==imagen_item)?'active':''}}" 
-									ng-click="set_imagen_item($index)" >   </span>
+									ng-click="set_timer($index)" >   </span>
 								</div> 
 									
 							</div>

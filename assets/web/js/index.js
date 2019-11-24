@@ -406,8 +406,9 @@ app.controller('slider', function($scope, $timeout) {
 
   $scope.set_imagen_item = function (index) { 
     $scope.imagen_item = '';
-    $scope.imagen_item = $scope.item.imagenes[index]; 
-     // $timeout(function() { $scope.imagen_item = $scope.item.imagenes[index]; }, 1); 
+    $scope.imagen_item = $scope.item.imagenes[index];
+    $scope.autoplay_img(index);
+    //$timeout(function() { $scope.imagen_item = $scope.item.imagenes[index]; }, 3); 
   }
 
   $scope.d_index = 0;
@@ -445,12 +446,28 @@ app.controller('slider', function($scope, $timeout) {
     $scope.index_item_selected = index;
     $scope.item = $scope.data[index];  
     //$scope.next_desc_item(1)
+    $timeout.cancel(timer);
     $scope.set_imagen_item(0);
   } 
+  var timer;
+  $scope.autoplay_img = function (index) {
+    timer = $timeout(function() { 
+      index++;
+      if (index>2) {
+        index = 0;
+      }
+      $scope.set_imagen_item(index);
+    }, 3000); 
+  }
 
   $scope.init = function(data){
     $scope.data = data;
     $scope.seleccionar_item(0);
+  }
+
+  $scope.set_timer = function(index){
+    $timeout.cancel(timer);
+    $scope.set_imagen_item(index);
   }  
 
 });
