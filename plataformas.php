@@ -100,8 +100,8 @@
 									<div ng-bind-html="s.texto2"></div>
 								</div> 
 								<div class="row" ng-show="s.iconos.length>0">
-									<div class="col-md-3 col-xs-3 text-center" ng-repeat="imag in s.iconos">
-										<img alt="" class="icons-vermas animated fadeInRight" src="assets/web/img/{{imag}}"  height="95">
+									<div class="col-md-3 col-xs-3 text-center icons-xs" ng-repeat="imag in s.iconos">
+										<img alt="" class="icons-vermas animated fadeInRight" src="assets/web/img/{{imag}}"  height="85">
 									</div>
 								</div>
 								<div class="row">
@@ -115,9 +115,9 @@
 										</a>--> 
 									</div>
 									<div class=" col-md-12 col-xs-5" >
-										<a href="{{s.enlace}}" class="hidden-lg hidden-md "> 
+										<!--<a href="{{s.enlace}}" class="hidden-lg hidden-md "> 
 											<img class="btn-verplat-xs" src="assets/web/img/link-responsive.svg" height="50" alt=""  aria-hidden=true>
-										</a>
+										</a>-->
 									</div>
 								</div>
 							</div>

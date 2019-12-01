@@ -2058,3 +2058,12 @@ transform: rotate(180deg);
   }
 
 }
+
+
+@media screen and (max-width: 991px) {
+
+  .icons-xs { 
+    padding-left: 0px !important;
+  }
+
+}

@@ -31,13 +31,15 @@
 							<h3 class="heading-7">{{s.titulo}}</h3>
 							<h1 class="heading-8">{{s.subtitulo}}</h1>
 
-							<div class="paragraph-8 animated fadeIn " ng-show="s.texto1" ><div ng-bind-html="s.texto1"></div>
-							<div class="paragraph-8 animated fadeIn " ng-show="s.texto2" ><div ng-bind-html="s.texto2"></div>
-
+							<div class="paragraph-8 animated fadeIn " ng-show="s.texto1" >
+								<div ng-bind-html="s.texto1"></div>
+							</div>
+							<div class="paragraph-8 animated fadeIn " ng-show="s.texto2" >
+								<div ng-bind-html="s.texto2"></div>
 							</div>  
 							<div class="row" ng-show="s.iconos.length>0">
-								<div class="col-md-3 col-xs-3" ng-repeat="imag in s.iconos">
-									<img alt="" class="icons-vermas animated fadeInRight" src="assets/web/img/{{imag}}"  height="95">
+								<div class="col-md-3 col-xs-3 icons-xs" ng-repeat="imag in s.iconos" >
+									<img alt="" class="icons-vermas animated fadeInRight" src="assets/web/img/{{imag}}"  height="85">
 								</div>
 							</div>
 
@@ -51,20 +53,20 @@
 									</a>-->
 								</div>
 								<div class="col-xs-2 text-left">
-									<a href="{{s.playstore}}" class="button-7 hidden-sm hidden-xs">
+									<!--<a href="{{s.playstore}}" class="button-7 hidden-sm hidden-xs">
 										<img src="assets/web/img/GooglePlay.svg" height="30" alt=""  aria-hidden=true>
 									</a>
 
 									<a href="{{s.playstore}}" class="hidden-lg hidden-md" >
 										<img class="btn-store-app-xs" src="assets/web/img/googlplay-responsive.svg" height="50" alt=""  aria-hidden=true>
-									</a>
+									</a>-->
 								</div>
 								<div class="col-xs-2 text-left">
-									<a href="{{s.appstore}}" class="button-7 hidden-sm hidden-xs"><img src="assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
+									<!--<a href="{{s.appstore}}" class="button-7 hidden-sm hidden-xs"><img src="assets/web/img/AppStore.svg" height="30" alt=""  aria-hidden=true></a>
 
 									<a href="{{s.appstore}}" class="hidden-lg hidden-md" >
 										<img class="btn-store-app-xs" src="assets/web/img/appstore-responsive.svg" height="50" alt=""  aria-hidden=true>
-									</a>
+									</a>-->
 								</div>
 								<div class="col-xs-2"></div>
 								
