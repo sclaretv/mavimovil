@@ -2065,5 +2065,8 @@ transform: rotate(180deg);
   .icons-xs { 
     padding-left: 0px !important;
   }
+.img_carousel_plat {
+  height: 170px !important;
+}
 
 }
